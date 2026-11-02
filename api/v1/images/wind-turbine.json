@@ -1,0 +1,25 @@
+{
+  "id": 208,
+  "word": "wind turbine",
+  "slug": "wind-turbine",
+  "level": "B1",
+  "category": "science",
+  "translations": {
+    "es": "el aerogenerador",
+    "fr": "l'éolienne",
+    "de": "das Windrad"
+  },
+  "tags": [
+    "energy",
+    "wind"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/wind-turbine.svg",
+    "png": "images/png/wind-turbine.png"
+  },
+  "api": "api/v1/images/wind-turbine.json"
+}

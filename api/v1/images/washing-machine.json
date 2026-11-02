@@ -1,0 +1,24 @@
+{
+  "id": 253,
+  "word": "washing machine",
+  "slug": "washing-machine",
+  "level": "B1",
+  "category": "home",
+  "translations": {
+    "es": "la lavadora",
+    "fr": "la machine à laver",
+    "de": "die Waschmaschine"
+  },
+  "tags": [
+    "laundry"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/washing-machine.svg",
+    "png": "images/png/washing-machine.png"
+  },
+  "api": "api/v1/images/washing-machine.json"
+}

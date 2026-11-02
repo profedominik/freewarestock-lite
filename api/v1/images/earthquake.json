@@ -1,0 +1,24 @@
+{
+  "id": 231,
+  "word": "earthquake",
+  "slug": "earthquake",
+  "level": "B1",
+  "category": "nature",
+  "translations": {
+    "es": "el terremoto",
+    "fr": "le tremblement de terre",
+    "de": "das Erdbeben"
+  },
+  "tags": [
+    "disaster"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/earthquake.svg",
+    "png": "images/png/earthquake.png"
+  },
+  "api": "api/v1/images/earthquake.json"
+}

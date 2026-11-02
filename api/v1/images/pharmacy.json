@@ -1,0 +1,25 @@
+{
+  "id": 195,
+  "word": "pharmacy",
+  "slug": "pharmacy",
+  "level": "B1",
+  "category": "places",
+  "translations": {
+    "es": "la farmacia",
+    "fr": "la pharmacie",
+    "de": "die Apotheke"
+  },
+  "tags": [
+    "chemist",
+    "medicine"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/pharmacy.svg",
+    "png": "images/png/pharmacy.png"
+  },
+  "api": "api/v1/images/pharmacy.json"
+}

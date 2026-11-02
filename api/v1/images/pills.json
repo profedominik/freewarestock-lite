@@ -1,0 +1,25 @@
+{
+  "id": 216,
+  "word": "pills",
+  "slug": "pills",
+  "level": "B1",
+  "category": "health",
+  "translations": {
+    "es": "las pastillas",
+    "fr": "les comprimés",
+    "de": "die Tabletten"
+  },
+  "tags": [
+    "medicine",
+    "tablets"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/pills.svg",
+    "png": "images/png/pills.png"
+  },
+  "api": "api/v1/images/pills.json"
+}

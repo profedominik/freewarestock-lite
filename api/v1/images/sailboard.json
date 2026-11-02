@@ -1,0 +1,25 @@
+{
+  "id": 230,
+  "word": "sailboard",
+  "slug": "sailboard",
+  "level": "B1",
+  "category": "transport",
+  "translations": {
+    "es": "la tabla de windsurf",
+    "fr": "la planche à voile",
+    "de": "das Windsurfbrett"
+  },
+  "tags": [
+    "windsurf",
+    "sea"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/sailboard.svg",
+    "png": "images/png/sailboard.png"
+  },
+  "api": "api/v1/images/sailboard.json"
+}

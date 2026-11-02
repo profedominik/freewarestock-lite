@@ -1,0 +1,25 @@
+{
+  "id": 206,
+  "word": "robot",
+  "slug": "robot",
+  "level": "B1",
+  "category": "science",
+  "translations": {
+    "es": "el robot",
+    "fr": "le robot",
+    "de": "der Roboter"
+  },
+  "tags": [
+    "machine",
+    "technology"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/robot.svg",
+    "png": "images/png/robot.png"
+  },
+  "api": "api/v1/images/robot.json"
+}

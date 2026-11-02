@@ -1,0 +1,25 @@
+{
+  "id": 209,
+  "word": "recycling bin",
+  "slug": "recycling-bin",
+  "level": "B1",
+  "category": "things",
+  "translations": {
+    "es": "el contenedor de reciclaje",
+    "fr": "la poubelle de recyclage",
+    "de": "die Recyclingtonne"
+  },
+  "tags": [
+    "recycle",
+    "environment"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/recycling-bin.svg",
+    "png": "images/png/recycling-bin.png"
+  },
+  "api": "api/v1/images/recycling-bin.json"
+}

@@ -1,0 +1,24 @@
+{
+  "id": 240,
+  "word": "octopus",
+  "slug": "octopus",
+  "level": "B1",
+  "category": "animals",
+  "translations": {
+    "es": "el pulpo",
+    "fr": "la pieuvre",
+    "de": "der Oktopus"
+  },
+  "tags": [
+    "sea"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/octopus.svg",
+    "png": "images/png/octopus.png"
+  },
+  "api": "api/v1/images/octopus.json"
+}

@@ -1,0 +1,26 @@
+{
+  "id": 232,
+  "word": "tornado",
+  "slug": "tornado",
+  "level": "B1",
+  "category": "nature",
+  "translations": {
+    "es": "el tornado",
+    "fr": "la tornade",
+    "de": "der Tornado"
+  },
+  "tags": [
+    "wind",
+    "storm",
+    "twister"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/tornado.svg",
+    "png": "images/png/tornado.png"
+  },
+  "api": "api/v1/images/tornado.json"
+}

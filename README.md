@@ -1,6 +1,6 @@
 # FreewareStock Lite
 
-**186 free, public-domain (CC0) illustrations of the most basic vocabulary, for language learning.**
+**255 free, public-domain (CC0) illustrations of everyday vocabulary (CEFR A0–B1), for language learning.**
 Browse, search, download, or link to them from any app.
 
 ![All images](images/preview.png)
@@ -16,7 +16,7 @@ python3 -m http.server 8000   # then visit http://localhost:8000
 ```
 
 - **Search** by English word, tag, topic, or translation (`dog`, `perro`, `chien`, `Hund`, `animals`). Accents are ignored. Press `/` to focus the search box.
-- **Filter** by CEFR level (A0, A1, A2, plus the planned B1 list) and by topic.
+- **Filter** by CEFR level (A0, A1, A2, B1, plus the planned B2 list) and by topic.
 - **Click an image** to download SVG or PNG, or to copy its direct URL, CDN URL, an HTML `<img>` embed or Markdown.
 - **Deep links:** `index.html#dog` opens one image; `index.html?q=fruit` and `?level=A1` pre-fill filters.
 
@@ -27,7 +27,8 @@ python3 -m http.server 8000   # then visit http://localhost:8000
 | **A0** (first words) | ✅ 50 illustrated | boy, girl, man, woman, baby, house, door, window, bed, chair, table, lamp, car, bus, bike, boat, train, plane, dog, cat, bird, fish, horse, cow, apple, banana, bread, egg, milk, water, cake, sun, moon, star, tree, flower, cloud, ball, book, pen, phone, cup, key, bag, clock, hat, shoe, shirt, hand, eye |
 | **A1** | ✅ 50 illustrated | pig, sheep, duck, rabbit, elephant, lion, frog, butterfly, orange, carrot, tomato, cheese, pizza, ice cream, grapes, strawberry, sofa, television, computer, umbrella, glasses, plate, spoon, fork, bottle, dress, sock, trousers, scarf, mountain, sea, rain, snow, rainbow, leaf, fire, truck, helicopter, motorbike, nose, mouth, ear, foot, tooth, pencil, scissors, guitar, kite, gift, balloon |
 | **A2** | ✅ 86 illustrated | giraffe, zebra, monkey, penguin, snake, turtle, whale, shark, owl, bee, spider, camel, bridge, castle, forest, desert, island, volcano, lighthouse, farm, tent, beach, airport, ambulance, tractor, submarine, taxi, rocket, ship, anchor, doctor, teacher, police officer, firefighter, chef, farmer, nurse, camera, wallet, passport, ticket, map, compass, backpack, suitcase, hammer, ladder, bucket, brush, mirror, pillow, blanket, towel, soap, oven, kettle, teapot, fridge, microwave, sandwich, soup, salad, rice, noodles, chocolate, honey, lemon, potato, onion, mushroom, watermelon, pineapple, piano, violin, drum, microphone, headphones, lightbulb, battery, magnet, globe, calendar, envelope, newspaper, candle, trophy |
-| **B1** | 🗓 planned (69 words) | see `B1_PLANNED` in `scripts/vocab.py` |
+| **B1** | ✅ 69 illustrated | skyscraper, tunnel, harbour, factory, museum, library, stadium, hospital, pharmacy, bakery, supermarket, restaurant, post office, police station, fire station, laboratory, microscope, telescope, satellite, robot, solar panel, wind turbine, recycling bin, wheelchair, crutches, bandage, thermometer, stethoscope, syringe, pills, jewellery, necklace, ring, bracelet, perfume, pyjamas, raincoat, boots, sandals, belt, tie, parachute, hot-air balloon, sailboard, earthquake, tornado, lightning, storm, fog, kangaroo, koala, parrot, dolphin, octopus, crab, jellyfish, squirrel, fox, wolf, bear, deer, screwdriver, drill, saw, wrench, vacuum cleaner, washing machine, iron, hairdryer |
+| **B2** | 🗓 planned (56 words) | see `B2_PLANNED` in `scripts/vocab.py` |
 
 Each available word includes Spanish, French and German translations (with articles) plus search tags.
 
@@ -72,17 +73,17 @@ Each image record looks like this:
 
 ## How the images are made
 
-Every illustration is original artwork drawn in code (`scripts/art.py` for A0/A1, `scripts/art_a2.py` for A2): flat colours, a thick outline, a soft background tile per topic, and **no text**, so the pictures work in any language.
+Every illustration is original artwork drawn in code (`scripts/art.py` for A0/A1, `scripts/art_a2.py` for A2, `scripts/art_b1.py` for B1): flat colours, a thick outline, a soft background tile per topic, and **no text**, so the pictures work in any language.
 
 ```bash
 python3 scripts/build.py          # writes images/svg/*, api/v1/*, data/manifest.js, GALLERY.md
 node scripts/render_png.cjs       # rasterises PNGs (needs Playwright + Chromium)
 ```
 
-### Adding the next level (B1)
+### Adding the next level (B2)
 
-1. Move a word from `B1_PLANNED` into a new `B1 = """..."""` block in `scripts/vocab.py` (`word|category|es|fr|de|tags`) and add it to `WORDS`.
-2. Write a drawing function for it in a new `scripts/art_b1.py` (follow `art_a2.py`), register it in `DRAW`, and import the module in `scripts/build.py`.
+1. Move a word from `B2_PLANNED` into a new `B2 = """..."""` block in `scripts/vocab.py` (`word|category|es|fr|de|tags`) and add it to `WORDS`.
+2. Write a drawing function for it in a new `scripts/art_b2.py` (follow `art_b1.py`), register it in `DRAW`, and import the module in `scripts/build.py`.
 3. Run the two build commands above.
 
 ## License

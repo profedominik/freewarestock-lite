@@ -1,0 +1,25 @@
+{
+  "id": 247,
+  "word": "deer",
+  "slug": "deer",
+  "level": "B1",
+  "category": "animals",
+  "translations": {
+    "es": "el ciervo",
+    "fr": "le cerf",
+    "de": "der Hirsch"
+  },
+  "tags": [
+    "forest",
+    "antlers"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/deer.svg",
+    "png": "images/png/deer.png"
+  },
+  "api": "api/v1/images/deer.json"
+}

@@ -1,0 +1,25 @@
+{
+  "id": 243,
+  "word": "squirrel",
+  "slug": "squirrel",
+  "level": "B1",
+  "category": "animals",
+  "translations": {
+    "es": "la ardilla",
+    "fr": "l'écureuil",
+    "de": "das Eichhörnchen"
+  },
+  "tags": [
+    "tree",
+    "nuts"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/squirrel.svg",
+    "png": "images/png/squirrel.png"
+  },
+  "api": "api/v1/images/squirrel.json"
+}

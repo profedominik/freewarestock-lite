@@ -1,0 +1,24 @@
+{
+  "id": 244,
+  "word": "fox",
+  "slug": "fox",
+  "level": "B1",
+  "category": "animals",
+  "translations": {
+    "es": "el zorro",
+    "fr": "le renard",
+    "de": "der Fuchs"
+  },
+  "tags": [
+    "forest"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/fox.svg",
+    "png": "images/png/fox.png"
+  },
+  "api": "api/v1/images/fox.json"
+}

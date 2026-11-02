@@ -1,0 +1,26 @@
+{
+  "id": 219,
+  "word": "ring",
+  "slug": "ring",
+  "level": "B1",
+  "category": "clothes",
+  "translations": {
+    "es": "el anillo",
+    "fr": "la bague",
+    "de": "der Ring"
+  },
+  "tags": [
+    "jewellery",
+    "wedding",
+    "diamond"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/ring.svg",
+    "png": "images/png/ring.png"
+  },
+  "api": "api/v1/images/ring.json"
+}

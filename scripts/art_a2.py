@@ -20,6 +20,12 @@ def clip(cid, shape, content):
     return f'<clipPath id="{cid}">{shape}</clipPath><g clip-path="url(#{cid})" stroke="none">{content}</g>'
 
 
+def patterned(cid, body, fill, content):
+    """silhouette filled with `fill`, overlaid with `content` clipped to it, then outlined"""
+    body = nf(body)
+    return f'<g fill="{fill}">{body}</g>' + clip(cid, body, content) + f'<g fill="none">{body}</g>'
+
+
 def stripes_v(x0, x1, step, color, w, y0=0, y1=512, wave=20):
     return "".join(f'<path d="M{x},{y0} Q{x + wave},{(y0 + y1) / 2} {x - wave / 2},{y1}" fill="none" stroke="{color}" stroke-width="{w}"/>'
                    for x in range(x0, x1, step))

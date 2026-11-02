@@ -1,0 +1,25 @@
+{
+  "id": 201,
+  "word": "fire station",
+  "slug": "fire-station",
+  "level": "B1",
+  "category": "places",
+  "translations": {
+    "es": "el parque de bomberos",
+    "fr": "la caserne de pompiers",
+    "de": "die Feuerwache"
+  },
+  "tags": [
+    "fire",
+    "firefighter"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/fire-station.svg",
+    "png": "images/png/fire-station.png"
+  },
+  "api": "api/v1/images/fire-station.json"
+}

@@ -1,0 +1,25 @@
+{
+  "id": 205,
+  "word": "satellite",
+  "slug": "satellite",
+  "level": "B1",
+  "category": "science",
+  "translations": {
+    "es": "el satélite",
+    "fr": "le satellite",
+    "de": "der Satellit"
+  },
+  "tags": [
+    "space",
+    "orbit"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/satellite.svg",
+    "png": "images/png/satellite.png"
+  },
+  "api": "api/v1/images/satellite.json"
+}

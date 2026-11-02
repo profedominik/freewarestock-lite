@@ -1,0 +1,25 @@
+{
+  "id": 224,
+  "word": "boots",
+  "slug": "boots",
+  "level": "B1",
+  "category": "clothes",
+  "translations": {
+    "es": "las botas",
+    "fr": "les bottes",
+    "de": "die Stiefel"
+  },
+  "tags": [
+    "rain boots",
+    "wellies"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/boots.svg",
+    "png": "images/png/boots.png"
+  },
+  "api": "api/v1/images/boots.json"
+}

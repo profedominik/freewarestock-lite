@@ -1,0 +1,25 @@
+{
+  "id": 241,
+  "word": "crab",
+  "slug": "crab",
+  "level": "B1",
+  "category": "animals",
+  "translations": {
+    "es": "el cangrejo",
+    "fr": "le crabe",
+    "de": "die Krabbe"
+  },
+  "tags": [
+    "sea",
+    "beach"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/crab.svg",
+    "png": "images/png/crab.png"
+  },
+  "api": "api/v1/images/crab.json"
+}

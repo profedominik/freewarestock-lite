@@ -1,0 +1,26 @@
+{
+  "id": 218,
+  "word": "necklace",
+  "slug": "necklace",
+  "level": "B1",
+  "category": "clothes",
+  "translations": {
+    "es": "el collar",
+    "fr": "le collier",
+    "de": "die Halskette"
+  },
+  "tags": [
+    "jewellery",
+    "jewelry",
+    "pearls"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/necklace.svg",
+    "png": "images/png/necklace.png"
+  },
+  "api": "api/v1/images/necklace.json"
+}

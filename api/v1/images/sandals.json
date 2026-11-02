@@ -1,0 +1,25 @@
+{
+  "id": 225,
+  "word": "sandals",
+  "slug": "sandals",
+  "level": "B1",
+  "category": "clothes",
+  "translations": {
+    "es": "las sandalias",
+    "fr": "les sandales",
+    "de": "die Sandalen"
+  },
+  "tags": [
+    "summer",
+    "shoes"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/sandals.svg",
+    "png": "images/png/sandals.png"
+  },
+  "api": "api/v1/images/sandals.json"
+}

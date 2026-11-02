@@ -1,8 +1,8 @@
 # Gallery
 
-All **186** illustrations, CC0 (public domain). Click an image to open the SVG.
+All **255** illustrations, CC0 (public domain). Click an image to open the SVG.
 
-Levels: [A0](#level-a0) · [A1](#level-a1) · [A2](#level-a2)
+Levels: [A0](#level-a0) · [A1](#level-a1) · [A2](#level-a2) · [B1](#level-b1)
 
 ## Level A0
 
@@ -199,3 +199,73 @@ Levels: [A0](#level-a0) · [A1](#level-a1) · [A2](#level-a2)
 |---|---|---|---|---|---|
 | <a href="images/svg/airport.svg"><img src="images/png/airport.png" width="110" alt="airport"></a><br><b>airport</b><br><sub>el aeropuerto · l'aéroport · der Flughafen</sub> | <a href="images/svg/ambulance.svg"><img src="images/png/ambulance.png" width="110" alt="ambulance"></a><br><b>ambulance</b><br><sub>la ambulancia · l'ambulance · der Krankenwagen</sub> | <a href="images/svg/tractor.svg"><img src="images/png/tractor.png" width="110" alt="tractor"></a><br><b>tractor</b><br><sub>el tractor · le tracteur · der Traktor</sub> | <a href="images/svg/submarine.svg"><img src="images/png/submarine.png" width="110" alt="submarine"></a><br><b>submarine</b><br><sub>el submarino · le sous-marin · das U-Boot</sub> | <a href="images/svg/taxi.svg"><img src="images/png/taxi.png" width="110" alt="taxi"></a><br><b>taxi</b><br><sub>el taxi · le taxi · das Taxi</sub> | <a href="images/svg/rocket.svg"><img src="images/png/rocket.png" width="110" alt="rocket"></a><br><b>rocket</b><br><sub>el cohete · la fusée · die Rakete</sub> |
 | <a href="images/svg/ship.svg"><img src="images/png/ship.png" width="110" alt="ship"></a><br><b>ship</b><br><sub>el buque · le navire · das Schiff</sub> | <a href="images/svg/anchor.svg"><img src="images/png/anchor.png" width="110" alt="anchor"></a><br><b>anchor</b><br><sub>el ancla · l'ancre · der Anker</sub> |   |   |   |   |
+
+## Level B1
+
+69 images
+
+### Animals (12)
+
+|   |   |   |   |   |   |
+|---|---|---|---|---|---|
+| <a href="images/svg/kangaroo.svg"><img src="images/png/kangaroo.png" width="110" alt="kangaroo"></a><br><b>kangaroo</b><br><sub>el canguro · le kangourou · das Känguru</sub> | <a href="images/svg/koala.svg"><img src="images/png/koala.png" width="110" alt="koala"></a><br><b>koala</b><br><sub>el koala · le koala · der Koala</sub> | <a href="images/svg/parrot.svg"><img src="images/png/parrot.png" width="110" alt="parrot"></a><br><b>parrot</b><br><sub>el loro · le perroquet · der Papagei</sub> | <a href="images/svg/dolphin.svg"><img src="images/png/dolphin.png" width="110" alt="dolphin"></a><br><b>dolphin</b><br><sub>el delfín · le dauphin · der Delfin</sub> | <a href="images/svg/octopus.svg"><img src="images/png/octopus.png" width="110" alt="octopus"></a><br><b>octopus</b><br><sub>el pulpo · la pieuvre · der Oktopus</sub> | <a href="images/svg/crab.svg"><img src="images/png/crab.png" width="110" alt="crab"></a><br><b>crab</b><br><sub>el cangrejo · le crabe · die Krabbe</sub> |
+| <a href="images/svg/jellyfish.svg"><img src="images/png/jellyfish.png" width="110" alt="jellyfish"></a><br><b>jellyfish</b><br><sub>la medusa · la méduse · die Qualle</sub> | <a href="images/svg/squirrel.svg"><img src="images/png/squirrel.png" width="110" alt="squirrel"></a><br><b>squirrel</b><br><sub>la ardilla · l'écureuil · das Eichhörnchen</sub> | <a href="images/svg/fox.svg"><img src="images/png/fox.png" width="110" alt="fox"></a><br><b>fox</b><br><sub>el zorro · le renard · der Fuchs</sub> | <a href="images/svg/wolf.svg"><img src="images/png/wolf.png" width="110" alt="wolf"></a><br><b>wolf</b><br><sub>el lobo · le loup · der Wolf</sub> | <a href="images/svg/bear.svg"><img src="images/png/bear.png" width="110" alt="bear"></a><br><b>bear</b><br><sub>el oso · l'ours · der Bär</sub> | <a href="images/svg/deer.svg"><img src="images/png/deer.png" width="110" alt="deer"></a><br><b>deer</b><br><sub>el ciervo · le cerf · der Hirsch</sub> |
+
+### Clothes (10)
+
+|   |   |   |   |   |   |
+|---|---|---|---|---|---|
+| <a href="images/svg/jewellery.svg"><img src="images/png/jewellery.png" width="110" alt="jewellery"></a><br><b>jewellery</b><br><sub>las joyas · les bijoux · der Schmuck</sub> | <a href="images/svg/necklace.svg"><img src="images/png/necklace.png" width="110" alt="necklace"></a><br><b>necklace</b><br><sub>el collar · le collier · die Halskette</sub> | <a href="images/svg/ring.svg"><img src="images/png/ring.png" width="110" alt="ring"></a><br><b>ring</b><br><sub>el anillo · la bague · der Ring</sub> | <a href="images/svg/bracelet.svg"><img src="images/png/bracelet.png" width="110" alt="bracelet"></a><br><b>bracelet</b><br><sub>la pulsera · le bracelet · das Armband</sub> | <a href="images/svg/pyjamas.svg"><img src="images/png/pyjamas.png" width="110" alt="pyjamas"></a><br><b>pyjamas</b><br><sub>el pijama · le pyjama · der Schlafanzug</sub> | <a href="images/svg/raincoat.svg"><img src="images/png/raincoat.png" width="110" alt="raincoat"></a><br><b>raincoat</b><br><sub>el impermeable · l'imperméable · der Regenmantel</sub> |
+| <a href="images/svg/boots.svg"><img src="images/png/boots.png" width="110" alt="boots"></a><br><b>boots</b><br><sub>las botas · les bottes · die Stiefel</sub> | <a href="images/svg/sandals.svg"><img src="images/png/sandals.png" width="110" alt="sandals"></a><br><b>sandals</b><br><sub>las sandalias · les sandales · die Sandalen</sub> | <a href="images/svg/belt.svg"><img src="images/png/belt.png" width="110" alt="belt"></a><br><b>belt</b><br><sub>el cinturón · la ceinture · der Gürtel</sub> | <a href="images/svg/tie.svg"><img src="images/png/tie.png" width="110" alt="tie"></a><br><b>tie</b><br><sub>la corbata · la cravate · die Krawatte</sub> |   |   |
+
+### Health (7)
+
+|   |   |   |   |   |   |
+|---|---|---|---|---|---|
+| <a href="images/svg/wheelchair.svg"><img src="images/png/wheelchair.png" width="110" alt="wheelchair"></a><br><b>wheelchair</b><br><sub>la silla de ruedas · le fauteuil roulant · der Rollstuhl</sub> | <a href="images/svg/crutches.svg"><img src="images/png/crutches.png" width="110" alt="crutches"></a><br><b>crutches</b><br><sub>las muletas · les béquilles · die Krücken</sub> | <a href="images/svg/bandage.svg"><img src="images/png/bandage.png" width="110" alt="bandage"></a><br><b>bandage</b><br><sub>la tirita · le pansement · das Pflaster</sub> | <a href="images/svg/thermometer.svg"><img src="images/png/thermometer.png" width="110" alt="thermometer"></a><br><b>thermometer</b><br><sub>el termómetro · le thermomètre · das Thermometer</sub> | <a href="images/svg/stethoscope.svg"><img src="images/png/stethoscope.png" width="110" alt="stethoscope"></a><br><b>stethoscope</b><br><sub>el estetoscopio · le stéthoscope · das Stethoskop</sub> | <a href="images/svg/syringe.svg"><img src="images/png/syringe.png" width="110" alt="syringe"></a><br><b>syringe</b><br><sub>la jeringa · la seringue · die Spritze</sub> |
+| <a href="images/svg/pills.svg"><img src="images/png/pills.png" width="110" alt="pills"></a><br><b>pills</b><br><sub>las pastillas · les comprimés · die Tabletten</sub> |   |   |   |   |   |
+
+### Home (4)
+
+|   |   |   |   |   |   |
+|---|---|---|---|---|---|
+| <a href="images/svg/vacuum-cleaner.svg"><img src="images/png/vacuum-cleaner.png" width="110" alt="vacuum cleaner"></a><br><b>vacuum cleaner</b><br><sub>la aspiradora · l'aspirateur · der Staubsauger</sub> | <a href="images/svg/washing-machine.svg"><img src="images/png/washing-machine.png" width="110" alt="washing machine"></a><br><b>washing machine</b><br><sub>la lavadora · la machine à laver · die Waschmaschine</sub> | <a href="images/svg/iron.svg"><img src="images/png/iron.png" width="110" alt="iron"></a><br><b>iron</b><br><sub>la plancha · le fer à repasser · das Bügeleisen</sub> | <a href="images/svg/hairdryer.svg"><img src="images/png/hairdryer.png" width="110" alt="hairdryer"></a><br><b>hairdryer</b><br><sub>el secador · le sèche-cheveux · der Föhn</sub> |   |   |
+
+### Nature (5)
+
+|   |   |   |   |   |   |
+|---|---|---|---|---|---|
+| <a href="images/svg/earthquake.svg"><img src="images/png/earthquake.png" width="110" alt="earthquake"></a><br><b>earthquake</b><br><sub>el terremoto · le tremblement de terre · das Erdbeben</sub> | <a href="images/svg/tornado.svg"><img src="images/png/tornado.png" width="110" alt="tornado"></a><br><b>tornado</b><br><sub>el tornado · la tornade · der Tornado</sub> | <a href="images/svg/lightning.svg"><img src="images/png/lightning.png" width="110" alt="lightning"></a><br><b>lightning</b><br><sub>el relámpago · l'éclair · der Blitz</sub> | <a href="images/svg/storm.svg"><img src="images/png/storm.png" width="110" alt="storm"></a><br><b>storm</b><br><sub>la tormenta · l'orage · der Sturm</sub> | <a href="images/svg/fog.svg"><img src="images/png/fog.png" width="110" alt="fog"></a><br><b>fog</b><br><sub>la niebla · le brouillard · der Nebel</sub> |   |
+
+### Places (15)
+
+|   |   |   |   |   |   |
+|---|---|---|---|---|---|
+| <a href="images/svg/skyscraper.svg"><img src="images/png/skyscraper.png" width="110" alt="skyscraper"></a><br><b>skyscraper</b><br><sub>el rascacielos · le gratte-ciel · der Wolkenkratzer</sub> | <a href="images/svg/tunnel.svg"><img src="images/png/tunnel.png" width="110" alt="tunnel"></a><br><b>tunnel</b><br><sub>el túnel · le tunnel · der Tunnel</sub> | <a href="images/svg/harbour.svg"><img src="images/png/harbour.png" width="110" alt="harbour"></a><br><b>harbour</b><br><sub>el puerto · le port · der Hafen</sub> | <a href="images/svg/factory.svg"><img src="images/png/factory.png" width="110" alt="factory"></a><br><b>factory</b><br><sub>la fábrica · l'usine · die Fabrik</sub> | <a href="images/svg/museum.svg"><img src="images/png/museum.png" width="110" alt="museum"></a><br><b>museum</b><br><sub>el museo · le musée · das Museum</sub> | <a href="images/svg/library.svg"><img src="images/png/library.png" width="110" alt="library"></a><br><b>library</b><br><sub>la biblioteca · la bibliothèque · die Bibliothek</sub> |
+| <a href="images/svg/stadium.svg"><img src="images/png/stadium.png" width="110" alt="stadium"></a><br><b>stadium</b><br><sub>el estadio · le stade · das Stadion</sub> | <a href="images/svg/hospital.svg"><img src="images/png/hospital.png" width="110" alt="hospital"></a><br><b>hospital</b><br><sub>el hospital · l'hôpital · das Krankenhaus</sub> | <a href="images/svg/pharmacy.svg"><img src="images/png/pharmacy.png" width="110" alt="pharmacy"></a><br><b>pharmacy</b><br><sub>la farmacia · la pharmacie · die Apotheke</sub> | <a href="images/svg/bakery.svg"><img src="images/png/bakery.png" width="110" alt="bakery"></a><br><b>bakery</b><br><sub>la panadería · la boulangerie · die Bäckerei</sub> | <a href="images/svg/supermarket.svg"><img src="images/png/supermarket.png" width="110" alt="supermarket"></a><br><b>supermarket</b><br><sub>el supermercado · le supermarché · der Supermarkt</sub> | <a href="images/svg/restaurant.svg"><img src="images/png/restaurant.png" width="110" alt="restaurant"></a><br><b>restaurant</b><br><sub>el restaurante · le restaurant · das Restaurant</sub> |
+| <a href="images/svg/post-office.svg"><img src="images/png/post-office.png" width="110" alt="post office"></a><br><b>post office</b><br><sub>la oficina de correos · la poste · die Post</sub> | <a href="images/svg/police-station.svg"><img src="images/png/police-station.png" width="110" alt="police station"></a><br><b>police station</b><br><sub>la comisaría · le commissariat · die Polizeiwache</sub> | <a href="images/svg/fire-station.svg"><img src="images/png/fire-station.png" width="110" alt="fire station"></a><br><b>fire station</b><br><sub>el parque de bomberos · la caserne de pompiers · die Feuerwache</sub> |   |   |   |
+
+### Science (7)
+
+|   |   |   |   |   |   |
+|---|---|---|---|---|---|
+| <a href="images/svg/laboratory.svg"><img src="images/png/laboratory.png" width="110" alt="laboratory"></a><br><b>laboratory</b><br><sub>el laboratorio · le laboratoire · das Labor</sub> | <a href="images/svg/microscope.svg"><img src="images/png/microscope.png" width="110" alt="microscope"></a><br><b>microscope</b><br><sub>el microscopio · le microscope · das Mikroskop</sub> | <a href="images/svg/telescope.svg"><img src="images/png/telescope.png" width="110" alt="telescope"></a><br><b>telescope</b><br><sub>el telescopio · le télescope · das Teleskop</sub> | <a href="images/svg/satellite.svg"><img src="images/png/satellite.png" width="110" alt="satellite"></a><br><b>satellite</b><br><sub>el satélite · le satellite · der Satellit</sub> | <a href="images/svg/robot.svg"><img src="images/png/robot.png" width="110" alt="robot"></a><br><b>robot</b><br><sub>el robot · le robot · der Roboter</sub> | <a href="images/svg/solar-panel.svg"><img src="images/png/solar-panel.png" width="110" alt="solar panel"></a><br><b>solar panel</b><br><sub>el panel solar · le panneau solaire · die Solaranlage</sub> |
+| <a href="images/svg/wind-turbine.svg"><img src="images/png/wind-turbine.png" width="110" alt="wind turbine"></a><br><b>wind turbine</b><br><sub>el aerogenerador · l'éolienne · das Windrad</sub> |   |   |   |   |   |
+
+### Things (2)
+
+|   |   |   |   |   |   |
+|---|---|---|---|---|---|
+| <a href="images/svg/recycling-bin.svg"><img src="images/png/recycling-bin.png" width="110" alt="recycling bin"></a><br><b>recycling bin</b><br><sub>el contenedor de reciclaje · la poubelle de recyclage · die Recyclingtonne</sub> | <a href="images/svg/perfume.svg"><img src="images/png/perfume.png" width="110" alt="perfume"></a><br><b>perfume</b><br><sub>el perfume · le parfum · das Parfüm</sub> |   |   |   |   |
+
+### Tools (4)
+
+|   |   |   |   |   |   |
+|---|---|---|---|---|---|
+| <a href="images/svg/screwdriver.svg"><img src="images/png/screwdriver.png" width="110" alt="screwdriver"></a><br><b>screwdriver</b><br><sub>el destornillador · le tournevis · der Schraubenzieher</sub> | <a href="images/svg/drill.svg"><img src="images/png/drill.png" width="110" alt="drill"></a><br><b>drill</b><br><sub>el taladro · la perceuse · die Bohrmaschine</sub> | <a href="images/svg/saw.svg"><img src="images/png/saw.png" width="110" alt="saw"></a><br><b>saw</b><br><sub>la sierra · la scie · die Säge</sub> | <a href="images/svg/wrench.svg"><img src="images/png/wrench.png" width="110" alt="wrench"></a><br><b>wrench</b><br><sub>la llave inglesa · la clé à molette · der Schraubenschlüssel</sub> |   |   |
+
+### Transport (3)
+
+|   |   |   |   |   |   |
+|---|---|---|---|---|---|
+| <a href="images/svg/parachute.svg"><img src="images/png/parachute.png" width="110" alt="parachute"></a><br><b>parachute</b><br><sub>el paracaídas · le parachute · der Fallschirm</sub> | <a href="images/svg/hot-air-balloon.svg"><img src="images/png/hot-air-balloon.png" width="110" alt="hot-air balloon"></a><br><b>hot-air balloon</b><br><sub>el globo aerostático · la montgolfière · der Heißluftballon</sub> | <a href="images/svg/sailboard.svg"><img src="images/png/sailboard.png" width="110" alt="sailboard"></a><br><b>sailboard</b><br><sub>la tabla de windsurf · la planche à voile · das Windsurfbrett</sub> |   |   |   |

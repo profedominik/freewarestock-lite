@@ -1,0 +1,25 @@
+{
+  "id": 188,
+  "word": "tunnel",
+  "slug": "tunnel",
+  "level": "B1",
+  "category": "places",
+  "translations": {
+    "es": "el túnel",
+    "fr": "le tunnel",
+    "de": "der Tunnel"
+  },
+  "tags": [
+    "road",
+    "mountain"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/tunnel.svg",
+    "png": "images/png/tunnel.png"
+  },
+  "api": "api/v1/images/tunnel.json"
+}

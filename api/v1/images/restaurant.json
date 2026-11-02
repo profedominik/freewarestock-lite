@@ -1,0 +1,25 @@
+{
+  "id": 198,
+  "word": "restaurant",
+  "slug": "restaurant",
+  "level": "B1",
+  "category": "places",
+  "translations": {
+    "es": "el restaurante",
+    "fr": "le restaurant",
+    "de": "das Restaurant"
+  },
+  "tags": [
+    "eat",
+    "food"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/restaurant.svg",
+    "png": "images/png/restaurant.png"
+  },
+  "api": "api/v1/images/restaurant.json"
+}

@@ -1,0 +1,25 @@
+{
+  "id": 196,
+  "word": "bakery",
+  "slug": "bakery",
+  "level": "B1",
+  "category": "places",
+  "translations": {
+    "es": "la panadería",
+    "fr": "la boulangerie",
+    "de": "die Bäckerei"
+  },
+  "tags": [
+    "bread",
+    "shop"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/bakery.svg",
+    "png": "images/png/bakery.png"
+  },
+  "api": "api/v1/images/bakery.json"
+}

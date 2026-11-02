@@ -1,0 +1,25 @@
+{
+  "id": 197,
+  "word": "supermarket",
+  "slug": "supermarket",
+  "level": "B1",
+  "category": "places",
+  "translations": {
+    "es": "el supermercado",
+    "fr": "le supermarché",
+    "de": "der Supermarkt"
+  },
+  "tags": [
+    "shop",
+    "shopping"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/supermarket.svg",
+    "png": "images/png/supermarket.png"
+  },
+  "api": "api/v1/images/supermarket.json"
+}

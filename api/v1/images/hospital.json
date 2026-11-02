@@ -1,0 +1,25 @@
+{
+  "id": 194,
+  "word": "hospital",
+  "slug": "hospital",
+  "level": "B1",
+  "category": "places",
+  "translations": {
+    "es": "el hospital",
+    "fr": "l'hôpital",
+    "de": "das Krankenhaus"
+  },
+  "tags": [
+    "doctor",
+    "health"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/hospital.svg",
+    "png": "images/png/hospital.png"
+  },
+  "api": "api/v1/images/hospital.json"
+}

@@ -1,0 +1,25 @@
+{
+  "id": 222,
+  "word": "pyjamas",
+  "slug": "pyjamas",
+  "level": "B1",
+  "category": "clothes",
+  "translations": {
+    "es": "el pijama",
+    "fr": "le pyjama",
+    "de": "der Schlafanzug"
+  },
+  "tags": [
+    "pajamas",
+    "sleep"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/pyjamas.svg",
+    "png": "images/png/pyjamas.png"
+  },
+  "api": "api/v1/images/pyjamas.json"
+}

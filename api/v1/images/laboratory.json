@@ -1,0 +1,27 @@
+{
+  "id": 202,
+  "word": "laboratory",
+  "slug": "laboratory",
+  "level": "B1",
+  "category": "science",
+  "translations": {
+    "es": "el laboratorio",
+    "fr": "le laboratoire",
+    "de": "das Labor"
+  },
+  "tags": [
+    "lab",
+    "science",
+    "chemistry",
+    "flask"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/laboratory.svg",
+    "png": "images/png/laboratory.png"
+  },
+  "api": "api/v1/images/laboratory.json"
+}

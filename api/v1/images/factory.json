@@ -1,0 +1,25 @@
+{
+  "id": 190,
+  "word": "factory",
+  "slug": "factory",
+  "level": "B1",
+  "category": "places",
+  "translations": {
+    "es": "la fábrica",
+    "fr": "l'usine",
+    "de": "die Fabrik"
+  },
+  "tags": [
+    "industry",
+    "work"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/factory.svg",
+    "png": "images/png/factory.png"
+  },
+  "api": "api/v1/images/factory.json"
+}

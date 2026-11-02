@@ -1,0 +1,25 @@
+{
+  "id": 228,
+  "word": "parachute",
+  "slug": "parachute",
+  "level": "B1",
+  "category": "transport",
+  "translations": {
+    "es": "el paracaídas",
+    "fr": "le parachute",
+    "de": "der Fallschirm"
+  },
+  "tags": [
+    "sky",
+    "jump"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/parachute.svg",
+    "png": "images/png/parachute.png"
+  },
+  "api": "api/v1/images/parachute.json"
+}

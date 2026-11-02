@@ -1,0 +1,25 @@
+{
+  "id": 250,
+  "word": "saw",
+  "slug": "saw",
+  "level": "B1",
+  "category": "tools",
+  "translations": {
+    "es": "la sierra",
+    "fr": "la scie",
+    "de": "die Säge"
+  },
+  "tags": [
+    "tool",
+    "wood"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/saw.svg",
+    "png": "images/png/saw.png"
+  },
+  "api": "api/v1/images/saw.json"
+}

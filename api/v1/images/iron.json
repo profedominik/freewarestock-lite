@@ -1,0 +1,25 @@
+{
+  "id": 254,
+  "word": "iron",
+  "slug": "iron",
+  "level": "B1",
+  "category": "home",
+  "translations": {
+    "es": "la plancha",
+    "fr": "le fer à repasser",
+    "de": "das Bügeleisen"
+  },
+  "tags": [
+    "clothes",
+    "ironing"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/iron.svg",
+    "png": "images/png/iron.png"
+  },
+  "api": "api/v1/images/iron.json"
+}

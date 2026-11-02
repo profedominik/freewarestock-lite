@@ -1,0 +1,25 @@
+{
+  "id": 221,
+  "word": "perfume",
+  "slug": "perfume",
+  "level": "B1",
+  "category": "things",
+  "translations": {
+    "es": "el perfume",
+    "fr": "le parfum",
+    "de": "das Parfüm"
+  },
+  "tags": [
+    "smell",
+    "scent"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/perfume.svg",
+    "png": "images/png/perfume.png"
+  },
+  "api": "api/v1/images/perfume.json"
+}

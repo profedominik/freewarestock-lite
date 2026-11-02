@@ -1,0 +1,25 @@
+{
+  "id": 235,
+  "word": "fog",
+  "slug": "fog",
+  "level": "B1",
+  "category": "nature",
+  "translations": {
+    "es": "la niebla",
+    "fr": "le brouillard",
+    "de": "der Nebel"
+  },
+  "tags": [
+    "weather",
+    "mist"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/fog.svg",
+    "png": "images/png/fog.png"
+  },
+  "api": "api/v1/images/fog.json"
+}

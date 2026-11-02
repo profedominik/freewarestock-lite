@@ -1,0 +1,24 @@
+{
+  "id": 220,
+  "word": "bracelet",
+  "slug": "bracelet",
+  "level": "B1",
+  "category": "clothes",
+  "translations": {
+    "es": "la pulsera",
+    "fr": "le bracelet",
+    "de": "das Armband"
+  },
+  "tags": [
+    "jewellery"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/bracelet.svg",
+    "png": "images/png/bracelet.png"
+  },
+  "api": "api/v1/images/bracelet.json"
+}

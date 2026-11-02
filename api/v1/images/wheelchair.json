@@ -1,0 +1,25 @@
+{
+  "id": 210,
+  "word": "wheelchair",
+  "slug": "wheelchair",
+  "level": "B1",
+  "category": "health",
+  "translations": {
+    "es": "la silla de ruedas",
+    "fr": "le fauteuil roulant",
+    "de": "der Rollstuhl"
+  },
+  "tags": [
+    "disability",
+    "mobility"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/wheelchair.svg",
+    "png": "images/png/wheelchair.png"
+  },
+  "api": "api/v1/images/wheelchair.json"
+}

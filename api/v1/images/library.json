@@ -1,0 +1,26 @@
+{
+  "id": 192,
+  "word": "library",
+  "slug": "library",
+  "level": "B1",
+  "category": "places",
+  "translations": {
+    "es": "la biblioteca",
+    "fr": "la bibliothèque",
+    "de": "die Bibliothek"
+  },
+  "tags": [
+    "books",
+    "read",
+    "bookshelf"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/library.svg",
+    "png": "images/png/library.png"
+  },
+  "api": "api/v1/images/library.json"
+}

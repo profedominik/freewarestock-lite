@@ -1,0 +1,25 @@
+{
+  "id": 193,
+  "word": "stadium",
+  "slug": "stadium",
+  "level": "B1",
+  "category": "places",
+  "translations": {
+    "es": "el estadio",
+    "fr": "le stade",
+    "de": "das Stadion"
+  },
+  "tags": [
+    "sport",
+    "football"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/stadium.svg",
+    "png": "images/png/stadium.png"
+  },
+  "api": "api/v1/images/stadium.json"
+}

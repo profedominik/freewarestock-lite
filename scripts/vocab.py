@@ -6,7 +6,8 @@ Levels:
   A0  - absolute beginner: the first concrete, picturable nouns
   A1  - beginner (CEFR A1)
   A2  - elementary (CEFR A2)
-  B1  - intermediate (planned, not yet illustrated)
+  B1  - intermediate (CEFR B1)
+  B2  - upper intermediate (planned, not yet illustrated)
 """
 
 A0 = """
@@ -204,21 +205,87 @@ candle|things|la vela|la bougie|die Kerze|light,birthday
 trophy|things|el trofeo|le trophée|die Trophäe|cup,prize,winner
 """
 
-# Planned levels: listed so the roadmap is visible in the browser.
 
-B1_PLANNED = """
-skyscraper tunnel harbour factory museum library stadium
-laboratory microscope telescope satellite robot
-wheelchair crutches bandage thermometer
-jewellery necklace ring bracelet perfume
-recycling-bin solar-panel wind-turbine
-parachute hot-air-balloon sailboard
-earthquake tornado lightning storm fog
-kangaroo koala parrot dolphin octopus crab jellyfish squirrel fox wolf bear deer
-hospital pharmacy bakery supermarket restaurant post-office police-station fire-station
-stethoscope syringe pills screwdriver drill saw wrench
-vacuum-cleaner washing-machine iron hairdryer
-pyjamas raincoat boots sandals belt tie
+B1 = """
+skyscraper|places|el rascacielos|le gratte-ciel|der Wolkenkratzer|building,city,tall
+tunnel|places|el túnel|le tunnel|der Tunnel|road,mountain
+harbour|places|el puerto|le port|der Hafen|harbor,port,boats
+factory|places|la fábrica|l'usine|die Fabrik|industry,work
+museum|places|el museo|le musée|das Museum|art,history
+library|places|la biblioteca|la bibliothèque|die Bibliothek|books,read,bookshelf
+stadium|places|el estadio|le stade|das Stadion|sport,football
+hospital|places|el hospital|l'hôpital|das Krankenhaus|doctor,health
+pharmacy|places|la farmacia|la pharmacie|die Apotheke|chemist,medicine
+bakery|places|la panadería|la boulangerie|die Bäckerei|bread,shop
+supermarket|places|el supermercado|le supermarché|der Supermarkt|shop,shopping
+restaurant|places|el restaurante|le restaurant|das Restaurant|eat,food
+post office|places|la oficina de correos|la poste|die Post|mail,letter
+police station|places|la comisaría|le commissariat|die Polizeiwache|police
+fire station|places|el parque de bomberos|la caserne de pompiers|die Feuerwache|fire,firefighter
+laboratory|science|el laboratorio|le laboratoire|das Labor|lab,science,chemistry,flask
+microscope|science|el microscopio|le microscope|das Mikroskop|science,biology
+telescope|science|el telescopio|le télescope|das Teleskop|stars,space
+satellite|science|el satélite|le satellite|der Satellit|space,orbit
+robot|science|el robot|le robot|der Roboter|machine,technology
+solar panel|science|el panel solar|le panneau solaire|die Solaranlage|energy,sun
+wind turbine|science|el aerogenerador|l'éolienne|das Windrad|energy,wind
+recycling bin|things|el contenedor de reciclaje|la poubelle de recyclage|die Recyclingtonne|recycle,environment
+wheelchair|health|la silla de ruedas|le fauteuil roulant|der Rollstuhl|disability,mobility
+crutches|health|las muletas|les béquilles|die Krücken|injury,leg
+bandage|health|la tirita|le pansement|das Pflaster|plaster,band-aid,first aid
+thermometer|health|el termómetro|le thermomètre|das Thermometer|temperature,fever
+stethoscope|health|el estetoscopio|le stéthoscope|das Stethoskop|doctor
+syringe|health|la jeringa|la seringue|die Spritze|injection,vaccine
+pills|health|las pastillas|les comprimés|die Tabletten|medicine,tablets
+jewellery|clothes|las joyas|les bijoux|der Schmuck|jewelry,jewellery box
+necklace|clothes|el collar|le collier|die Halskette|jewellery,jewelry,pearls
+ring|clothes|el anillo|la bague|der Ring|jewellery,wedding,diamond
+bracelet|clothes|la pulsera|le bracelet|das Armband|jewellery
+perfume|things|el perfume|le parfum|das Parfüm|smell,scent
+pyjamas|clothes|el pijama|le pyjama|der Schlafanzug|pajamas,sleep
+raincoat|clothes|el impermeable|l'imperméable|der Regenmantel|rain,coat
+boots|clothes|las botas|les bottes|die Stiefel|rain boots,wellies
+sandals|clothes|las sandalias|les sandales|die Sandalen|summer,shoes
+belt|clothes|el cinturón|la ceinture|der Gürtel|trousers
+tie|clothes|la corbata|la cravate|die Krawatte|necktie,suit
+parachute|transport|el paracaídas|le parachute|der Fallschirm|sky,jump
+hot-air balloon|transport|el globo aerostático|la montgolfière|der Heißluftballon|fly,sky
+sailboard|transport|la tabla de windsurf|la planche à voile|das Windsurfbrett|windsurf,sea
+earthquake|nature|el terremoto|le tremblement de terre|das Erdbeben|disaster
+tornado|nature|el tornado|la tornade|der Tornado|wind,storm,twister
+lightning|nature|el relámpago|l'éclair|der Blitz|storm,thunder
+storm|nature|la tormenta|l'orage|der Sturm|weather,wind,thunder
+fog|nature|la niebla|le brouillard|der Nebel|weather,mist
+kangaroo|animals|el canguro|le kangourou|das Känguru|australia
+koala|animals|el koala|le koala|der Koala|australia
+parrot|animals|el loro|le perroquet|der Papagei|bird
+dolphin|animals|el delfín|le dauphin|der Delfin|sea
+octopus|animals|el pulpo|la pieuvre|der Oktopus|sea
+crab|animals|el cangrejo|le crabe|die Krabbe|sea,beach
+jellyfish|animals|la medusa|la méduse|die Qualle|sea
+squirrel|animals|la ardilla|l'écureuil|das Eichhörnchen|tree,nuts
+fox|animals|el zorro|le renard|der Fuchs|forest
+wolf|animals|el lobo|le loup|der Wolf|forest,night
+bear|animals|el oso|l'ours|der Bär|forest
+deer|animals|el ciervo|le cerf|der Hirsch|forest,antlers
+screwdriver|tools|el destornillador|le tournevis|der Schraubenzieher|tool,screw
+drill|tools|el taladro|la perceuse|die Bohrmaschine|tool
+saw|tools|la sierra|la scie|die Säge|tool,wood
+wrench|tools|la llave inglesa|la clé à molette|der Schraubenschlüssel|spanner,tool
+vacuum cleaner|home|la aspiradora|l'aspirateur|der Staubsauger|hoover,clean
+washing machine|home|la lavadora|la machine à laver|die Waschmaschine|laundry
+iron|home|la plancha|le fer à repasser|das Bügeleisen|clothes,ironing
+hairdryer|home|el secador|le sèche-cheveux|der Föhn|hair
+"""
+
+# Planned levels: listed so the roadmap is visible in the browser.
+B2_PLANNED = """
+astronaut scientist mechanic plumber electrician pilot dentist judge architect photographer waiter cashier
+cathedral pyramid windmill dam waterfall glacier cave cliff valley swamp canal
+binoculars hourglass lantern padlock chain rope magnifying-glass wheelbarrow shovel rake watering-can
+escalator elevator traffic-light crossroads petrol-station parking-meter
+hedgehog bat beaver peacock flamingo swan seal walrus hippo rhino crocodile gorilla
+skeleton brain lungs muscle
 """
 
 
@@ -242,5 +309,5 @@ def planned(block, level):
             for w in block.split()]
 
 
-WORDS = parse(A0, "A0") + parse(A1, "A1") + parse(A2, "A2")
-PLANNED = planned(B1_PLANNED, "B1")
+WORDS = parse(A0, "A0") + parse(A1, "A1") + parse(A2, "A2") + parse(B1, "B1")
+PLANNED = planned(B2_PLANNED, "B2")

@@ -1,0 +1,25 @@
+{
+  "id": 207,
+  "word": "solar panel",
+  "slug": "solar-panel",
+  "level": "B1",
+  "category": "science",
+  "translations": {
+    "es": "el panel solar",
+    "fr": "le panneau solaire",
+    "de": "die Solaranlage"
+  },
+  "tags": [
+    "energy",
+    "sun"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/solar-panel.svg",
+    "png": "images/png/solar-panel.png"
+  },
+  "api": "api/v1/images/solar-panel.json"
+}

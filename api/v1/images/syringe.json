@@ -1,0 +1,25 @@
+{
+  "id": 215,
+  "word": "syringe",
+  "slug": "syringe",
+  "level": "B1",
+  "category": "health",
+  "translations": {
+    "es": "la jeringa",
+    "fr": "la seringue",
+    "de": "die Spritze"
+  },
+  "tags": [
+    "injection",
+    "vaccine"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/syringe.svg",
+    "png": "images/png/syringe.png"
+  },
+  "api": "api/v1/images/syringe.json"
+}

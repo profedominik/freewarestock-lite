@@ -1,0 +1,26 @@
+{
+  "id": 189,
+  "word": "harbour",
+  "slug": "harbour",
+  "level": "B1",
+  "category": "places",
+  "translations": {
+    "es": "el puerto",
+    "fr": "le port",
+    "de": "der Hafen"
+  },
+  "tags": [
+    "harbor",
+    "port",
+    "boats"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/harbour.svg",
+    "png": "images/png/harbour.png"
+  },
+  "api": "api/v1/images/harbour.json"
+}

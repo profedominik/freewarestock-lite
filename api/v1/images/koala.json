@@ -1,0 +1,24 @@
+{
+  "id": 237,
+  "word": "koala",
+  "slug": "koala",
+  "level": "B1",
+  "category": "animals",
+  "translations": {
+    "es": "el koala",
+    "fr": "le koala",
+    "de": "der Koala"
+  },
+  "tags": [
+    "australia"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/koala.svg",
+    "png": "images/png/koala.png"
+  },
+  "api": "api/v1/images/koala.json"
+}

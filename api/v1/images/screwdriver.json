@@ -1,0 +1,25 @@
+{
+  "id": 248,
+  "word": "screwdriver",
+  "slug": "screwdriver",
+  "level": "B1",
+  "category": "tools",
+  "translations": {
+    "es": "el destornillador",
+    "fr": "le tournevis",
+    "de": "der Schraubenzieher"
+  },
+  "tags": [
+    "tool",
+    "screw"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/screwdriver.svg",
+    "png": "images/png/screwdriver.png"
+  },
+  "api": "api/v1/images/screwdriver.json"
+}

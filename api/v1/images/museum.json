@@ -1,0 +1,25 @@
+{
+  "id": 191,
+  "word": "museum",
+  "slug": "museum",
+  "level": "B1",
+  "category": "places",
+  "translations": {
+    "es": "el museo",
+    "fr": "le musée",
+    "de": "das Museum"
+  },
+  "tags": [
+    "art",
+    "history"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/museum.svg",
+    "png": "images/png/museum.png"
+  },
+  "api": "api/v1/images/museum.json"
+}

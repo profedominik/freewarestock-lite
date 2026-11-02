@@ -1,0 +1,25 @@
+{
+  "id": 217,
+  "word": "jewellery",
+  "slug": "jewellery",
+  "level": "B1",
+  "category": "clothes",
+  "translations": {
+    "es": "las joyas",
+    "fr": "les bijoux",
+    "de": "der Schmuck"
+  },
+  "tags": [
+    "jewelry",
+    "jewellery box"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/jewellery.svg",
+    "png": "images/png/jewellery.png"
+  },
+  "api": "api/v1/images/jewellery.json"
+}

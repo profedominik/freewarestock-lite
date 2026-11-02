@@ -1,0 +1,25 @@
+{
+  "id": 211,
+  "word": "crutches",
+  "slug": "crutches",
+  "level": "B1",
+  "category": "health",
+  "translations": {
+    "es": "las muletas",
+    "fr": "les béquilles",
+    "de": "die Krücken"
+  },
+  "tags": [
+    "injury",
+    "leg"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/crutches.svg",
+    "png": "images/png/crutches.png"
+  },
+  "api": "api/v1/images/crutches.json"
+}

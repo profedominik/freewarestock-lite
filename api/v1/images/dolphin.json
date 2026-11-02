@@ -1,0 +1,24 @@
+{
+  "id": 239,
+  "word": "dolphin",
+  "slug": "dolphin",
+  "level": "B1",
+  "category": "animals",
+  "translations": {
+    "es": "el delfín",
+    "fr": "le dauphin",
+    "de": "der Delfin"
+  },
+  "tags": [
+    "sea"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/dolphin.svg",
+    "png": "images/png/dolphin.png"
+  },
+  "api": "api/v1/images/dolphin.json"
+}

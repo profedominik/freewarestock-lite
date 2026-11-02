@@ -1,0 +1,25 @@
+{
+  "id": 227,
+  "word": "tie",
+  "slug": "tie",
+  "level": "B1",
+  "category": "clothes",
+  "translations": {
+    "es": "la corbata",
+    "fr": "la cravate",
+    "de": "die Krawatte"
+  },
+  "tags": [
+    "necktie",
+    "suit"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/tie.svg",
+    "png": "images/png/tie.png"
+  },
+  "api": "api/v1/images/tie.json"
+}

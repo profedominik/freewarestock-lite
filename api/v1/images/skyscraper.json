@@ -1,0 +1,26 @@
+{
+  "id": 187,
+  "word": "skyscraper",
+  "slug": "skyscraper",
+  "level": "B1",
+  "category": "places",
+  "translations": {
+    "es": "el rascacielos",
+    "fr": "le gratte-ciel",
+    "de": "der Wolkenkratzer"
+  },
+  "tags": [
+    "building",
+    "city",
+    "tall"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/skyscraper.svg",
+    "png": "images/png/skyscraper.png"
+  },
+  "api": "api/v1/images/skyscraper.json"
+}

@@ -1,0 +1,25 @@
+{
+  "id": 223,
+  "word": "raincoat",
+  "slug": "raincoat",
+  "level": "B1",
+  "category": "clothes",
+  "translations": {
+    "es": "el impermeable",
+    "fr": "l'imperméable",
+    "de": "der Regenmantel"
+  },
+  "tags": [
+    "rain",
+    "coat"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/raincoat.svg",
+    "png": "images/png/raincoat.png"
+  },
+  "api": "api/v1/images/raincoat.json"
+}

@@ -1,0 +1,25 @@
+{
+  "id": 203,
+  "word": "microscope",
+  "slug": "microscope",
+  "level": "B1",
+  "category": "science",
+  "translations": {
+    "es": "el microscopio",
+    "fr": "le microscope",
+    "de": "das Mikroskop"
+  },
+  "tags": [
+    "science",
+    "biology"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/microscope.svg",
+    "png": "images/png/microscope.png"
+  },
+  "api": "api/v1/images/microscope.json"
+}

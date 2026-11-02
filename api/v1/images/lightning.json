@@ -1,0 +1,25 @@
+{
+  "id": 233,
+  "word": "lightning",
+  "slug": "lightning",
+  "level": "B1",
+  "category": "nature",
+  "translations": {
+    "es": "el relámpago",
+    "fr": "l'éclair",
+    "de": "der Blitz"
+  },
+  "tags": [
+    "storm",
+    "thunder"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/lightning.svg",
+    "png": "images/png/lightning.png"
+  },
+  "api": "api/v1/images/lightning.json"
+}

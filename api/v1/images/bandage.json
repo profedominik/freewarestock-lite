@@ -1,0 +1,26 @@
+{
+  "id": 212,
+  "word": "bandage",
+  "slug": "bandage",
+  "level": "B1",
+  "category": "health",
+  "translations": {
+    "es": "la tirita",
+    "fr": "le pansement",
+    "de": "das Pflaster"
+  },
+  "tags": [
+    "plaster",
+    "band-aid",
+    "first aid"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/bandage.svg",
+    "png": "images/png/bandage.png"
+  },
+  "api": "api/v1/images/bandage.json"
+}

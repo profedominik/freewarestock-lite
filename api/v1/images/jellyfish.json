@@ -1,0 +1,24 @@
+{
+  "id": 242,
+  "word": "jellyfish",
+  "slug": "jellyfish",
+  "level": "B1",
+  "category": "animals",
+  "translations": {
+    "es": "la medusa",
+    "fr": "la méduse",
+    "de": "die Qualle"
+  },
+  "tags": [
+    "sea"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/jellyfish.svg",
+    "png": "images/png/jellyfish.png"
+  },
+  "api": "api/v1/images/jellyfish.json"
+}

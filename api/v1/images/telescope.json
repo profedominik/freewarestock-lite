@@ -1,0 +1,25 @@
+{
+  "id": 204,
+  "word": "telescope",
+  "slug": "telescope",
+  "level": "B1",
+  "category": "science",
+  "translations": {
+    "es": "el telescopio",
+    "fr": "le télescope",
+    "de": "das Teleskop"
+  },
+  "tags": [
+    "stars",
+    "space"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/telescope.svg",
+    "png": "images/png/telescope.png"
+  },
+  "api": "api/v1/images/telescope.json"
+}

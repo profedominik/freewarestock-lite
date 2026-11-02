@@ -1,0 +1,25 @@
+{
+  "id": 199,
+  "word": "post office",
+  "slug": "post-office",
+  "level": "B1",
+  "category": "places",
+  "translations": {
+    "es": "la oficina de correos",
+    "fr": "la poste",
+    "de": "die Post"
+  },
+  "tags": [
+    "mail",
+    "letter"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/post-office.svg",
+    "png": "images/png/post-office.png"
+  },
+  "api": "api/v1/images/post-office.json"
+}

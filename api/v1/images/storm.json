@@ -1,0 +1,26 @@
+{
+  "id": 234,
+  "word": "storm",
+  "slug": "storm",
+  "level": "B1",
+  "category": "nature",
+  "translations": {
+    "es": "la tormenta",
+    "fr": "l'orage",
+    "de": "der Sturm"
+  },
+  "tags": [
+    "weather",
+    "wind",
+    "thunder"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/storm.svg",
+    "png": "images/png/storm.png"
+  },
+  "api": "api/v1/images/storm.json"
+}

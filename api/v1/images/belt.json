@@ -1,0 +1,24 @@
+{
+  "id": 226,
+  "word": "belt",
+  "slug": "belt",
+  "level": "B1",
+  "category": "clothes",
+  "translations": {
+    "es": "el cinturón",
+    "fr": "la ceinture",
+    "de": "der Gürtel"
+  },
+  "tags": [
+    "trousers"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/belt.svg",
+    "png": "images/png/belt.png"
+  },
+  "api": "api/v1/images/belt.json"
+}

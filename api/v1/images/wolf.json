@@ -1,0 +1,25 @@
+{
+  "id": 245,
+  "word": "wolf",
+  "slug": "wolf",
+  "level": "B1",
+  "category": "animals",
+  "translations": {
+    "es": "el lobo",
+    "fr": "le loup",
+    "de": "der Wolf"
+  },
+  "tags": [
+    "forest",
+    "night"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/wolf.svg",
+    "png": "images/png/wolf.png"
+  },
+  "api": "api/v1/images/wolf.json"
+}

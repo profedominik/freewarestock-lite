@@ -1,0 +1,25 @@
+{
+  "id": 229,
+  "word": "hot-air balloon",
+  "slug": "hot-air-balloon",
+  "level": "B1",
+  "category": "transport",
+  "translations": {
+    "es": "el globo aerostático",
+    "fr": "la montgolfière",
+    "de": "der Heißluftballon"
+  },
+  "tags": [
+    "fly",
+    "sky"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/hot-air-balloon.svg",
+    "png": "images/png/hot-air-balloon.png"
+  },
+  "api": "api/v1/images/hot-air-balloon.json"
+}

@@ -9,6 +9,7 @@ import sys
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from art import render  # noqa: E402
 import art_a2  # noqa: E402,F401  (registers A2 drawings)
+import art_b1  # noqa: E402,F401  (registers B1 drawings)
 from vocab import WORDS, PLANNED  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent

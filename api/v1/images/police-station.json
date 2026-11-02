@@ -1,0 +1,24 @@
+{
+  "id": 200,
+  "word": "police station",
+  "slug": "police-station",
+  "level": "B1",
+  "category": "places",
+  "translations": {
+    "es": "la comisaría",
+    "fr": "le commissariat",
+    "de": "die Polizeiwache"
+  },
+  "tags": [
+    "police"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/police-station.svg",
+    "png": "images/png/police-station.png"
+  },
+  "api": "api/v1/images/police-station.json"
+}

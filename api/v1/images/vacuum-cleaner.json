@@ -1,0 +1,25 @@
+{
+  "id": 252,
+  "word": "vacuum cleaner",
+  "slug": "vacuum-cleaner",
+  "level": "B1",
+  "category": "home",
+  "translations": {
+    "es": "la aspiradora",
+    "fr": "l'aspirateur",
+    "de": "der Staubsauger"
+  },
+  "tags": [
+    "hoover",
+    "clean"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/vacuum-cleaner.svg",
+    "png": "images/png/vacuum-cleaner.png"
+  },
+  "api": "api/v1/images/vacuum-cleaner.json"
+}

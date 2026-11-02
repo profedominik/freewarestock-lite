@@ -10,7 +10,7 @@
 :root {
   --bg: #f7f7fb; --surface: #ffffff; --surface-2: #f0f1f6; --text: #1f2233; --muted: #646a80;
   --border: #e2e4ee; --accent: #3a5bd9; --accent-text: #ffffff; --ring: rgba(58,91,217,.35);
-  --a0: #2a9d8f; --a1: #e76f51; --a2: #8d6cd9; --b1: #6c757d;
+  --a0: #2a9d8f; --a1: #e76f51; --a2: #8d6cd9; --b1: #d6336c; --b2: #6c757d;
   --radius: 16px; --shadow: 0 1px 2px rgba(20,24,40,.06), 0 4px 16px rgba(20,24,40,.06);
 }
 @media (prefers-color-scheme: dark) {
@@ -63,7 +63,7 @@ select.lang, .iconbtn { padding: 9px 12px; border-radius: 12px; border: 1px soli
 .card .word { font-weight: 650; font-size: 16px; }
 .card .tr { color: var(--muted); font-size: 13px; padding: 0 10px 10px; margin-top: -6px; min-height: 1em; }
 .lvl { font-size: 11px; font-weight: 700; padding: 1px 7px; border-radius: 6px; color: #fff; letter-spacing: .02em; }
-.lvl.A0 { background: var(--a0); } .lvl.A1 { background: var(--a1); } .lvl.A2 { background: var(--a2); } .lvl.B1 { background: var(--b1); }
+.lvl.A0 { background: var(--a0); } .lvl.A1 { background: var(--a1); } .lvl.A2 { background: var(--a2); } .lvl.B1 { background: var(--b1); } .lvl.B2 { background: var(--b2); }
 .card.planned { cursor: default; box-shadow: none; border-style: dashed; background: transparent; }
 .card.planned .ph { aspect-ratio: 1; display: grid; place-items: center; color: var(--muted); font-size: 13px; background: var(--surface-2); }
 .empty { text-align: center; color: var(--muted); padding: 60px 0; grid-column: 1 / -1; }
@@ -209,7 +209,7 @@ dialog::backdrop { background: rgba(10,12,20,.55); }
   if (!DATA) { $('#grid').innerHTML = '<p class="empty">Could not load data/manifest.js. Run <code>python3 scripts/build.py</code>.</p>'; return; }
   const images = DATA.images;
   const planned = DATA.planned || [];
-  const LEVELS = ['A0', 'A1', 'A2', 'B1'];
+  const LEVELS = ['A0', 'A1', 'A2', 'B1', 'B2'];
   const state = { q: '', level: 'all', cat: 'all', lang: store.get('fs-lang') || '' };
   let visible = [];
   let current = -1;

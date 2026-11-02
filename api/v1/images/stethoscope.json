@@ -1,0 +1,24 @@
+{
+  "id": 214,
+  "word": "stethoscope",
+  "slug": "stethoscope",
+  "level": "B1",
+  "category": "health",
+  "translations": {
+    "es": "el estetoscopio",
+    "fr": "le stéthoscope",
+    "de": "das Stethoskop"
+  },
+  "tags": [
+    "doctor"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/stethoscope.svg",
+    "png": "images/png/stethoscope.png"
+  },
+  "api": "api/v1/images/stethoscope.json"
+}

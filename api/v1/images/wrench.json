@@ -1,0 +1,25 @@
+{
+  "id": 251,
+  "word": "wrench",
+  "slug": "wrench",
+  "level": "B1",
+  "category": "tools",
+  "translations": {
+    "es": "la llave inglesa",
+    "fr": "la clé à molette",
+    "de": "der Schraubenschlüssel"
+  },
+  "tags": [
+    "spanner",
+    "tool"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/wrench.svg",
+    "png": "images/png/wrench.png"
+  },
+  "api": "api/v1/images/wrench.json"
+}

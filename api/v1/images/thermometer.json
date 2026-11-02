@@ -1,0 +1,25 @@
+{
+  "id": 213,
+  "word": "thermometer",
+  "slug": "thermometer",
+  "level": "B1",
+  "category": "health",
+  "translations": {
+    "es": "el termómetro",
+    "fr": "le thermomètre",
+    "de": "das Thermometer"
+  },
+  "tags": [
+    "temperature",
+    "fever"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/thermometer.svg",
+    "png": "images/png/thermometer.png"
+  },
+  "api": "api/v1/images/thermometer.json"
+}

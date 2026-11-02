@@ -1,0 +1,24 @@
+{
+  "id": 255,
+  "word": "hairdryer",
+  "slug": "hairdryer",
+  "level": "B1",
+  "category": "home",
+  "translations": {
+    "es": "el secador",
+    "fr": "le sèche-cheveux",
+    "de": "der Föhn"
+  },
+  "tags": [
+    "hair"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/hairdryer.svg",
+    "png": "images/png/hairdryer.png"
+  },
+  "api": "api/v1/images/hairdryer.json"
+}

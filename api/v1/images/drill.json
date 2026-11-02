@@ -1,0 +1,24 @@
+{
+  "id": 249,
+  "word": "drill",
+  "slug": "drill",
+  "level": "B1",
+  "category": "tools",
+  "translations": {
+    "es": "el taladro",
+    "fr": "la perceuse",
+    "de": "die Bohrmaschine"
+  },
+  "tags": [
+    "tool"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/drill.svg",
+    "png": "images/png/drill.png"
+  },
+  "api": "api/v1/images/drill.json"
+}
