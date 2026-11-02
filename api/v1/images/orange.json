@@ -1,0 +1,25 @@
+{
+  "id": 59,
+  "word": "orange",
+  "slug": "orange",
+  "level": "A1",
+  "category": "food",
+  "translations": {
+    "es": "la naranja",
+    "fr": "l'orange",
+    "de": "die Orange"
+  },
+  "tags": [
+    "fruit",
+    "citrus"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/orange.svg",
+    "png": "images/png/orange.png"
+  },
+  "api": "api/v1/images/orange.json"
+}

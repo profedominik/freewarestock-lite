@@ -1,0 +1,24 @@
+{
+  "id": 70,
+  "word": "umbrella",
+  "slug": "umbrella",
+  "level": "A1",
+  "category": "things",
+  "translations": {
+    "es": "el paraguas",
+    "fr": "le parapluie",
+    "de": "der Regenschirm"
+  },
+  "tags": [
+    "rain"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/umbrella.svg",
+    "png": "images/png/umbrella.png"
+  },
+  "api": "api/v1/images/umbrella.json"
+}

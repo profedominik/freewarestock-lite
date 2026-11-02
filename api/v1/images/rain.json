@@ -1,0 +1,25 @@
+{
+  "id": 82,
+  "word": "rain",
+  "slug": "rain",
+  "level": "A1",
+  "category": "nature",
+  "translations": {
+    "es": "la lluvia",
+    "fr": "la pluie",
+    "de": "der Regen"
+  },
+  "tags": [
+    "weather",
+    "cloud"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/rain.svg",
+    "png": "images/png/rain.png"
+  },
+  "api": "api/v1/images/rain.json"
+}

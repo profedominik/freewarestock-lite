@@ -1,0 +1,26 @@
+{
+  "id": 91,
+  "word": "mouth",
+  "slug": "mouth",
+  "level": "A1",
+  "category": "body",
+  "translations": {
+    "es": "la boca",
+    "fr": "la bouche",
+    "de": "der Mund"
+  },
+  "tags": [
+    "face",
+    "lips",
+    "eat"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/mouth.svg",
+    "png": "images/png/mouth.png"
+  },
+  "api": "api/v1/images/mouth.json"
+}

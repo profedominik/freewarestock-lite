@@ -1,0 +1,26 @@
+{
+  "id": 56,
+  "word": "lion",
+  "slug": "lion",
+  "level": "A1",
+  "category": "animals",
+  "translations": {
+    "es": "el león",
+    "fr": "le lion",
+    "de": "der Löwe"
+  },
+  "tags": [
+    "zoo",
+    "cat",
+    "africa"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/lion.svg",
+    "png": "images/png/lion.png"
+  },
+  "api": "api/v1/images/lion.json"
+}

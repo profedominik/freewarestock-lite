@@ -1,0 +1,26 @@
+{
+  "id": 32,
+  "word": "sun",
+  "slug": "sun",
+  "level": "A0",
+  "category": "nature",
+  "translations": {
+    "es": "el sol",
+    "fr": "le soleil",
+    "de": "die Sonne"
+  },
+  "tags": [
+    "sky",
+    "weather",
+    "day"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/sun.svg",
+    "png": "images/png/sun.png"
+  },
+  "api": "api/v1/images/sun.json"
+}

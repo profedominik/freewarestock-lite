@@ -1,0 +1,25 @@
+{
+  "id": 36,
+  "word": "flower",
+  "slug": "flower",
+  "level": "A0",
+  "category": "nature",
+  "translations": {
+    "es": "la flor",
+    "fr": "la fleur",
+    "de": "die Blume"
+  },
+  "tags": [
+    "plant",
+    "garden"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/flower.svg",
+    "png": "images/png/flower.png"
+  },
+  "api": "api/v1/images/flower.json"
+}

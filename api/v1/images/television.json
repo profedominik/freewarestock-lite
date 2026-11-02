@@ -1,0 +1,25 @@
+{
+  "id": 68,
+  "word": "television",
+  "slug": "television",
+  "level": "A1",
+  "category": "home",
+  "translations": {
+    "es": "la televisión",
+    "fr": "la télévision",
+    "de": "der Fernseher"
+  },
+  "tags": [
+    "tv",
+    "screen"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/television.svg",
+    "png": "images/png/television.png"
+  },
+  "api": "api/v1/images/television.json"
+}

@@ -1,0 +1,26 @@
+{
+  "id": 64,
+  "word": "ice cream",
+  "slug": "ice-cream",
+  "level": "A1",
+  "category": "food",
+  "translations": {
+    "es": "el helado",
+    "fr": "la glace",
+    "de": "das Eis"
+  },
+  "tags": [
+    "dessert",
+    "summer",
+    "cone"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/ice-cream.svg",
+    "png": "images/png/ice-cream.png"
+  },
+  "api": "api/v1/images/ice-cream.json"
+}

@@ -1,0 +1,25 @@
+{
+  "id": 14,
+  "word": "bus",
+  "slug": "bus",
+  "level": "A0",
+  "category": "transport",
+  "translations": {
+    "es": "el autobús",
+    "fr": "le bus",
+    "de": "der Bus"
+  },
+  "tags": [
+    "vehicle",
+    "public transport"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/bus.svg",
+    "png": "images/png/bus.png"
+  },
+  "api": "api/v1/images/bus.json"
+}

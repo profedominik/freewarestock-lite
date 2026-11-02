@@ -1,0 +1,25 @@
+{
+  "id": 57,
+  "word": "frog",
+  "slug": "frog",
+  "level": "A1",
+  "category": "animals",
+  "translations": {
+    "es": "la rana",
+    "fr": "la grenouille",
+    "de": "der Frosch"
+  },
+  "tags": [
+    "pond",
+    "green"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/frog.svg",
+    "png": "images/png/frog.png"
+  },
+  "api": "api/v1/images/frog.json"
+}

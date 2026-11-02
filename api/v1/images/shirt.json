@@ -1,0 +1,26 @@
+{
+  "id": 48,
+  "word": "shirt",
+  "slug": "shirt",
+  "level": "A0",
+  "category": "clothes",
+  "translations": {
+    "es": "la camiseta",
+    "fr": "le t-shirt",
+    "de": "das T-Shirt"
+  },
+  "tags": [
+    "t-shirt",
+    "top",
+    "tee"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/shirt.svg",
+    "png": "images/png/shirt.png"
+  },
+  "api": "api/v1/images/shirt.json"
+}

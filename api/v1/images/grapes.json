@@ -1,0 +1,25 @@
+{
+  "id": 65,
+  "word": "grapes",
+  "slug": "grapes",
+  "level": "A1",
+  "category": "food",
+  "translations": {
+    "es": "las uvas",
+    "fr": "le raisin",
+    "de": "die Trauben"
+  },
+  "tags": [
+    "fruit",
+    "grape"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/grapes.svg",
+    "png": "images/png/grapes.png"
+  },
+  "api": "api/v1/images/grapes.json"
+}

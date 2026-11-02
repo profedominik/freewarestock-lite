@@ -1,0 +1,25 @@
+{
+  "id": 72,
+  "word": "plate",
+  "slug": "plate",
+  "level": "A1",
+  "category": "things",
+  "translations": {
+    "es": "el plato",
+    "fr": "l'assiette",
+    "de": "der Teller"
+  },
+  "tags": [
+    "dish",
+    "kitchen"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/plate.svg",
+    "png": "images/png/plate.png"
+  },
+  "api": "api/v1/images/plate.json"
+}

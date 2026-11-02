@@ -1,0 +1,27 @@
+{
+  "id": 3,
+  "word": "man",
+  "slug": "man",
+  "level": "A0",
+  "category": "people",
+  "translations": {
+    "es": "el hombre",
+    "fr": "l'homme",
+    "de": "der Mann"
+  },
+  "tags": [
+    "adult",
+    "father",
+    "dad",
+    "person"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/man.svg",
+    "png": "images/png/man.png"
+  },
+  "api": "api/v1/images/man.json"
+}

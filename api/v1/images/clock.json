@@ -1,0 +1,24 @@
+{
+  "id": 45,
+  "word": "clock",
+  "slug": "clock",
+  "level": "A0",
+  "category": "things",
+  "translations": {
+    "es": "el reloj",
+    "fr": "l'horloge",
+    "de": "die Uhr"
+  },
+  "tags": [
+    "time"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/clock.svg",
+    "png": "images/png/clock.png"
+  },
+  "api": "api/v1/images/clock.json"
+}

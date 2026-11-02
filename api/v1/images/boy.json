@@ -1,0 +1,26 @@
+{
+  "id": 1,
+  "word": "boy",
+  "slug": "boy",
+  "level": "A0",
+  "category": "people",
+  "translations": {
+    "es": "el niño",
+    "fr": "le garçon",
+    "de": "der Junge"
+  },
+  "tags": [
+    "child",
+    "kid",
+    "son"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/boy.svg",
+    "png": "images/png/boy.png"
+  },
+  "api": "api/v1/images/boy.json"
+}

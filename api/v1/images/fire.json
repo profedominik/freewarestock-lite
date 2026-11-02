@@ -1,0 +1,26 @@
+{
+  "id": 86,
+  "word": "fire",
+  "slug": "fire",
+  "level": "A1",
+  "category": "nature",
+  "translations": {
+    "es": "el fuego",
+    "fr": "le feu",
+    "de": "das Feuer"
+  },
+  "tags": [
+    "campfire",
+    "hot",
+    "flame"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/fire.svg",
+    "png": "images/png/fire.png"
+  },
+  "api": "api/v1/images/fire.json"
+}

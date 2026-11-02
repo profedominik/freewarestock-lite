@@ -1,0 +1,25 @@
+{
+  "id": 93,
+  "word": "foot",
+  "slug": "foot",
+  "level": "A1",
+  "category": "body",
+  "translations": {
+    "es": "el pie",
+    "fr": "le pied",
+    "de": "der Fuß"
+  },
+  "tags": [
+    "feet",
+    "toes"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/foot.svg",
+    "png": "images/png/foot.png"
+  },
+  "api": "api/v1/images/foot.json"
+}

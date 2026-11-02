@@ -1,0 +1,25 @@
+{
+  "id": 87,
+  "word": "truck",
+  "slug": "truck",
+  "level": "A1",
+  "category": "transport",
+  "translations": {
+    "es": "el camión",
+    "fr": "le camion",
+    "de": "der Lastwagen"
+  },
+  "tags": [
+    "lorry",
+    "vehicle"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/truck.svg",
+    "png": "images/png/truck.png"
+  },
+  "api": "api/v1/images/truck.json"
+}

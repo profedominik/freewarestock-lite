@@ -1,0 +1,25 @@
+{
+  "id": 43,
+  "word": "key",
+  "slug": "key",
+  "level": "A0",
+  "category": "things",
+  "translations": {
+    "es": "la llave",
+    "fr": "la clé",
+    "de": "der Schlüssel"
+  },
+  "tags": [
+    "lock",
+    "door"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/key.svg",
+    "png": "images/png/key.png"
+  },
+  "api": "api/v1/images/key.json"
+}

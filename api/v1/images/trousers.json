@@ -1,0 +1,25 @@
+{
+  "id": 78,
+  "word": "trousers",
+  "slug": "trousers",
+  "level": "A1",
+  "category": "clothes",
+  "translations": {
+    "es": "los pantalones",
+    "fr": "le pantalon",
+    "de": "die Hose"
+  },
+  "tags": [
+    "pants",
+    "jeans"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/trousers.svg",
+    "png": "images/png/trousers.png"
+  },
+  "api": "api/v1/images/trousers.json"
+}

@@ -1,0 +1,25 @@
+{
+  "id": 58,
+  "word": "butterfly",
+  "slug": "butterfly",
+  "level": "A1",
+  "category": "animals",
+  "translations": {
+    "es": "la mariposa",
+    "fr": "le papillon",
+    "de": "der Schmetterling"
+  },
+  "tags": [
+    "insect",
+    "fly"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/butterfly.svg",
+    "png": "images/png/butterfly.png"
+  },
+  "api": "api/v1/images/butterfly.json"
+}

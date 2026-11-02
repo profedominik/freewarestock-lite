@@ -1,0 +1,26 @@
+{
+  "id": 92,
+  "word": "ear",
+  "slug": "ear",
+  "level": "A1",
+  "category": "body",
+  "translations": {
+    "es": "la oreja",
+    "fr": "l'oreille",
+    "de": "das Ohr"
+  },
+  "tags": [
+    "face",
+    "hear",
+    "listen"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/ear.svg",
+    "png": "images/png/ear.png"
+  },
+  "api": "api/v1/images/ear.json"
+}

@@ -1,0 +1,25 @@
+{
+  "id": 73,
+  "word": "spoon",
+  "slug": "spoon",
+  "level": "A1",
+  "category": "things",
+  "translations": {
+    "es": "la cuchara",
+    "fr": "la cuillère",
+    "de": "der Löffel"
+  },
+  "tags": [
+    "cutlery",
+    "kitchen"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/spoon.svg",
+    "png": "images/png/spoon.png"
+  },
+  "api": "api/v1/images/spoon.json"
+}

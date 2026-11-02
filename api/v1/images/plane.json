@@ -1,0 +1,27 @@
+{
+  "id": 18,
+  "word": "plane",
+  "slug": "plane",
+  "level": "A0",
+  "category": "transport",
+  "translations": {
+    "es": "el avión",
+    "fr": "l'avion",
+    "de": "das Flugzeug"
+  },
+  "tags": [
+    "airplane",
+    "aeroplane",
+    "aircraft",
+    "fly"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/plane.svg",
+    "png": "images/png/plane.png"
+  },
+  "api": "api/v1/images/plane.json"
+}

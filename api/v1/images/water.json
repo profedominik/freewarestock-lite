@@ -1,0 +1,25 @@
+{
+  "id": 30,
+  "word": "water",
+  "slug": "water",
+  "level": "A0",
+  "category": "food",
+  "translations": {
+    "es": "el agua",
+    "fr": "l'eau",
+    "de": "das Wasser"
+  },
+  "tags": [
+    "drink",
+    "glass"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/water.svg",
+    "png": "images/png/water.png"
+  },
+  "api": "api/v1/images/water.json"
+}

@@ -1,0 +1,25 @@
+{
+  "id": 63,
+  "word": "pizza",
+  "slug": "pizza",
+  "level": "A1",
+  "category": "food",
+  "translations": {
+    "es": "la pizza",
+    "fr": "la pizza",
+    "de": "die Pizza"
+  },
+  "tags": [
+    "italian",
+    "dinner"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/pizza.svg",
+    "png": "images/png/pizza.png"
+  },
+  "api": "api/v1/images/pizza.json"
+}

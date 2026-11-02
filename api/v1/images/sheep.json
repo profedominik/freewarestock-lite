@@ -1,0 +1,26 @@
+{
+  "id": 52,
+  "word": "sheep",
+  "slug": "sheep",
+  "level": "A1",
+  "category": "animals",
+  "translations": {
+    "es": "la oveja",
+    "fr": "le mouton",
+    "de": "das Schaf"
+  },
+  "tags": [
+    "farm",
+    "wool",
+    "lamb"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/sheep.svg",
+    "png": "images/png/sheep.png"
+  },
+  "api": "api/v1/images/sheep.json"
+}

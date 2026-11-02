@@ -1,0 +1,24 @@
+{
+  "id": 49,
+  "word": "hand",
+  "slug": "hand",
+  "level": "A0",
+  "category": "body",
+  "translations": {
+    "es": "la mano",
+    "fr": "la main",
+    "de": "die Hand"
+  },
+  "tags": [
+    "fingers"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/hand.svg",
+    "png": "images/png/hand.png"
+  },
+  "api": "api/v1/images/hand.json"
+}

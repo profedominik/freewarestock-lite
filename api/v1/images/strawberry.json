@@ -1,0 +1,25 @@
+{
+  "id": 66,
+  "word": "strawberry",
+  "slug": "strawberry",
+  "level": "A1",
+  "category": "food",
+  "translations": {
+    "es": "la fresa",
+    "fr": "la fraise",
+    "de": "die Erdbeere"
+  },
+  "tags": [
+    "fruit",
+    "berry"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/strawberry.svg",
+    "png": "images/png/strawberry.png"
+  },
+  "api": "api/v1/images/strawberry.json"
+}

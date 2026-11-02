@@ -1,0 +1,25 @@
+{
+  "id": 44,
+  "word": "bag",
+  "slug": "bag",
+  "level": "A0",
+  "category": "things",
+  "translations": {
+    "es": "el bolso",
+    "fr": "le sac",
+    "de": "die Tasche"
+  },
+  "tags": [
+    "handbag",
+    "purse"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/bag.svg",
+    "png": "images/png/bag.png"
+  },
+  "api": "api/v1/images/bag.json"
+}

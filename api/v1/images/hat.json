@@ -1,0 +1,24 @@
+{
+  "id": 46,
+  "word": "hat",
+  "slug": "hat",
+  "level": "A0",
+  "category": "clothes",
+  "translations": {
+    "es": "el sombrero",
+    "fr": "le chapeau",
+    "de": "der Hut"
+  },
+  "tags": [
+    "sun hat"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/hat.svg",
+    "png": "images/png/hat.png"
+  },
+  "api": "api/v1/images/hat.json"
+}

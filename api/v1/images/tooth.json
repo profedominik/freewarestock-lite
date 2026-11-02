@@ -1,0 +1,25 @@
+{
+  "id": 94,
+  "word": "tooth",
+  "slug": "tooth",
+  "level": "A1",
+  "category": "body",
+  "translations": {
+    "es": "el diente",
+    "fr": "la dent",
+    "de": "der Zahn"
+  },
+  "tags": [
+    "teeth",
+    "dentist"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/tooth.svg",
+    "png": "images/png/tooth.png"
+  },
+  "api": "api/v1/images/tooth.json"
+}

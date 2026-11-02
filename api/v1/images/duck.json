@@ -1,0 +1,25 @@
+{
+  "id": 53,
+  "word": "duck",
+  "slug": "duck",
+  "level": "A1",
+  "category": "animals",
+  "translations": {
+    "es": "el pato",
+    "fr": "le canard",
+    "de": "die Ente"
+  },
+  "tags": [
+    "bird",
+    "pond"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/duck.svg",
+    "png": "images/png/duck.png"
+  },
+  "api": "api/v1/images/duck.json"
+}

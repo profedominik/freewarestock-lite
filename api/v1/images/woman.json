@@ -1,0 +1,28 @@
+{
+  "id": 4,
+  "word": "woman",
+  "slug": "woman",
+  "level": "A0",
+  "category": "people",
+  "translations": {
+    "es": "la mujer",
+    "fr": "la femme",
+    "de": "die Frau"
+  },
+  "tags": [
+    "adult",
+    "mother",
+    "mum",
+    "mom",
+    "person"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/woman.svg",
+    "png": "images/png/woman.png"
+  },
+  "api": "api/v1/images/woman.json"
+}

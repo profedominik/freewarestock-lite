@@ -1,0 +1,24 @@
+{
+  "id": 76,
+  "word": "dress",
+  "slug": "dress",
+  "level": "A1",
+  "category": "clothes",
+  "translations": {
+    "es": "el vestido",
+    "fr": "la robe",
+    "de": "das Kleid"
+  },
+  "tags": [
+    "skirt"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/dress.svg",
+    "png": "images/png/dress.png"
+  },
+  "api": "api/v1/images/dress.json"
+}

@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FreewareStock Lite</title>
+<meta name="description" content="Free CC0 vocabulary illustrations for language learning: browse, search, download, embed.">
+<link rel="icon" href="images/svg/house.svg">
+<style>
+:root {
+  --bg: #f7f7fb; --surface: #ffffff; --surface-2: #f0f1f6; --text: #1f2233; --muted: #646a80;
+  --border: #e2e4ee; --accent: #3a5bd9; --accent-text: #ffffff; --ring: rgba(58,91,217,.35);
+  --a0: #2a9d8f; --a1: #e76f51; --a2: #8d6cd9; --b1: #6c757d;
+  --radius: 16px; --shadow: 0 1px 2px rgba(20,24,40,.06), 0 4px 16px rgba(20,24,40,.06);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12141c; --surface: #1b1e2a; --surface-2: #242838; --text: #eceef6; --muted: #9aa0b8;
+    --border: #2e3346; --accent: #7c96ff; --accent-text: #0e1020; --ring: rgba(124,150,255,.4);
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 4px 16px rgba(0,0,0,.25);
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12141c; --surface: #1b1e2a; --surface-2: #242838; --text: #eceef6; --muted: #9aa0b8;
+  --border: #2e3346; --accent: #7c96ff; --accent-text: #0e1020; --ring: rgba(124,150,255,.4);
+  --shadow: 0 1px 2px rgba(0,0,0,.3), 0 4px 16px rgba(0,0,0,.25);
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+a { color: var(--accent); }
+button, input, select { font: inherit; color: inherit; }
+:focus-visible { outline: 3px solid var(--ring); outline-offset: 2px; }
+.wrap { max-width: 1240px; margin: 0 auto; padding: 0 16px; }
+
+header.top { position: sticky; top: 0; z-index: 5; background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); }
+.bar { display: flex; gap: 12px; align-items: center; padding: 12px 0; flex-wrap: wrap; }
+.brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 18px; margin-right: auto; text-decoration: none; color: var(--text); }
+.brand img { width: 34px; height: 34px; border-radius: 8px; }
+.brand small { font-weight: 500; color: var(--muted); font-size: 13px; }
+.search { position: relative; flex: 1 1 320px; max-width: 520px; }
+.search input { width: 100%; padding: 10px 14px 10px 40px; border-radius: 12px; border: 1px solid var(--border); background: var(--surface); }
+.search svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); width: 18px; height: 18px; color: var(--muted); }
+.search kbd { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 12px; color: var(--muted);
+  border: 1px solid var(--border); border-radius: 6px; padding: 0 6px; background: var(--surface-2); }
+select.lang, .iconbtn { padding: 9px 12px; border-radius: 12px; border: 1px solid var(--border); background: var(--surface); cursor: pointer; }
+
+.filters { display: flex; gap: 8px; flex-wrap: wrap; padding: 0 0 12px; }
+.chip { border: 1px solid var(--border); background: var(--surface); padding: 5px 12px; border-radius: 999px; cursor: pointer; font-size: 14px; white-space: nowrap; }
+.chip[aria-pressed="true"] { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
+.chip .n { opacity: .7; margin-left: 4px; font-size: 12px; }
+.sep { width: 1px; background: var(--border); margin: 2px 4px; }
+
+.status { color: var(--muted); font-size: 14px; padding: 16px 0 8px; display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 14px; padding-bottom: 32px; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; cursor: pointer;
+  box-shadow: var(--shadow); transition: transform .12s ease, box-shadow .12s ease; text-align: left; padding: 0; display: flex; flex-direction: column; }
+.card:hover { transform: translateY(-2px); }
+.card img { width: 100%; height: auto; aspect-ratio: 1; display: block; }
+.card .meta { padding: 8px 10px 10px; display: flex; justify-content: space-between; align-items: baseline; gap: 6px; }
+.card .word { font-weight: 650; font-size: 16px; }
+.card .tr { color: var(--muted); font-size: 13px; padding: 0 10px 10px; margin-top: -6px; min-height: 1em; }
+.lvl { font-size: 11px; font-weight: 700; padding: 1px 7px; border-radius: 6px; color: #fff; letter-spacing: .02em; }
+.lvl.A0 { background: var(--a0); } .lvl.A1 { background: var(--a1); } .lvl.A2 { background: var(--a2); } .lvl.B1 { background: var(--b1); }
+.card.planned { cursor: default; box-shadow: none; border-style: dashed; background: transparent; }
+.card.planned .ph { aspect-ratio: 1; display: grid; place-items: center; color: var(--muted); font-size: 13px; background: var(--surface-2); }
+.empty { text-align: center; color: var(--muted); padding: 60px 0; grid-column: 1 / -1; }
+
+section.dev { border-top: 1px solid var(--border); padding: 28px 0 48px; }
+section.dev h2 { margin: 0 0 8px; font-size: 20px; }
+section.dev p { color: var(--muted); margin: 0 0 14px; max-width: 760px; }
+.endpoints { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+.endpoint { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; }
+.endpoint b { display: block; font-size: 14px; margin-bottom: 4px; }
+code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13px; }
+.endpoint code { word-break: break-all; color: var(--muted); }
+pre { background: var(--surface-2); border-radius: 12px; padding: 12px 14px; overflow-x: auto; margin: 12px 0 0; }
+.roadmap { margin-top: 20px; }
+footer { color: var(--muted); font-size: 13px; padding: 20px 0 40px; border-top: 1px solid var(--border); }
+
+dialog { border: none; border-radius: 20px; padding: 0; width: min(920px, calc(100vw - 32px)); background: var(--surface); color: var(--text); box-shadow: 0 20px 60px rgba(0,0,0,.35); }
+dialog::backdrop { background: rgba(10,12,20,.55); }
+.detail { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+.detail .pic { background: var(--surface-2); padding: 20px; display: grid; place-items: center; position: relative; }
+.detail .pic img { width: 100%; height: auto; max-width: 420px; aspect-ratio: 1; }
+.detail .info { padding: 22px 22px 20px; display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.detail h2 { margin: 0; font-size: 32px; line-height: 1.1; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.detail .cat { color: var(--muted); font-size: 14px; text-transform: capitalize; }
+.trs { display: grid; grid-template-columns: auto 1fr; gap: 2px 12px; font-size: 15px; }
+.trs dt { color: var(--muted); font-size: 13px; text-transform: uppercase; padding-top: 1px; }
+.trs dd { margin: 0; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag { font-size: 12px; background: var(--surface-2); padding: 2px 8px; border-radius: 6px; color: var(--muted); }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.btn { display: inline-flex; align-items: center; gap: 6px; padding: 8px 12px; border-radius: 10px; border: 1px solid var(--border);
+  background: var(--surface); cursor: pointer; text-decoration: none; color: var(--text); font-size: 14px; }
+.btn.primary { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
+.links { display: flex; flex-direction: column; gap: 8px; }
+.linkrow { display: flex; gap: 6px; align-items: stretch; }
+.linkrow label { font-size: 12px; color: var(--muted); width: 64px; flex: none; align-self: center; }
+.linkrow input { flex: 1; min-width: 0; padding: 6px 8px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface-2); font-family: ui-monospace, monospace; font-size: 12px; }
+.linkrow button { padding: 6px 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); cursor: pointer; font-size: 12px; }
+.license { font-size: 12px; color: var(--muted); }
+.close { position: absolute; top: 10px; right: 10px; }
+.nav { position: absolute; top: 50%; transform: translateY(-50%); border-radius: 999px; width: 38px; height: 38px; display: grid; place-items: center; padding: 0; }
+.nav.prev { left: 10px; } .nav.next { right: 10px; }
+.toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%) translateY(20px); background: var(--text); color: var(--bg);
+  padding: 8px 16px; border-radius: 10px; font-size: 14px; opacity: 0; transition: .2s; pointer-events: none; z-index: 100; }
+.toast.show { opacity: 1; transform: translateX(-50%); }
+@media (max-width: 720px) {
+  .detail { grid-template-columns: 1fr; }
+  .detail .pic img { max-width: 260px; }
+  .grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 10px; }
+  .search kbd { display: none; }
+  .brand small { display: none; }
+  header.top { position: static; }
+  .filters { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin: 0 -16px; padding: 0 16px 10px; }
+  .filters::-webkit-scrollbar { display: none; }
+  .sep { display: none; }
+}
+.iconbtn svg { width: 18px; height: 18px; display: block; }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="bar">
+      <a class="brand" href="#" id="home"><img src="images/svg/house.svg" alt=""> FreewareStock Lite <small id="count"></small></a>
+      <div class="search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="Search words, e.g. dog, perro, chien, animals…" autocomplete="off" aria-label="Search images">
+        <kbd>/</kbd>
+      </div>
+      <select class="lang" id="lang" aria-label="Translation language">
+        <option value="">No translation</option>
+        <option value="es">Español</option>
+        <option value="fr">Français</option>
+        <option value="de">Deutsch</option>
+      </select>
+      <button class="iconbtn" id="theme" aria-label="Toggle dark mode" title="Toggle theme"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 0 0 18z" fill="currentColor"/></svg></button>
+    </div>
+    <div class="filters" id="levels" role="group" aria-label="Level"></div>
+    <div class="filters" id="cats" role="group" aria-label="Category"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="status"><span id="status"></span><span><a href="api/v1/images.json">JSON API</a> · <a href="#developers">Use in your app</a></span></div>
+  <div class="grid" id="grid" aria-live="polite"></div>
+
+  <section class="dev" id="developers">
+    <h2>Use these images anywhere</h2>
+    <p>Every illustration is released under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>: copy, modify and use them in any project, including commercial ones. No attribution is required. File paths are stable, so you can hotlink, embed or fetch them from other apps.</p>
+    <div class="endpoints" id="endpoints"></div>
+<pre id="example"></pre>
+    <div class="roadmap">
+      <h2>Roadmap</h2>
+      <p id="roadmap"></p>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap">FreewareStock Lite: original illustrations, public domain (CC0). Images are generated from code in <code>scripts/art.py</code>.</div></footer>
+
+<dialog id="dlg" aria-labelledby="d-word">
+  <div class="detail">
+    <div class="pic">
+      <img id="d-img" alt="">
+      <button class="btn nav prev" id="d-prev" aria-label="Previous image">‹</button>
+      <button class="btn nav next" id="d-next" aria-label="Next image">›</button>
+    </div>
+    <div class="info" style="position:relative">
+      <button class="btn close" id="d-close" aria-label="Close">✕</button>
+      <div>
+        <h2><span id="d-word"></span> <span class="lvl" id="d-lvl"></span></h2>
+        <div class="cat" id="d-cat"></div>
+      </div>
+      <dl class="trs" id="d-trs"></dl>
+      <div class="tags" id="d-tags"></div>
+      <div class="actions">
+        <a class="btn primary" id="d-svg" download>⬇ SVG</a>
+        <a class="btn" id="d-png" download>⬇ PNG 512px</a>
+        <a class="btn" id="d-json" target="_blank" rel="noopener">{ } JSON</a>
+        <button class="btn" id="d-share">🔗 Share page</button>
+      </div>
+      <div class="links" id="d-links"></div>
+      <div class="license">License: CC0 1.0 (public domain). Free for personal, educational and commercial use, no attribution needed.</div>
+    </div>
+  </div>
+</dialog>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="data/manifest.js"></script>
+<script>
+(function () {
+  // Absolute CDN base for hotlinking from other sites/apps (served by jsDelivr from GitHub).
+  const REPO = 'profedominik/freewarestock-lite';
+  const BRANCH = 'main';
+  const CDN = `https://cdn.jsdelivr.net/gh/${REPO}@${BRANCH}/`;
+
+  const $ = (s) => document.querySelector(s);
+  const store = {
+    get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
+    set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} },
+  };
+
+  const DATA = window.FREEWARESTOCK;
+  if (!DATA) { $('#grid').innerHTML = '<p class="empty">Could not load data/manifest.js. Run <code>python3 scripts/build.py</code>.</p>'; return; }
+  const images = DATA.images;
+  const planned = DATA.planned || [];
+  const LEVELS = ['A0', 'A1', 'A2', 'B1'];
+  const state = { q: '', level: 'all', cat: 'all', lang: store.get('fs-lang') || '' };
+  let visible = [];
+  let current = -1;
+
+  const abs = (p) => new URL(p, location.href).href;
+  const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  const strip = (s) => s.replace(/^(el|la|los|las|le|les|l'|der|die|das)\s*/i, '');
+  images.forEach((it) => {
+    it._hay = norm([it.word, it.category, it.level, ...it.tags, ...Object.values(it.translations), ...Object.values(it.translations).map(strip)].join(' | '));
+  });
+
+  // ---------- filters
+  function chip(label, n, pressed, onClick) {
+    const b = document.createElement('button');
+    b.className = 'chip'; b.type = 'button';
+    b.setAttribute('aria-pressed', pressed);
+    b.innerHTML = `${label}${n != null ? `<span class="n">${n}</span>` : ''}`;
+    b.onclick = onClick;
+    return b;
+  }
+  function renderFilters() {
+    const lv = $('#levels'); lv.innerHTML = '';
+    lv.append(chip('All levels', images.length, state.level === 'all', () => setState({ level: 'all' })));
+    LEVELS.forEach((L) => {
+      const info = DATA.levels[L] || { available: 0, planned: 0 };
+      const label = info.available ? L : `${L} · planned`;
+      lv.append(chip(label, info.available || info.planned, state.level === L, () => setState({ level: L })));
+    });
+    const cats = $('#cats'); cats.innerHTML = '';
+    const pool = images.filter((i) => state.level === 'all' || i.level === state.level);
+    cats.append(chip('All topics', null, state.cat === 'all', () => setState({ cat: 'all' })));
+    DATA.categories.forEach((c) => {
+      const n = pool.filter((i) => i.category === c).length;
+      if (n) cats.append(chip(c[0].toUpperCase() + c.slice(1), n, state.cat === c, () => setState({ cat: c })));
+    });
+  }
+
+  // ---------- grid
+  function matches(it) {
+    if (state.level !== 'all' && it.level !== state.level) return false;
+    if (state.cat !== 'all' && it.category !== state.cat) return false;
+    if (!state.q) return true;
+    return norm(state.q).split(/\s+/).filter(Boolean).every((t) => it._hay.includes(t));
+  }
+  function renderGrid() {
+    visible = images.filter(matches);
+    const grid = $('#grid');
+    const frag = document.createDocumentFragment();
+    visible.forEach((it, idx) => {
+      const b = document.createElement('button');
+      b.className = 'card'; b.type = 'button';
+      b.setAttribute('aria-label', `${it.word}, level ${it.level}`);
+      const tr = state.lang ? it.translations[state.lang] : '';
+      b.innerHTML = `<img loading="lazy" src="${it.files.svg}" alt="${it.word}" width="512" height="512">
+        <div class="meta"><span class="word">${it.word}</span><span class="lvl ${it.level}">${it.level}</span></div>
+        ${tr ? `<div class="tr">${tr}</div>` : ''}`;
+      b.onclick = () => openDetail(idx);
+      frag.append(b);
+    });
+    // planned words (roadmap placeholders)
+    const showPlanned = (state.level === 'A2' || state.level === 'B1') && state.cat === 'all';
+    let plannedShown = 0;
+    if (showPlanned) {
+      planned.filter((p) => p.level === state.level && (!state.q || norm(p.word).includes(norm(state.q)))).forEach((p) => {
+        plannedShown++;
+        const d = document.createElement('div');
+        d.className = 'card planned';
+        d.innerHTML = `<div class="ph">coming soon</div><div class="meta"><span class="word">${p.word}</span><span class="lvl ${p.level}">${p.level}</span></div>`;
+        frag.append(d);
+      });
+    }
+    grid.innerHTML = '';
+    if (!visible.length && !plannedShown) grid.innerHTML = `<p class="empty">No images match “${escapeHtml(state.q)}”.</p>`;
+    grid.append(frag);
+    $('#status').textContent = showPlanned
+      ? `${plannedShown} planned ${state.level} words: illustrations coming in a later batch`
+      : `${visible.length} image${visible.length === 1 ? '' : 's'}${state.q ? ` for “${state.q}”` : ''}`;
+  }
+  function escapeHtml(s) { return s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
+
+  function setState(patch) {
+    Object.assign(state, patch);
+    renderFilters(); renderGrid();
+  }
+
+  // ---------- detail
+  const dlg = $('#dlg');
+  function linkRow(label, value) {
+    const row = document.createElement('div');
+    row.className = 'linkrow';
+    row.innerHTML = `<label>${label}</label><input readonly><button type="button">Copy</button>`;
+    row.querySelector('input').value = value;
+    row.querySelector('input').onfocus = (e) => e.target.select();
+    row.querySelector('button').onclick = () => copy(value, `${label} copied`);
+    return row;
+  }
+  function openDetail(idx) {
+    current = idx;
+    const it = visible[idx];
+    $('#d-img').src = it.files.svg; $('#d-img').alt = it.word;
+    $('#d-word').textContent = it.word;
+    const lvl = $('#d-lvl'); lvl.textContent = it.level; lvl.className = `lvl ${it.level}`;
+    $('#d-cat').textContent = `${it.category} · #${it.id}`;
+    const names = { es: 'Spanish', fr: 'French', de: 'German' };
+    $('#d-trs').innerHTML = Object.entries(it.translations).map(([k, v]) => `<dt title="${names[k]}">${k}</dt><dd>${v}</dd>`).join('');
+    $('#d-tags').innerHTML = it.tags.map((t) => `<span class="tag">${t}</span>`).join('');
+    $('#d-svg').href = it.files.svg; $('#d-svg').setAttribute('download', `${it.slug}.svg`);
+    $('#d-png').href = it.files.png; $('#d-png').setAttribute('download', `${it.slug}.png`);
+    $('#d-json').href = it.api;
+    const links = $('#d-links'); links.innerHTML = '';
+    const svgUrl = abs(it.files.svg), pngUrl = abs(it.files.png);
+    links.append(
+      linkRow('SVG URL', svgUrl),
+      linkRow('PNG URL', pngUrl),
+      linkRow('CDN', CDN + it.files.svg),
+      linkRow('HTML', `<img src="${svgUrl}" alt="${it.word}" width="256" height="256">`),
+      linkRow('Markdown', `![${it.word}](${pngUrl})`),
+    );
+    $('#d-prev').disabled = idx <= 0; $('#d-next').disabled = idx >= visible.length - 1;
+    if (location.hash !== `#${it.slug}`) history.replaceState(null, '', `#${it.slug}`);
+    if (!dlg.open) dlg.showModal();
+  }
+  function closeDetail() {
+    if (dlg.open) dlg.close();
+  }
+  dlg.addEventListener('close', () => { history.replaceState(null, '', location.pathname + location.search); });
+  dlg.addEventListener('click', (e) => { if (e.target === dlg) closeDetail(); });
+  $('#d-close').onclick = closeDetail;
+  $('#d-prev').onclick = () => current > 0 && openDetail(current - 1);
+  $('#d-next').onclick = () => current < visible.length - 1 && openDetail(current + 1);
+  $('#d-share').onclick = () => copy(location.href, 'Page link copied');
+
+  // ---------- copy + toast
+  let toastT;
+  function toast(msg) { const t = $('#toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(toastT); toastT = setTimeout(() => t.classList.remove('show'), 1600); }
+  async function copy(text, msg) {
+    try { await navigator.clipboard.writeText(text); }
+    catch (e) { const ta = document.createElement('textarea'); ta.value = text; document.body.append(ta); ta.select(); try { document.execCommand('copy'); } catch (_) {} ta.remove(); }
+    toast(msg);
+  }
+
+  // ---------- inputs
+  let qT;
+  $('#q').addEventListener('input', (e) => { clearTimeout(qT); qT = setTimeout(() => setState({ q: e.target.value.trim() }), 80); });
+  $('#lang').value = state.lang;
+  $('#lang').onchange = (e) => { store.set('fs-lang', e.target.value); setState({ lang: e.target.value }); };
+  $('#home').onclick = (e) => { e.preventDefault(); $('#q').value = ''; setState({ q: '', level: 'all', cat: 'all' }); window.scrollTo(0, 0); };
+  document.addEventListener('keydown', (e) => {
+    if (dlg.open) {
+      if (e.key === 'ArrowLeft') $('#d-prev').click();
+      if (e.key === 'ArrowRight') $('#d-next').click();
+      return;
+    }
+    if (e.key === '/' && document.activeElement !== $('#q')) { e.preventDefault(); $('#q').focus(); }
+  });
+
+  // theme
+  const savedTheme = store.get('fs-theme');
+  if (savedTheme) document.documentElement.dataset.theme = savedTheme;
+  $('#theme').onclick = () => {
+    const dark = document.documentElement.dataset.theme
+      ? document.documentElement.dataset.theme === 'dark'
+      : matchMedia('(prefers-color-scheme: dark)').matches;
+    const next = dark ? 'light' : 'dark';
+    document.documentElement.dataset.theme = next; store.set('fs-theme', next);
+  };
+
+  // ---------- developer section
+  const ex = images.find((i) => i.slug === 'dog') || images[0];
+  $('#endpoints').innerHTML = [
+    ['All images (JSON)', abs('api/v1/images.json')],
+    ['One image (JSON)', abs(ex.api)],
+    ['SVG file', abs(ex.files.svg)],
+    ['PNG file (512×512)', abs(ex.files.png)],
+    ['CDN (jsDelivr)', CDN + ex.files.svg],
+  ].map(([t, u]) => `<div class="endpoint"><b>${t}</b><code>${u}</code></div>`).join('');
+  $('#example').textContent =
+`// Fetch the catalogue and show every A0 word
+const res = await fetch('${abs('api/v1/images.json')}');
+const { images } = await res.json();
+images.filter(i => i.level === 'A0')
+      .forEach(i => console.log(i.word, new URL(i.files.svg, res.url).href));`;
+  const byLevel = (L) => planned.filter((p) => p.level === L).length;
+  $('#roadmap').innerHTML = `Done: <b>A0</b> (${DATA.levels.A0.available}) and <b>A1</b> (${DATA.levels.A1.available}) illustrated.
+    Next: <b>A2</b> (${byLevel('A2')} words planned) then <b>B1</b> (${byLevel('B1')} words planned).
+    Select a planned level above to see the word list.`;
+
+  $('#count').textContent = `${images.length} free images`;
+  renderFilters(); renderGrid();
+
+  // deep link: #dog or ?q=dog
+  const params = new URLSearchParams(location.search);
+  if (params.get('q')) { $('#q').value = params.get('q'); setState({ q: params.get('q') }); }
+  if (params.get('level')) setState({ level: params.get('level').toUpperCase() });
+  const slug = decodeURIComponent(location.hash.slice(1));
+  if (slug && slug !== 'developers') {
+    const idx = visible.findIndex((i) => i.slug === slug);
+    if (idx >= 0) openDetail(idx);
+  }
+})();
+</script>
+</body>
+</html>

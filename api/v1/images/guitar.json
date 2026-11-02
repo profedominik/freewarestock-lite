@@ -1,0 +1,25 @@
+{
+  "id": 97,
+  "word": "guitar",
+  "slug": "guitar",
+  "level": "A1",
+  "category": "things",
+  "translations": {
+    "es": "la guitarra",
+    "fr": "la guitare",
+    "de": "die Gitarre"
+  },
+  "tags": [
+    "music",
+    "instrument"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/guitar.svg",
+    "png": "images/png/guitar.png"
+  },
+  "api": "api/v1/images/guitar.json"
+}

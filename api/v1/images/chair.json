@@ -1,0 +1,25 @@
+{
+  "id": 10,
+  "word": "chair",
+  "slug": "chair",
+  "level": "A0",
+  "category": "home",
+  "translations": {
+    "es": "la silla",
+    "fr": "la chaise",
+    "de": "der Stuhl"
+  },
+  "tags": [
+    "seat",
+    "furniture"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/chair.svg",
+    "png": "images/png/chair.png"
+  },
+  "api": "api/v1/images/chair.json"
+}

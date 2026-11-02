@@ -1,0 +1,25 @@
+{
+  "id": 89,
+  "word": "motorbike",
+  "slug": "motorbike",
+  "level": "A1",
+  "category": "transport",
+  "translations": {
+    "es": "la moto",
+    "fr": "la moto",
+    "de": "das Motorrad"
+  },
+  "tags": [
+    "motorcycle",
+    "vehicle"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/motorbike.svg",
+    "png": "images/png/motorbike.png"
+  },
+  "api": "api/v1/images/motorbike.json"
+}

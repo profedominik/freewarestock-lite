@@ -1,0 +1,25 @@
+{
+  "id": 90,
+  "word": "nose",
+  "slug": "nose",
+  "level": "A1",
+  "category": "body",
+  "translations": {
+    "es": "la nariz",
+    "fr": "le nez",
+    "de": "die Nase"
+  },
+  "tags": [
+    "face",
+    "smell"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/nose.svg",
+    "png": "images/png/nose.png"
+  },
+  "api": "api/v1/images/nose.json"
+}

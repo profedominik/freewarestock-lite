@@ -1,0 +1,24 @@
+{
+  "id": 96,
+  "word": "scissors",
+  "slug": "scissors",
+  "level": "A1",
+  "category": "school",
+  "translations": {
+    "es": "las tijeras",
+    "fr": "les ciseaux",
+    "de": "die Schere"
+  },
+  "tags": [
+    "cut"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/scissors.svg",
+    "png": "images/png/scissors.png"
+  },
+  "api": "api/v1/images/scissors.json"
+}

@@ -1,0 +1,25 @@
+{
+  "id": 20,
+  "word": "cat",
+  "slug": "cat",
+  "level": "A0",
+  "category": "animals",
+  "translations": {
+    "es": "el gato",
+    "fr": "le chat",
+    "de": "die Katze"
+  },
+  "tags": [
+    "pet",
+    "kitten"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/cat.svg",
+    "png": "images/png/cat.png"
+  },
+  "api": "api/v1/images/cat.json"
+}

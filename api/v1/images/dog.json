@@ -1,0 +1,25 @@
+{
+  "id": 19,
+  "word": "dog",
+  "slug": "dog",
+  "level": "A0",
+  "category": "animals",
+  "translations": {
+    "es": "el perro",
+    "fr": "le chien",
+    "de": "der Hund"
+  },
+  "tags": [
+    "pet",
+    "puppy"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/dog.svg",
+    "png": "images/png/dog.png"
+  },
+  "api": "api/v1/images/dog.json"
+}

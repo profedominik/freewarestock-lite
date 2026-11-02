@@ -1,0 +1,26 @@
+{
+  "id": 16,
+  "word": "boat",
+  "slug": "boat",
+  "level": "A0",
+  "category": "transport",
+  "translations": {
+    "es": "el barco",
+    "fr": "le bateau",
+    "de": "das Boot"
+  },
+  "tags": [
+    "sailboat",
+    "ship",
+    "sea"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/boat.svg",
+    "png": "images/png/boat.png"
+  },
+  "api": "api/v1/images/boat.json"
+}

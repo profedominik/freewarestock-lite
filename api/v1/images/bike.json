@@ -1,0 +1,25 @@
+{
+  "id": 15,
+  "word": "bike",
+  "slug": "bike",
+  "level": "A0",
+  "category": "transport",
+  "translations": {
+    "es": "la bicicleta",
+    "fr": "le vélo",
+    "de": "das Fahrrad"
+  },
+  "tags": [
+    "bicycle",
+    "cycle"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/bike.svg",
+    "png": "images/png/bike.png"
+  },
+  "api": "api/v1/images/bike.json"
+}

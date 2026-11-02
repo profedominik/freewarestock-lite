@@ -1,0 +1,24 @@
+{
+  "id": 7,
+  "word": "door",
+  "slug": "door",
+  "level": "A0",
+  "category": "home",
+  "translations": {
+    "es": "la puerta",
+    "fr": "la porte",
+    "de": "die Tür"
+  },
+  "tags": [
+    "entrance"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/door.svg",
+    "png": "images/png/door.png"
+  },
+  "api": "api/v1/images/door.json"
+}

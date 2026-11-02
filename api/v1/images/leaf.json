@@ -1,0 +1,26 @@
+{
+  "id": 85,
+  "word": "leaf",
+  "slug": "leaf",
+  "level": "A1",
+  "category": "nature",
+  "translations": {
+    "es": "la hoja",
+    "fr": "la feuille",
+    "de": "das Blatt"
+  },
+  "tags": [
+    "tree",
+    "plant",
+    "autumn"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/leaf.svg",
+    "png": "images/png/leaf.png"
+  },
+  "api": "api/v1/images/leaf.json"
+}

@@ -1,0 +1,3248 @@
+{
+  "name": "FreewareStock Lite",
+  "description": "Free (CC0) illustrations of basic vocabulary for language learning.",
+  "version": 1,
+  "license": {
+    "id": "CC0-1.0",
+    "name": "Creative Commons Zero v1.0 Universal (public domain)",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "count": 100,
+  "levels": {
+    "A0": {
+      "available": 50,
+      "planned": 0
+    },
+    "A1": {
+      "available": 50,
+      "planned": 0
+    },
+    "A2": {
+      "available": 0,
+      "planned": 86
+    },
+    "B1": {
+      "available": 0,
+      "planned": 30
+    }
+  },
+  "categories": [
+    "animals",
+    "body",
+    "clothes",
+    "food",
+    "home",
+    "nature",
+    "people",
+    "school",
+    "things",
+    "transport"
+  ],
+  "images": [
+    {
+      "id": 1,
+      "word": "boy",
+      "slug": "boy",
+      "level": "A0",
+      "category": "people",
+      "translations": {
+        "es": "el niño",
+        "fr": "le garçon",
+        "de": "der Junge"
+      },
+      "tags": [
+        "child",
+        "kid",
+        "son"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/boy.svg",
+        "png": "images/png/boy.png"
+      },
+      "api": "api/v1/images/boy.json"
+    },
+    {
+      "id": 2,
+      "word": "girl",
+      "slug": "girl",
+      "level": "A0",
+      "category": "people",
+      "translations": {
+        "es": "la niña",
+        "fr": "la fille",
+        "de": "das Mädchen"
+      },
+      "tags": [
+        "child",
+        "kid",
+        "daughter"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/girl.svg",
+        "png": "images/png/girl.png"
+      },
+      "api": "api/v1/images/girl.json"
+    },
+    {
+      "id": 3,
+      "word": "man",
+      "slug": "man",
+      "level": "A0",
+      "category": "people",
+      "translations": {
+        "es": "el hombre",
+        "fr": "l'homme",
+        "de": "der Mann"
+      },
+      "tags": [
+        "adult",
+        "father",
+        "dad",
+        "person"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/man.svg",
+        "png": "images/png/man.png"
+      },
+      "api": "api/v1/images/man.json"
+    },
+    {
+      "id": 4,
+      "word": "woman",
+      "slug": "woman",
+      "level": "A0",
+      "category": "people",
+      "translations": {
+        "es": "la mujer",
+        "fr": "la femme",
+        "de": "die Frau"
+      },
+      "tags": [
+        "adult",
+        "mother",
+        "mum",
+        "mom",
+        "person"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/woman.svg",
+        "png": "images/png/woman.png"
+      },
+      "api": "api/v1/images/woman.json"
+    },
+    {
+      "id": 5,
+      "word": "baby",
+      "slug": "baby",
+      "level": "A0",
+      "category": "people",
+      "translations": {
+        "es": "el bebé",
+        "fr": "le bébé",
+        "de": "das Baby"
+      },
+      "tags": [
+        "infant",
+        "child"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/baby.svg",
+        "png": "images/png/baby.png"
+      },
+      "api": "api/v1/images/baby.json"
+    },
+    {
+      "id": 6,
+      "word": "house",
+      "slug": "house",
+      "level": "A0",
+      "category": "home",
+      "translations": {
+        "es": "la casa",
+        "fr": "la maison",
+        "de": "das Haus"
+      },
+      "tags": [
+        "home",
+        "building"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/house.svg",
+        "png": "images/png/house.png"
+      },
+      "api": "api/v1/images/house.json"
+    },
+    {
+      "id": 7,
+      "word": "door",
+      "slug": "door",
+      "level": "A0",
+      "category": "home",
+      "translations": {
+        "es": "la puerta",
+        "fr": "la porte",
+        "de": "die Tür"
+      },
+      "tags": [
+        "entrance"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/door.svg",
+        "png": "images/png/door.png"
+      },
+      "api": "api/v1/images/door.json"
+    },
+    {
+      "id": 8,
+      "word": "window",
+      "slug": "window",
+      "level": "A0",
+      "category": "home",
+      "translations": {
+        "es": "la ventana",
+        "fr": "la fenêtre",
+        "de": "das Fenster"
+      },
+      "tags": [
+        "glass"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/window.svg",
+        "png": "images/png/window.png"
+      },
+      "api": "api/v1/images/window.json"
+    },
+    {
+      "id": 9,
+      "word": "bed",
+      "slug": "bed",
+      "level": "A0",
+      "category": "home",
+      "translations": {
+        "es": "la cama",
+        "fr": "le lit",
+        "de": "das Bett"
+      },
+      "tags": [
+        "sleep",
+        "bedroom"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/bed.svg",
+        "png": "images/png/bed.png"
+      },
+      "api": "api/v1/images/bed.json"
+    },
+    {
+      "id": 10,
+      "word": "chair",
+      "slug": "chair",
+      "level": "A0",
+      "category": "home",
+      "translations": {
+        "es": "la silla",
+        "fr": "la chaise",
+        "de": "der Stuhl"
+      },
+      "tags": [
+        "seat",
+        "furniture"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/chair.svg",
+        "png": "images/png/chair.png"
+      },
+      "api": "api/v1/images/chair.json"
+    },
+    {
+      "id": 11,
+      "word": "table",
+      "slug": "table",
+      "level": "A0",
+      "category": "home",
+      "translations": {
+        "es": "la mesa",
+        "fr": "la table",
+        "de": "der Tisch"
+      },
+      "tags": [
+        "furniture",
+        "desk"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/table.svg",
+        "png": "images/png/table.png"
+      },
+      "api": "api/v1/images/table.json"
+    },
+    {
+      "id": 12,
+      "word": "lamp",
+      "slug": "lamp",
+      "level": "A0",
+      "category": "home",
+      "translations": {
+        "es": "la lámpara",
+        "fr": "la lampe",
+        "de": "die Lampe"
+      },
+      "tags": [
+        "light"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/lamp.svg",
+        "png": "images/png/lamp.png"
+      },
+      "api": "api/v1/images/lamp.json"
+    },
+    {
+      "id": 13,
+      "word": "car",
+      "slug": "car",
+      "level": "A0",
+      "category": "transport",
+      "translations": {
+        "es": "el coche",
+        "fr": "la voiture",
+        "de": "das Auto"
+      },
+      "tags": [
+        "vehicle",
+        "automobile"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/car.svg",
+        "png": "images/png/car.png"
+      },
+      "api": "api/v1/images/car.json"
+    },
+    {
+      "id": 14,
+      "word": "bus",
+      "slug": "bus",
+      "level": "A0",
+      "category": "transport",
+      "translations": {
+        "es": "el autobús",
+        "fr": "le bus",
+        "de": "der Bus"
+      },
+      "tags": [
+        "vehicle",
+        "public transport"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/bus.svg",
+        "png": "images/png/bus.png"
+      },
+      "api": "api/v1/images/bus.json"
+    },
+    {
+      "id": 15,
+      "word": "bike",
+      "slug": "bike",
+      "level": "A0",
+      "category": "transport",
+      "translations": {
+        "es": "la bicicleta",
+        "fr": "le vélo",
+        "de": "das Fahrrad"
+      },
+      "tags": [
+        "bicycle",
+        "cycle"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/bike.svg",
+        "png": "images/png/bike.png"
+      },
+      "api": "api/v1/images/bike.json"
+    },
+    {
+      "id": 16,
+      "word": "boat",
+      "slug": "boat",
+      "level": "A0",
+      "category": "transport",
+      "translations": {
+        "es": "el barco",
+        "fr": "le bateau",
+        "de": "das Boot"
+      },
+      "tags": [
+        "sailboat",
+        "ship",
+        "sea"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/boat.svg",
+        "png": "images/png/boat.png"
+      },
+      "api": "api/v1/images/boat.json"
+    },
+    {
+      "id": 17,
+      "word": "train",
+      "slug": "train",
+      "level": "A0",
+      "category": "transport",
+      "translations": {
+        "es": "el tren",
+        "fr": "le train",
+        "de": "der Zug"
+      },
+      "tags": [
+        "railway",
+        "locomotive"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/train.svg",
+        "png": "images/png/train.png"
+      },
+      "api": "api/v1/images/train.json"
+    },
+    {
+      "id": 18,
+      "word": "plane",
+      "slug": "plane",
+      "level": "A0",
+      "category": "transport",
+      "translations": {
+        "es": "el avión",
+        "fr": "l'avion",
+        "de": "das Flugzeug"
+      },
+      "tags": [
+        "airplane",
+        "aeroplane",
+        "aircraft",
+        "fly"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/plane.svg",
+        "png": "images/png/plane.png"
+      },
+      "api": "api/v1/images/plane.json"
+    },
+    {
+      "id": 19,
+      "word": "dog",
+      "slug": "dog",
+      "level": "A0",
+      "category": "animals",
+      "translations": {
+        "es": "el perro",
+        "fr": "le chien",
+        "de": "der Hund"
+      },
+      "tags": [
+        "pet",
+        "puppy"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/dog.svg",
+        "png": "images/png/dog.png"
+      },
+      "api": "api/v1/images/dog.json"
+    },
+    {
+      "id": 20,
+      "word": "cat",
+      "slug": "cat",
+      "level": "A0",
+      "category": "animals",
+      "translations": {
+        "es": "el gato",
+        "fr": "le chat",
+        "de": "die Katze"
+      },
+      "tags": [
+        "pet",
+        "kitten"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/cat.svg",
+        "png": "images/png/cat.png"
+      },
+      "api": "api/v1/images/cat.json"
+    },
+    {
+      "id": 21,
+      "word": "bird",
+      "slug": "bird",
+      "level": "A0",
+      "category": "animals",
+      "translations": {
+        "es": "el pájaro",
+        "fr": "l'oiseau",
+        "de": "der Vogel"
+      },
+      "tags": [
+        "fly"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/bird.svg",
+        "png": "images/png/bird.png"
+      },
+      "api": "api/v1/images/bird.json"
+    },
+    {
+      "id": 22,
+      "word": "fish",
+      "slug": "fish",
+      "level": "A0",
+      "category": "animals",
+      "translations": {
+        "es": "el pez",
+        "fr": "le poisson",
+        "de": "der Fisch"
+      },
+      "tags": [
+        "sea",
+        "water"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/fish.svg",
+        "png": "images/png/fish.png"
+      },
+      "api": "api/v1/images/fish.json"
+    },
+    {
+      "id": 23,
+      "word": "horse",
+      "slug": "horse",
+      "level": "A0",
+      "category": "animals",
+      "translations": {
+        "es": "el caballo",
+        "fr": "le cheval",
+        "de": "das Pferd"
+      },
+      "tags": [
+        "farm",
+        "pony"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/horse.svg",
+        "png": "images/png/horse.png"
+      },
+      "api": "api/v1/images/horse.json"
+    },
+    {
+      "id": 24,
+      "word": "cow",
+      "slug": "cow",
+      "level": "A0",
+      "category": "animals",
+      "translations": {
+        "es": "la vaca",
+        "fr": "la vache",
+        "de": "die Kuh"
+      },
+      "tags": [
+        "farm",
+        "milk"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/cow.svg",
+        "png": "images/png/cow.png"
+      },
+      "api": "api/v1/images/cow.json"
+    },
+    {
+      "id": 25,
+      "word": "apple",
+      "slug": "apple",
+      "level": "A0",
+      "category": "food",
+      "translations": {
+        "es": "la manzana",
+        "fr": "la pomme",
+        "de": "der Apfel"
+      },
+      "tags": [
+        "fruit"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/apple.svg",
+        "png": "images/png/apple.png"
+      },
+      "api": "api/v1/images/apple.json"
+    },
+    {
+      "id": 26,
+      "word": "banana",
+      "slug": "banana",
+      "level": "A0",
+      "category": "food",
+      "translations": {
+        "es": "el plátano",
+        "fr": "la banane",
+        "de": "die Banane"
+      },
+      "tags": [
+        "fruit"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/banana.svg",
+        "png": "images/png/banana.png"
+      },
+      "api": "api/v1/images/banana.json"
+    },
+    {
+      "id": 27,
+      "word": "bread",
+      "slug": "bread",
+      "level": "A0",
+      "category": "food",
+      "translations": {
+        "es": "el pan",
+        "fr": "le pain",
+        "de": "das Brot"
+      },
+      "tags": [
+        "loaf",
+        "bakery"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/bread.svg",
+        "png": "images/png/bread.png"
+      },
+      "api": "api/v1/images/bread.json"
+    },
+    {
+      "id": 28,
+      "word": "egg",
+      "slug": "egg",
+      "level": "A0",
+      "category": "food",
+      "translations": {
+        "es": "el huevo",
+        "fr": "l'œuf",
+        "de": "das Ei"
+      },
+      "tags": [
+        "breakfast"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/egg.svg",
+        "png": "images/png/egg.png"
+      },
+      "api": "api/v1/images/egg.json"
+    },
+    {
+      "id": 29,
+      "word": "milk",
+      "slug": "milk",
+      "level": "A0",
+      "category": "food",
+      "translations": {
+        "es": "la leche",
+        "fr": "le lait",
+        "de": "die Milch"
+      },
+      "tags": [
+        "drink"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/milk.svg",
+        "png": "images/png/milk.png"
+      },
+      "api": "api/v1/images/milk.json"
+    },
+    {
+      "id": 30,
+      "word": "water",
+      "slug": "water",
+      "level": "A0",
+      "category": "food",
+      "translations": {
+        "es": "el agua",
+        "fr": "l'eau",
+        "de": "das Wasser"
+      },
+      "tags": [
+        "drink",
+        "glass"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/water.svg",
+        "png": "images/png/water.png"
+      },
+      "api": "api/v1/images/water.json"
+    },
+    {
+      "id": 31,
+      "word": "cake",
+      "slug": "cake",
+      "level": "A0",
+      "category": "food",
+      "translations": {
+        "es": "el pastel",
+        "fr": "le gâteau",
+        "de": "der Kuchen"
+      },
+      "tags": [
+        "birthday",
+        "dessert"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/cake.svg",
+        "png": "images/png/cake.png"
+      },
+      "api": "api/v1/images/cake.json"
+    },
+    {
+      "id": 32,
+      "word": "sun",
+      "slug": "sun",
+      "level": "A0",
+      "category": "nature",
+      "translations": {
+        "es": "el sol",
+        "fr": "le soleil",
+        "de": "die Sonne"
+      },
+      "tags": [
+        "sky",
+        "weather",
+        "day"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/sun.svg",
+        "png": "images/png/sun.png"
+      },
+      "api": "api/v1/images/sun.json"
+    },
+    {
+      "id": 33,
+      "word": "moon",
+      "slug": "moon",
+      "level": "A0",
+      "category": "nature",
+      "translations": {
+        "es": "la luna",
+        "fr": "la lune",
+        "de": "der Mond"
+      },
+      "tags": [
+        "night",
+        "sky"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/moon.svg",
+        "png": "images/png/moon.png"
+      },
+      "api": "api/v1/images/moon.json"
+    },
+    {
+      "id": 34,
+      "word": "star",
+      "slug": "star",
+      "level": "A0",
+      "category": "nature",
+      "translations": {
+        "es": "la estrella",
+        "fr": "l'étoile",
+        "de": "der Stern"
+      },
+      "tags": [
+        "night",
+        "sky"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/star.svg",
+        "png": "images/png/star.png"
+      },
+      "api": "api/v1/images/star.json"
+    },
+    {
+      "id": 35,
+      "word": "tree",
+      "slug": "tree",
+      "level": "A0",
+      "category": "nature",
+      "translations": {
+        "es": "el árbol",
+        "fr": "l'arbre",
+        "de": "der Baum"
+      },
+      "tags": [
+        "plant",
+        "forest"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/tree.svg",
+        "png": "images/png/tree.png"
+      },
+      "api": "api/v1/images/tree.json"
+    },
+    {
+      "id": 36,
+      "word": "flower",
+      "slug": "flower",
+      "level": "A0",
+      "category": "nature",
+      "translations": {
+        "es": "la flor",
+        "fr": "la fleur",
+        "de": "die Blume"
+      },
+      "tags": [
+        "plant",
+        "garden"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/flower.svg",
+        "png": "images/png/flower.png"
+      },
+      "api": "api/v1/images/flower.json"
+    },
+    {
+      "id": 37,
+      "word": "cloud",
+      "slug": "cloud",
+      "level": "A0",
+      "category": "nature",
+      "translations": {
+        "es": "la nube",
+        "fr": "le nuage",
+        "de": "die Wolke"
+      },
+      "tags": [
+        "sky",
+        "weather"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/cloud.svg",
+        "png": "images/png/cloud.png"
+      },
+      "api": "api/v1/images/cloud.json"
+    },
+    {
+      "id": 38,
+      "word": "ball",
+      "slug": "ball",
+      "level": "A0",
+      "category": "things",
+      "translations": {
+        "es": "la pelota",
+        "fr": "le ballon",
+        "de": "der Ball"
+      },
+      "tags": [
+        "toy",
+        "play",
+        "sport"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/ball.svg",
+        "png": "images/png/ball.png"
+      },
+      "api": "api/v1/images/ball.json"
+    },
+    {
+      "id": 39,
+      "word": "book",
+      "slug": "book",
+      "level": "A0",
+      "category": "school",
+      "translations": {
+        "es": "el libro",
+        "fr": "le livre",
+        "de": "das Buch"
+      },
+      "tags": [
+        "read",
+        "school"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/book.svg",
+        "png": "images/png/book.png"
+      },
+      "api": "api/v1/images/book.json"
+    },
+    {
+      "id": 40,
+      "word": "pen",
+      "slug": "pen",
+      "level": "A0",
+      "category": "school",
+      "translations": {
+        "es": "el bolígrafo",
+        "fr": "le stylo",
+        "de": "der Kuli"
+      },
+      "tags": [
+        "write",
+        "school",
+        "ballpoint"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/pen.svg",
+        "png": "images/png/pen.png"
+      },
+      "api": "api/v1/images/pen.json"
+    },
+    {
+      "id": 41,
+      "word": "phone",
+      "slug": "phone",
+      "level": "A0",
+      "category": "things",
+      "translations": {
+        "es": "el teléfono",
+        "fr": "le téléphone",
+        "de": "das Handy"
+      },
+      "tags": [
+        "mobile",
+        "smartphone",
+        "cell"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/phone.svg",
+        "png": "images/png/phone.png"
+      },
+      "api": "api/v1/images/phone.json"
+    },
+    {
+      "id": 42,
+      "word": "cup",
+      "slug": "cup",
+      "level": "A0",
+      "category": "things",
+      "translations": {
+        "es": "la taza",
+        "fr": "la tasse",
+        "de": "die Tasse"
+      },
+      "tags": [
+        "mug",
+        "coffee",
+        "tea"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/cup.svg",
+        "png": "images/png/cup.png"
+      },
+      "api": "api/v1/images/cup.json"
+    },
+    {
+      "id": 43,
+      "word": "key",
+      "slug": "key",
+      "level": "A0",
+      "category": "things",
+      "translations": {
+        "es": "la llave",
+        "fr": "la clé",
+        "de": "der Schlüssel"
+      },
+      "tags": [
+        "lock",
+        "door"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/key.svg",
+        "png": "images/png/key.png"
+      },
+      "api": "api/v1/images/key.json"
+    },
+    {
+      "id": 44,
+      "word": "bag",
+      "slug": "bag",
+      "level": "A0",
+      "category": "things",
+      "translations": {
+        "es": "el bolso",
+        "fr": "le sac",
+        "de": "die Tasche"
+      },
+      "tags": [
+        "handbag",
+        "purse"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/bag.svg",
+        "png": "images/png/bag.png"
+      },
+      "api": "api/v1/images/bag.json"
+    },
+    {
+      "id": 45,
+      "word": "clock",
+      "slug": "clock",
+      "level": "A0",
+      "category": "things",
+      "translations": {
+        "es": "el reloj",
+        "fr": "l'horloge",
+        "de": "die Uhr"
+      },
+      "tags": [
+        "time"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/clock.svg",
+        "png": "images/png/clock.png"
+      },
+      "api": "api/v1/images/clock.json"
+    },
+    {
+      "id": 46,
+      "word": "hat",
+      "slug": "hat",
+      "level": "A0",
+      "category": "clothes",
+      "translations": {
+        "es": "el sombrero",
+        "fr": "le chapeau",
+        "de": "der Hut"
+      },
+      "tags": [
+        "sun hat"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/hat.svg",
+        "png": "images/png/hat.png"
+      },
+      "api": "api/v1/images/hat.json"
+    },
+    {
+      "id": 47,
+      "word": "shoe",
+      "slug": "shoe",
+      "level": "A0",
+      "category": "clothes",
+      "translations": {
+        "es": "el zapato",
+        "fr": "la chaussure",
+        "de": "der Schuh"
+      },
+      "tags": [
+        "sneaker",
+        "trainer"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/shoe.svg",
+        "png": "images/png/shoe.png"
+      },
+      "api": "api/v1/images/shoe.json"
+    },
+    {
+      "id": 48,
+      "word": "shirt",
+      "slug": "shirt",
+      "level": "A0",
+      "category": "clothes",
+      "translations": {
+        "es": "la camiseta",
+        "fr": "le t-shirt",
+        "de": "das T-Shirt"
+      },
+      "tags": [
+        "t-shirt",
+        "top",
+        "tee"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/shirt.svg",
+        "png": "images/png/shirt.png"
+      },
+      "api": "api/v1/images/shirt.json"
+    },
+    {
+      "id": 49,
+      "word": "hand",
+      "slug": "hand",
+      "level": "A0",
+      "category": "body",
+      "translations": {
+        "es": "la mano",
+        "fr": "la main",
+        "de": "die Hand"
+      },
+      "tags": [
+        "fingers"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/hand.svg",
+        "png": "images/png/hand.png"
+      },
+      "api": "api/v1/images/hand.json"
+    },
+    {
+      "id": 50,
+      "word": "eye",
+      "slug": "eye",
+      "level": "A0",
+      "category": "body",
+      "translations": {
+        "es": "el ojo",
+        "fr": "l'œil",
+        "de": "das Auge"
+      },
+      "tags": [
+        "see",
+        "look"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/eye.svg",
+        "png": "images/png/eye.png"
+      },
+      "api": "api/v1/images/eye.json"
+    },
+    {
+      "id": 51,
+      "word": "pig",
+      "slug": "pig",
+      "level": "A1",
+      "category": "animals",
+      "translations": {
+        "es": "el cerdo",
+        "fr": "le cochon",
+        "de": "das Schwein"
+      },
+      "tags": [
+        "farm"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/pig.svg",
+        "png": "images/png/pig.png"
+      },
+      "api": "api/v1/images/pig.json"
+    },
+    {
+      "id": 52,
+      "word": "sheep",
+      "slug": "sheep",
+      "level": "A1",
+      "category": "animals",
+      "translations": {
+        "es": "la oveja",
+        "fr": "le mouton",
+        "de": "das Schaf"
+      },
+      "tags": [
+        "farm",
+        "wool",
+        "lamb"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/sheep.svg",
+        "png": "images/png/sheep.png"
+      },
+      "api": "api/v1/images/sheep.json"
+    },
+    {
+      "id": 53,
+      "word": "duck",
+      "slug": "duck",
+      "level": "A1",
+      "category": "animals",
+      "translations": {
+        "es": "el pato",
+        "fr": "le canard",
+        "de": "die Ente"
+      },
+      "tags": [
+        "bird",
+        "pond"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/duck.svg",
+        "png": "images/png/duck.png"
+      },
+      "api": "api/v1/images/duck.json"
+    },
+    {
+      "id": 54,
+      "word": "rabbit",
+      "slug": "rabbit",
+      "level": "A1",
+      "category": "animals",
+      "translations": {
+        "es": "el conejo",
+        "fr": "le lapin",
+        "de": "das Kaninchen"
+      },
+      "tags": [
+        "bunny",
+        "pet"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/rabbit.svg",
+        "png": "images/png/rabbit.png"
+      },
+      "api": "api/v1/images/rabbit.json"
+    },
+    {
+      "id": 55,
+      "word": "elephant",
+      "slug": "elephant",
+      "level": "A1",
+      "category": "animals",
+      "translations": {
+        "es": "el elefante",
+        "fr": "l'éléphant",
+        "de": "der Elefant"
+      },
+      "tags": [
+        "zoo",
+        "africa"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/elephant.svg",
+        "png": "images/png/elephant.png"
+      },
+      "api": "api/v1/images/elephant.json"
+    },
+    {
+      "id": 56,
+      "word": "lion",
+      "slug": "lion",
+      "level": "A1",
+      "category": "animals",
+      "translations": {
+        "es": "el león",
+        "fr": "le lion",
+        "de": "der Löwe"
+      },
+      "tags": [
+        "zoo",
+        "cat",
+        "africa"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/lion.svg",
+        "png": "images/png/lion.png"
+      },
+      "api": "api/v1/images/lion.json"
+    },
+    {
+      "id": 57,
+      "word": "frog",
+      "slug": "frog",
+      "level": "A1",
+      "category": "animals",
+      "translations": {
+        "es": "la rana",
+        "fr": "la grenouille",
+        "de": "der Frosch"
+      },
+      "tags": [
+        "pond",
+        "green"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/frog.svg",
+        "png": "images/png/frog.png"
+      },
+      "api": "api/v1/images/frog.json"
+    },
+    {
+      "id": 58,
+      "word": "butterfly",
+      "slug": "butterfly",
+      "level": "A1",
+      "category": "animals",
+      "translations": {
+        "es": "la mariposa",
+        "fr": "le papillon",
+        "de": "der Schmetterling"
+      },
+      "tags": [
+        "insect",
+        "fly"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/butterfly.svg",
+        "png": "images/png/butterfly.png"
+      },
+      "api": "api/v1/images/butterfly.json"
+    },
+    {
+      "id": 59,
+      "word": "orange",
+      "slug": "orange",
+      "level": "A1",
+      "category": "food",
+      "translations": {
+        "es": "la naranja",
+        "fr": "l'orange",
+        "de": "die Orange"
+      },
+      "tags": [
+        "fruit",
+        "citrus"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/orange.svg",
+        "png": "images/png/orange.png"
+      },
+      "api": "api/v1/images/orange.json"
+    },
+    {
+      "id": 60,
+      "word": "carrot",
+      "slug": "carrot",
+      "level": "A1",
+      "category": "food",
+      "translations": {
+        "es": "la zanahoria",
+        "fr": "la carotte",
+        "de": "die Karotte"
+      },
+      "tags": [
+        "vegetable"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/carrot.svg",
+        "png": "images/png/carrot.png"
+      },
+      "api": "api/v1/images/carrot.json"
+    },
+    {
+      "id": 61,
+      "word": "tomato",
+      "slug": "tomato",
+      "level": "A1",
+      "category": "food",
+      "translations": {
+        "es": "el tomate",
+        "fr": "la tomate",
+        "de": "die Tomate"
+      },
+      "tags": [
+        "vegetable",
+        "fruit"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/tomato.svg",
+        "png": "images/png/tomato.png"
+      },
+      "api": "api/v1/images/tomato.json"
+    },
+    {
+      "id": 62,
+      "word": "cheese",
+      "slug": "cheese",
+      "level": "A1",
+      "category": "food",
+      "translations": {
+        "es": "el queso",
+        "fr": "le fromage",
+        "de": "der Käse"
+      },
+      "tags": [
+        "dairy"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/cheese.svg",
+        "png": "images/png/cheese.png"
+      },
+      "api": "api/v1/images/cheese.json"
+    },
+    {
+      "id": 63,
+      "word": "pizza",
+      "slug": "pizza",
+      "level": "A1",
+      "category": "food",
+      "translations": {
+        "es": "la pizza",
+        "fr": "la pizza",
+        "de": "die Pizza"
+      },
+      "tags": [
+        "italian",
+        "dinner"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/pizza.svg",
+        "png": "images/png/pizza.png"
+      },
+      "api": "api/v1/images/pizza.json"
+    },
+    {
+      "id": 64,
+      "word": "ice cream",
+      "slug": "ice-cream",
+      "level": "A1",
+      "category": "food",
+      "translations": {
+        "es": "el helado",
+        "fr": "la glace",
+        "de": "das Eis"
+      },
+      "tags": [
+        "dessert",
+        "summer",
+        "cone"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/ice-cream.svg",
+        "png": "images/png/ice-cream.png"
+      },
+      "api": "api/v1/images/ice-cream.json"
+    },
+    {
+      "id": 65,
+      "word": "grapes",
+      "slug": "grapes",
+      "level": "A1",
+      "category": "food",
+      "translations": {
+        "es": "las uvas",
+        "fr": "le raisin",
+        "de": "die Trauben"
+      },
+      "tags": [
+        "fruit",
+        "grape"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/grapes.svg",
+        "png": "images/png/grapes.png"
+      },
+      "api": "api/v1/images/grapes.json"
+    },
+    {
+      "id": 66,
+      "word": "strawberry",
+      "slug": "strawberry",
+      "level": "A1",
+      "category": "food",
+      "translations": {
+        "es": "la fresa",
+        "fr": "la fraise",
+        "de": "die Erdbeere"
+      },
+      "tags": [
+        "fruit",
+        "berry"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/strawberry.svg",
+        "png": "images/png/strawberry.png"
+      },
+      "api": "api/v1/images/strawberry.json"
+    },
+    {
+      "id": 67,
+      "word": "sofa",
+      "slug": "sofa",
+      "level": "A1",
+      "category": "home",
+      "translations": {
+        "es": "el sofá",
+        "fr": "le canapé",
+        "de": "das Sofa"
+      },
+      "tags": [
+        "couch",
+        "furniture"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/sofa.svg",
+        "png": "images/png/sofa.png"
+      },
+      "api": "api/v1/images/sofa.json"
+    },
+    {
+      "id": 68,
+      "word": "television",
+      "slug": "television",
+      "level": "A1",
+      "category": "home",
+      "translations": {
+        "es": "la televisión",
+        "fr": "la télévision",
+        "de": "der Fernseher"
+      },
+      "tags": [
+        "tv",
+        "screen"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/television.svg",
+        "png": "images/png/television.png"
+      },
+      "api": "api/v1/images/television.json"
+    },
+    {
+      "id": 69,
+      "word": "computer",
+      "slug": "computer",
+      "level": "A1",
+      "category": "home",
+      "translations": {
+        "es": "el ordenador",
+        "fr": "l'ordinateur",
+        "de": "der Computer"
+      },
+      "tags": [
+        "laptop",
+        "pc"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/computer.svg",
+        "png": "images/png/computer.png"
+      },
+      "api": "api/v1/images/computer.json"
+    },
+    {
+      "id": 70,
+      "word": "umbrella",
+      "slug": "umbrella",
+      "level": "A1",
+      "category": "things",
+      "translations": {
+        "es": "el paraguas",
+        "fr": "le parapluie",
+        "de": "der Regenschirm"
+      },
+      "tags": [
+        "rain"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/umbrella.svg",
+        "png": "images/png/umbrella.png"
+      },
+      "api": "api/v1/images/umbrella.json"
+    },
+    {
+      "id": 71,
+      "word": "glasses",
+      "slug": "glasses",
+      "level": "A1",
+      "category": "things",
+      "translations": {
+        "es": "las gafas",
+        "fr": "les lunettes",
+        "de": "die Brille"
+      },
+      "tags": [
+        "spectacles",
+        "see"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/glasses.svg",
+        "png": "images/png/glasses.png"
+      },
+      "api": "api/v1/images/glasses.json"
+    },
+    {
+      "id": 72,
+      "word": "plate",
+      "slug": "plate",
+      "level": "A1",
+      "category": "things",
+      "translations": {
+        "es": "el plato",
+        "fr": "l'assiette",
+        "de": "der Teller"
+      },
+      "tags": [
+        "dish",
+        "kitchen"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/plate.svg",
+        "png": "images/png/plate.png"
+      },
+      "api": "api/v1/images/plate.json"
+    },
+    {
+      "id": 73,
+      "word": "spoon",
+      "slug": "spoon",
+      "level": "A1",
+      "category": "things",
+      "translations": {
+        "es": "la cuchara",
+        "fr": "la cuillère",
+        "de": "der Löffel"
+      },
+      "tags": [
+        "cutlery",
+        "kitchen"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/spoon.svg",
+        "png": "images/png/spoon.png"
+      },
+      "api": "api/v1/images/spoon.json"
+    },
+    {
+      "id": 74,
+      "word": "fork",
+      "slug": "fork",
+      "level": "A1",
+      "category": "things",
+      "translations": {
+        "es": "el tenedor",
+        "fr": "la fourchette",
+        "de": "die Gabel"
+      },
+      "tags": [
+        "cutlery",
+        "kitchen"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/fork.svg",
+        "png": "images/png/fork.png"
+      },
+      "api": "api/v1/images/fork.json"
+    },
+    {
+      "id": 75,
+      "word": "bottle",
+      "slug": "bottle",
+      "level": "A1",
+      "category": "things",
+      "translations": {
+        "es": "la botella",
+        "fr": "la bouteille",
+        "de": "die Flasche"
+      },
+      "tags": [
+        "drink",
+        "glass"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/bottle.svg",
+        "png": "images/png/bottle.png"
+      },
+      "api": "api/v1/images/bottle.json"
+    },
+    {
+      "id": 76,
+      "word": "dress",
+      "slug": "dress",
+      "level": "A1",
+      "category": "clothes",
+      "translations": {
+        "es": "el vestido",
+        "fr": "la robe",
+        "de": "das Kleid"
+      },
+      "tags": [
+        "skirt"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/dress.svg",
+        "png": "images/png/dress.png"
+      },
+      "api": "api/v1/images/dress.json"
+    },
+    {
+      "id": 77,
+      "word": "sock",
+      "slug": "sock",
+      "level": "A1",
+      "category": "clothes",
+      "translations": {
+        "es": "el calcetín",
+        "fr": "la chaussette",
+        "de": "die Socke"
+      },
+      "tags": [
+        "feet"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/sock.svg",
+        "png": "images/png/sock.png"
+      },
+      "api": "api/v1/images/sock.json"
+    },
+    {
+      "id": 78,
+      "word": "trousers",
+      "slug": "trousers",
+      "level": "A1",
+      "category": "clothes",
+      "translations": {
+        "es": "los pantalones",
+        "fr": "le pantalon",
+        "de": "die Hose"
+      },
+      "tags": [
+        "pants",
+        "jeans"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/trousers.svg",
+        "png": "images/png/trousers.png"
+      },
+      "api": "api/v1/images/trousers.json"
+    },
+    {
+      "id": 79,
+      "word": "scarf",
+      "slug": "scarf",
+      "level": "A1",
+      "category": "clothes",
+      "translations": {
+        "es": "la bufanda",
+        "fr": "l'écharpe",
+        "de": "der Schal"
+      },
+      "tags": [
+        "winter"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/scarf.svg",
+        "png": "images/png/scarf.png"
+      },
+      "api": "api/v1/images/scarf.json"
+    },
+    {
+      "id": 80,
+      "word": "mountain",
+      "slug": "mountain",
+      "level": "A1",
+      "category": "nature",
+      "translations": {
+        "es": "la montaña",
+        "fr": "la montagne",
+        "de": "der Berg"
+      },
+      "tags": [
+        "hill",
+        "snow"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/mountain.svg",
+        "png": "images/png/mountain.png"
+      },
+      "api": "api/v1/images/mountain.json"
+    },
+    {
+      "id": 81,
+      "word": "sea",
+      "slug": "sea",
+      "level": "A1",
+      "category": "nature",
+      "translations": {
+        "es": "el mar",
+        "fr": "la mer",
+        "de": "das Meer"
+      },
+      "tags": [
+        "ocean",
+        "waves",
+        "beach"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/sea.svg",
+        "png": "images/png/sea.png"
+      },
+      "api": "api/v1/images/sea.json"
+    },
+    {
+      "id": 82,
+      "word": "rain",
+      "slug": "rain",
+      "level": "A1",
+      "category": "nature",
+      "translations": {
+        "es": "la lluvia",
+        "fr": "la pluie",
+        "de": "der Regen"
+      },
+      "tags": [
+        "weather",
+        "cloud"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/rain.svg",
+        "png": "images/png/rain.png"
+      },
+      "api": "api/v1/images/rain.json"
+    },
+    {
+      "id": 83,
+      "word": "snow",
+      "slug": "snow",
+      "level": "A1",
+      "category": "nature",
+      "translations": {
+        "es": "la nieve",
+        "fr": "la neige",
+        "de": "der Schnee"
+      },
+      "tags": [
+        "weather",
+        "winter",
+        "snowflake"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/snow.svg",
+        "png": "images/png/snow.png"
+      },
+      "api": "api/v1/images/snow.json"
+    },
+    {
+      "id": 84,
+      "word": "rainbow",
+      "slug": "rainbow",
+      "level": "A1",
+      "category": "nature",
+      "translations": {
+        "es": "el arcoíris",
+        "fr": "l'arc-en-ciel",
+        "de": "der Regenbogen"
+      },
+      "tags": [
+        "weather",
+        "colours",
+        "colors"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/rainbow.svg",
+        "png": "images/png/rainbow.png"
+      },
+      "api": "api/v1/images/rainbow.json"
+    },
+    {
+      "id": 85,
+      "word": "leaf",
+      "slug": "leaf",
+      "level": "A1",
+      "category": "nature",
+      "translations": {
+        "es": "la hoja",
+        "fr": "la feuille",
+        "de": "das Blatt"
+      },
+      "tags": [
+        "tree",
+        "plant",
+        "autumn"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/leaf.svg",
+        "png": "images/png/leaf.png"
+      },
+      "api": "api/v1/images/leaf.json"
+    },
+    {
+      "id": 86,
+      "word": "fire",
+      "slug": "fire",
+      "level": "A1",
+      "category": "nature",
+      "translations": {
+        "es": "el fuego",
+        "fr": "le feu",
+        "de": "das Feuer"
+      },
+      "tags": [
+        "campfire",
+        "hot",
+        "flame"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/fire.svg",
+        "png": "images/png/fire.png"
+      },
+      "api": "api/v1/images/fire.json"
+    },
+    {
+      "id": 87,
+      "word": "truck",
+      "slug": "truck",
+      "level": "A1",
+      "category": "transport",
+      "translations": {
+        "es": "el camión",
+        "fr": "le camion",
+        "de": "der Lastwagen"
+      },
+      "tags": [
+        "lorry",
+        "vehicle"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/truck.svg",
+        "png": "images/png/truck.png"
+      },
+      "api": "api/v1/images/truck.json"
+    },
+    {
+      "id": 88,
+      "word": "helicopter",
+      "slug": "helicopter",
+      "level": "A1",
+      "category": "transport",
+      "translations": {
+        "es": "el helicóptero",
+        "fr": "l'hélicoptère",
+        "de": "der Hubschrauber"
+      },
+      "tags": [
+        "fly",
+        "aircraft"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/helicopter.svg",
+        "png": "images/png/helicopter.png"
+      },
+      "api": "api/v1/images/helicopter.json"
+    },
+    {
+      "id": 89,
+      "word": "motorbike",
+      "slug": "motorbike",
+      "level": "A1",
+      "category": "transport",
+      "translations": {
+        "es": "la moto",
+        "fr": "la moto",
+        "de": "das Motorrad"
+      },
+      "tags": [
+        "motorcycle",
+        "vehicle"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/motorbike.svg",
+        "png": "images/png/motorbike.png"
+      },
+      "api": "api/v1/images/motorbike.json"
+    },
+    {
+      "id": 90,
+      "word": "nose",
+      "slug": "nose",
+      "level": "A1",
+      "category": "body",
+      "translations": {
+        "es": "la nariz",
+        "fr": "le nez",
+        "de": "die Nase"
+      },
+      "tags": [
+        "face",
+        "smell"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/nose.svg",
+        "png": "images/png/nose.png"
+      },
+      "api": "api/v1/images/nose.json"
+    },
+    {
+      "id": 91,
+      "word": "mouth",
+      "slug": "mouth",
+      "level": "A1",
+      "category": "body",
+      "translations": {
+        "es": "la boca",
+        "fr": "la bouche",
+        "de": "der Mund"
+      },
+      "tags": [
+        "face",
+        "lips",
+        "eat"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/mouth.svg",
+        "png": "images/png/mouth.png"
+      },
+      "api": "api/v1/images/mouth.json"
+    },
+    {
+      "id": 92,
+      "word": "ear",
+      "slug": "ear",
+      "level": "A1",
+      "category": "body",
+      "translations": {
+        "es": "la oreja",
+        "fr": "l'oreille",
+        "de": "das Ohr"
+      },
+      "tags": [
+        "face",
+        "hear",
+        "listen"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/ear.svg",
+        "png": "images/png/ear.png"
+      },
+      "api": "api/v1/images/ear.json"
+    },
+    {
+      "id": 93,
+      "word": "foot",
+      "slug": "foot",
+      "level": "A1",
+      "category": "body",
+      "translations": {
+        "es": "el pie",
+        "fr": "le pied",
+        "de": "der Fuß"
+      },
+      "tags": [
+        "feet",
+        "toes"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/foot.svg",
+        "png": "images/png/foot.png"
+      },
+      "api": "api/v1/images/foot.json"
+    },
+    {
+      "id": 94,
+      "word": "tooth",
+      "slug": "tooth",
+      "level": "A1",
+      "category": "body",
+      "translations": {
+        "es": "el diente",
+        "fr": "la dent",
+        "de": "der Zahn"
+      },
+      "tags": [
+        "teeth",
+        "dentist"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/tooth.svg",
+        "png": "images/png/tooth.png"
+      },
+      "api": "api/v1/images/tooth.json"
+    },
+    {
+      "id": 95,
+      "word": "pencil",
+      "slug": "pencil",
+      "level": "A1",
+      "category": "school",
+      "translations": {
+        "es": "el lápiz",
+        "fr": "le crayon",
+        "de": "der Bleistift"
+      },
+      "tags": [
+        "write",
+        "draw"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/pencil.svg",
+        "png": "images/png/pencil.png"
+      },
+      "api": "api/v1/images/pencil.json"
+    },
+    {
+      "id": 96,
+      "word": "scissors",
+      "slug": "scissors",
+      "level": "A1",
+      "category": "school",
+      "translations": {
+        "es": "las tijeras",
+        "fr": "les ciseaux",
+        "de": "die Schere"
+      },
+      "tags": [
+        "cut"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/scissors.svg",
+        "png": "images/png/scissors.png"
+      },
+      "api": "api/v1/images/scissors.json"
+    },
+    {
+      "id": 97,
+      "word": "guitar",
+      "slug": "guitar",
+      "level": "A1",
+      "category": "things",
+      "translations": {
+        "es": "la guitarra",
+        "fr": "la guitare",
+        "de": "die Gitarre"
+      },
+      "tags": [
+        "music",
+        "instrument"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/guitar.svg",
+        "png": "images/png/guitar.png"
+      },
+      "api": "api/v1/images/guitar.json"
+    },
+    {
+      "id": 98,
+      "word": "kite",
+      "slug": "kite",
+      "level": "A1",
+      "category": "things",
+      "translations": {
+        "es": "la cometa",
+        "fr": "le cerf-volant",
+        "de": "der Drachen"
+      },
+      "tags": [
+        "toy",
+        "wind"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/kite.svg",
+        "png": "images/png/kite.png"
+      },
+      "api": "api/v1/images/kite.json"
+    },
+    {
+      "id": 99,
+      "word": "gift",
+      "slug": "gift",
+      "level": "A1",
+      "category": "things",
+      "translations": {
+        "es": "el regalo",
+        "fr": "le cadeau",
+        "de": "das Geschenk"
+      },
+      "tags": [
+        "present",
+        "birthday"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/gift.svg",
+        "png": "images/png/gift.png"
+      },
+      "api": "api/v1/images/gift.json"
+    },
+    {
+      "id": 100,
+      "word": "balloon",
+      "slug": "balloon",
+      "level": "A1",
+      "category": "things",
+      "translations": {
+        "es": "el globo",
+        "fr": "le ballon de baudruche",
+        "de": "der Luftballon"
+      },
+      "tags": [
+        "party",
+        "birthday"
+      ],
+      "status": "available",
+      "license": "CC0-1.0",
+      "width": 512,
+      "height": 512,
+      "files": {
+        "svg": "images/svg/balloon.svg",
+        "png": "images/png/balloon.png"
+      },
+      "api": "api/v1/images/balloon.json"
+    }
+  ],
+  "planned": [
+    {
+      "word": "giraffe",
+      "slug": "giraffe",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "zebra",
+      "slug": "zebra",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "monkey",
+      "slug": "monkey",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "penguin",
+      "slug": "penguin",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "snake",
+      "slug": "snake",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "turtle",
+      "slug": "turtle",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "whale",
+      "slug": "whale",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "shark",
+      "slug": "shark",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "owl",
+      "slug": "owl",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "bee",
+      "slug": "bee",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "spider",
+      "slug": "spider",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "camel",
+      "slug": "camel",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "bridge",
+      "slug": "bridge",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "castle",
+      "slug": "castle",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "forest",
+      "slug": "forest",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "desert",
+      "slug": "desert",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "island",
+      "slug": "island",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "volcano",
+      "slug": "volcano",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "lighthouse",
+      "slug": "lighthouse",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "farm",
+      "slug": "farm",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "tent",
+      "slug": "tent",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "beach",
+      "slug": "beach",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "airport",
+      "slug": "airport",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "ambulance",
+      "slug": "ambulance",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "tractor",
+      "slug": "tractor",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "submarine",
+      "slug": "submarine",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "taxi",
+      "slug": "taxi",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "rocket",
+      "slug": "rocket",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "ship",
+      "slug": "ship",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "anchor",
+      "slug": "anchor",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "doctor",
+      "slug": "doctor",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "teacher",
+      "slug": "teacher",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "police officer",
+      "slug": "police-officer",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "firefighter",
+      "slug": "firefighter",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "chef",
+      "slug": "chef",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "farmer",
+      "slug": "farmer",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "nurse",
+      "slug": "nurse",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "camera",
+      "slug": "camera",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "wallet",
+      "slug": "wallet",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "passport",
+      "slug": "passport",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "ticket",
+      "slug": "ticket",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "map",
+      "slug": "map",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "compass",
+      "slug": "compass",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "backpack",
+      "slug": "backpack",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "suitcase",
+      "slug": "suitcase",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "hammer",
+      "slug": "hammer",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "ladder",
+      "slug": "ladder",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "bucket",
+      "slug": "bucket",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "brush",
+      "slug": "brush",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "mirror",
+      "slug": "mirror",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "pillow",
+      "slug": "pillow",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "blanket",
+      "slug": "blanket",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "towel",
+      "slug": "towel",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "soap",
+      "slug": "soap",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "oven",
+      "slug": "oven",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "kettle",
+      "slug": "kettle",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "teapot",
+      "slug": "teapot",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "fridge",
+      "slug": "fridge",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "microwave",
+      "slug": "microwave",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "sandwich",
+      "slug": "sandwich",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "soup",
+      "slug": "soup",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "salad",
+      "slug": "salad",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "rice",
+      "slug": "rice",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "noodles",
+      "slug": "noodles",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "chocolate",
+      "slug": "chocolate",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "honey",
+      "slug": "honey",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "lemon",
+      "slug": "lemon",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "potato",
+      "slug": "potato",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "onion",
+      "slug": "onion",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "mushroom",
+      "slug": "mushroom",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "watermelon",
+      "slug": "watermelon",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "pineapple",
+      "slug": "pineapple",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "piano",
+      "slug": "piano",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "violin",
+      "slug": "violin",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "drum",
+      "slug": "drum",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "microphone",
+      "slug": "microphone",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "headphones",
+      "slug": "headphones",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "lightbulb",
+      "slug": "lightbulb",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "battery",
+      "slug": "battery",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "magnet",
+      "slug": "magnet",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "globe",
+      "slug": "globe",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "calendar",
+      "slug": "calendar",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "envelope",
+      "slug": "envelope",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "newspaper",
+      "slug": "newspaper",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "candle",
+      "slug": "candle",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "trophy",
+      "slug": "trophy",
+      "level": "A2",
+      "status": "planned"
+    },
+    {
+      "word": "skyscraper",
+      "slug": "skyscraper",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "tunnel",
+      "slug": "tunnel",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "harbour",
+      "slug": "harbour",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "factory",
+      "slug": "factory",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "museum",
+      "slug": "museum",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "library",
+      "slug": "library",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "stadium",
+      "slug": "stadium",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "laboratory",
+      "slug": "laboratory",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "microscope",
+      "slug": "microscope",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "telescope",
+      "slug": "telescope",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "satellite",
+      "slug": "satellite",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "robot",
+      "slug": "robot",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "wheelchair",
+      "slug": "wheelchair",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "crutches",
+      "slug": "crutches",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "bandage",
+      "slug": "bandage",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "thermometer",
+      "slug": "thermometer",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "jewellery",
+      "slug": "jewellery",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "necklace",
+      "slug": "necklace",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "ring",
+      "slug": "ring",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "bracelet",
+      "slug": "bracelet",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "perfume",
+      "slug": "perfume",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "recycling bin",
+      "slug": "recycling-bin",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "solar panel",
+      "slug": "solar-panel",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "wind turbine",
+      "slug": "wind-turbine",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "parachute",
+      "slug": "parachute",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "hot air balloon",
+      "slug": "hot-air-balloon",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "sailboard",
+      "slug": "sailboard",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "volcano eruption",
+      "slug": "volcano-eruption",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "earthquake",
+      "slug": "earthquake",
+      "level": "B1",
+      "status": "planned"
+    },
+    {
+      "word": "tornado",
+      "slug": "tornado",
+      "level": "B1",
+      "status": "planned"
+    }
+  ]
+}

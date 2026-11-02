@@ -1,0 +1,25 @@
+{
+  "id": 17,
+  "word": "train",
+  "slug": "train",
+  "level": "A0",
+  "category": "transport",
+  "translations": {
+    "es": "el tren",
+    "fr": "le train",
+    "de": "der Zug"
+  },
+  "tags": [
+    "railway",
+    "locomotive"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/train.svg",
+    "png": "images/png/train.png"
+  },
+  "api": "api/v1/images/train.json"
+}

@@ -1,0 +1,25 @@
+{
+  "id": 33,
+  "word": "moon",
+  "slug": "moon",
+  "level": "A0",
+  "category": "nature",
+  "translations": {
+    "es": "la luna",
+    "fr": "la lune",
+    "de": "der Mond"
+  },
+  "tags": [
+    "night",
+    "sky"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/moon.svg",
+    "png": "images/png/moon.png"
+  },
+  "api": "api/v1/images/moon.json"
+}

@@ -1,0 +1,24 @@
+{
+  "id": 29,
+  "word": "milk",
+  "slug": "milk",
+  "level": "A0",
+  "category": "food",
+  "translations": {
+    "es": "la leche",
+    "fr": "le lait",
+    "de": "die Milch"
+  },
+  "tags": [
+    "drink"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/milk.svg",
+    "png": "images/png/milk.png"
+  },
+  "api": "api/v1/images/milk.json"
+}

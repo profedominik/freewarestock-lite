@@ -1,0 +1,26 @@
+{
+  "id": 38,
+  "word": "ball",
+  "slug": "ball",
+  "level": "A0",
+  "category": "things",
+  "translations": {
+    "es": "la pelota",
+    "fr": "le ballon",
+    "de": "der Ball"
+  },
+  "tags": [
+    "toy",
+    "play",
+    "sport"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/ball.svg",
+    "png": "images/png/ball.png"
+  },
+  "api": "api/v1/images/ball.json"
+}

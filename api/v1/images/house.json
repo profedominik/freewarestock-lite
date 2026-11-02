@@ -1,0 +1,25 @@
+{
+  "id": 6,
+  "word": "house",
+  "slug": "house",
+  "level": "A0",
+  "category": "home",
+  "translations": {
+    "es": "la casa",
+    "fr": "la maison",
+    "de": "das Haus"
+  },
+  "tags": [
+    "home",
+    "building"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/house.svg",
+    "png": "images/png/house.png"
+  },
+  "api": "api/v1/images/house.json"
+}

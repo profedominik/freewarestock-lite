@@ -1,0 +1,25 @@
+{
+  "id": 13,
+  "word": "car",
+  "slug": "car",
+  "level": "A0",
+  "category": "transport",
+  "translations": {
+    "es": "el coche",
+    "fr": "la voiture",
+    "de": "das Auto"
+  },
+  "tags": [
+    "vehicle",
+    "automobile"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/car.svg",
+    "png": "images/png/car.png"
+  },
+  "api": "api/v1/images/car.json"
+}

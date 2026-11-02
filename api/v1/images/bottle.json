@@ -1,0 +1,25 @@
+{
+  "id": 75,
+  "word": "bottle",
+  "slug": "bottle",
+  "level": "A1",
+  "category": "things",
+  "translations": {
+    "es": "la botella",
+    "fr": "la bouteille",
+    "de": "die Flasche"
+  },
+  "tags": [
+    "drink",
+    "glass"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/bottle.svg",
+    "png": "images/png/bottle.png"
+  },
+  "api": "api/v1/images/bottle.json"
+}

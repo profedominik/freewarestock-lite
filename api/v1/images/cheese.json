@@ -1,0 +1,24 @@
+{
+  "id": 62,
+  "word": "cheese",
+  "slug": "cheese",
+  "level": "A1",
+  "category": "food",
+  "translations": {
+    "es": "el queso",
+    "fr": "le fromage",
+    "de": "der Käse"
+  },
+  "tags": [
+    "dairy"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/cheese.svg",
+    "png": "images/png/cheese.png"
+  },
+  "api": "api/v1/images/cheese.json"
+}

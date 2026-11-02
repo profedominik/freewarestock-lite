@@ -1,0 +1,26 @@
+{
+  "id": 81,
+  "word": "sea",
+  "slug": "sea",
+  "level": "A1",
+  "category": "nature",
+  "translations": {
+    "es": "el mar",
+    "fr": "la mer",
+    "de": "das Meer"
+  },
+  "tags": [
+    "ocean",
+    "waves",
+    "beach"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/sea.svg",
+    "png": "images/png/sea.png"
+  },
+  "api": "api/v1/images/sea.json"
+}

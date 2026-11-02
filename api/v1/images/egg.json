@@ -1,0 +1,24 @@
+{
+  "id": 28,
+  "word": "egg",
+  "slug": "egg",
+  "level": "A0",
+  "category": "food",
+  "translations": {
+    "es": "el huevo",
+    "fr": "l'œuf",
+    "de": "das Ei"
+  },
+  "tags": [
+    "breakfast"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/egg.svg",
+    "png": "images/png/egg.png"
+  },
+  "api": "api/v1/images/egg.json"
+}

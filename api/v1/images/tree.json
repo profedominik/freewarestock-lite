@@ -1,0 +1,25 @@
+{
+  "id": 35,
+  "word": "tree",
+  "slug": "tree",
+  "level": "A0",
+  "category": "nature",
+  "translations": {
+    "es": "el árbol",
+    "fr": "l'arbre",
+    "de": "der Baum"
+  },
+  "tags": [
+    "plant",
+    "forest"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/tree.svg",
+    "png": "images/png/tree.png"
+  },
+  "api": "api/v1/images/tree.json"
+}

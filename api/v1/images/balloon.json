@@ -1,0 +1,25 @@
+{
+  "id": 100,
+  "word": "balloon",
+  "slug": "balloon",
+  "level": "A1",
+  "category": "things",
+  "translations": {
+    "es": "el globo",
+    "fr": "le ballon de baudruche",
+    "de": "der Luftballon"
+  },
+  "tags": [
+    "party",
+    "birthday"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/balloon.svg",
+    "png": "images/png/balloon.png"
+  },
+  "api": "api/v1/images/balloon.json"
+}

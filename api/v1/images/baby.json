@@ -1,0 +1,25 @@
+{
+  "id": 5,
+  "word": "baby",
+  "slug": "baby",
+  "level": "A0",
+  "category": "people",
+  "translations": {
+    "es": "el bebé",
+    "fr": "le bébé",
+    "de": "das Baby"
+  },
+  "tags": [
+    "infant",
+    "child"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/baby.svg",
+    "png": "images/png/baby.png"
+  },
+  "api": "api/v1/images/baby.json"
+}

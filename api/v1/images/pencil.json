@@ -1,0 +1,25 @@
+{
+  "id": 95,
+  "word": "pencil",
+  "slug": "pencil",
+  "level": "A1",
+  "category": "school",
+  "translations": {
+    "es": "el lápiz",
+    "fr": "le crayon",
+    "de": "der Bleistift"
+  },
+  "tags": [
+    "write",
+    "draw"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/pencil.svg",
+    "png": "images/png/pencil.png"
+  },
+  "api": "api/v1/images/pencil.json"
+}

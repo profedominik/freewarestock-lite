@@ -1,0 +1,25 @@
+{
+  "id": 39,
+  "word": "book",
+  "slug": "book",
+  "level": "A0",
+  "category": "school",
+  "translations": {
+    "es": "el libro",
+    "fr": "le livre",
+    "de": "das Buch"
+  },
+  "tags": [
+    "read",
+    "school"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/book.svg",
+    "png": "images/png/book.png"
+  },
+  "api": "api/v1/images/book.json"
+}

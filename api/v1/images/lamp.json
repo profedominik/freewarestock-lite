@@ -1,0 +1,24 @@
+{
+  "id": 12,
+  "word": "lamp",
+  "slug": "lamp",
+  "level": "A0",
+  "category": "home",
+  "translations": {
+    "es": "la lámpara",
+    "fr": "la lampe",
+    "de": "die Lampe"
+  },
+  "tags": [
+    "light"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/lamp.svg",
+    "png": "images/png/lamp.png"
+  },
+  "api": "api/v1/images/lamp.json"
+}

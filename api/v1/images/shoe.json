@@ -1,0 +1,25 @@
+{
+  "id": 47,
+  "word": "shoe",
+  "slug": "shoe",
+  "level": "A0",
+  "category": "clothes",
+  "translations": {
+    "es": "el zapato",
+    "fr": "la chaussure",
+    "de": "der Schuh"
+  },
+  "tags": [
+    "sneaker",
+    "trainer"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/shoe.svg",
+    "png": "images/png/shoe.png"
+  },
+  "api": "api/v1/images/shoe.json"
+}

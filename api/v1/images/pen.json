@@ -1,0 +1,26 @@
+{
+  "id": 40,
+  "word": "pen",
+  "slug": "pen",
+  "level": "A0",
+  "category": "school",
+  "translations": {
+    "es": "el bolígrafo",
+    "fr": "le stylo",
+    "de": "der Kuli"
+  },
+  "tags": [
+    "write",
+    "school",
+    "ballpoint"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/pen.svg",
+    "png": "images/png/pen.png"
+  },
+  "api": "api/v1/images/pen.json"
+}

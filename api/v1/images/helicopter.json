@@ -1,0 +1,25 @@
+{
+  "id": 88,
+  "word": "helicopter",
+  "slug": "helicopter",
+  "level": "A1",
+  "category": "transport",
+  "translations": {
+    "es": "el helicóptero",
+    "fr": "l'hélicoptère",
+    "de": "der Hubschrauber"
+  },
+  "tags": [
+    "fly",
+    "aircraft"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/helicopter.svg",
+    "png": "images/png/helicopter.png"
+  },
+  "api": "api/v1/images/helicopter.json"
+}

@@ -1,0 +1,25 @@
+{
+  "id": 69,
+  "word": "computer",
+  "slug": "computer",
+  "level": "A1",
+  "category": "home",
+  "translations": {
+    "es": "el ordenador",
+    "fr": "l'ordinateur",
+    "de": "der Computer"
+  },
+  "tags": [
+    "laptop",
+    "pc"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/computer.svg",
+    "png": "images/png/computer.png"
+  },
+  "api": "api/v1/images/computer.json"
+}

@@ -1,0 +1,26 @@
+{
+  "id": 84,
+  "word": "rainbow",
+  "slug": "rainbow",
+  "level": "A1",
+  "category": "nature",
+  "translations": {
+    "es": "el arcoíris",
+    "fr": "l'arc-en-ciel",
+    "de": "der Regenbogen"
+  },
+  "tags": [
+    "weather",
+    "colours",
+    "colors"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/rainbow.svg",
+    "png": "images/png/rainbow.png"
+  },
+  "api": "api/v1/images/rainbow.json"
+}

@@ -1,0 +1,25 @@
+{
+  "id": 74,
+  "word": "fork",
+  "slug": "fork",
+  "level": "A1",
+  "category": "things",
+  "translations": {
+    "es": "el tenedor",
+    "fr": "la fourchette",
+    "de": "die Gabel"
+  },
+  "tags": [
+    "cutlery",
+    "kitchen"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/fork.svg",
+    "png": "images/png/fork.png"
+  },
+  "api": "api/v1/images/fork.json"
+}

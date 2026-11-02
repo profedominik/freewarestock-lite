@@ -1,0 +1,25 @@
+{
+  "id": 9,
+  "word": "bed",
+  "slug": "bed",
+  "level": "A0",
+  "category": "home",
+  "translations": {
+    "es": "la cama",
+    "fr": "le lit",
+    "de": "das Bett"
+  },
+  "tags": [
+    "sleep",
+    "bedroom"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/bed.svg",
+    "png": "images/png/bed.png"
+  },
+  "api": "api/v1/images/bed.json"
+}

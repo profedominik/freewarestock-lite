@@ -1,0 +1,24 @@
+{
+  "id": 60,
+  "word": "carrot",
+  "slug": "carrot",
+  "level": "A1",
+  "category": "food",
+  "translations": {
+    "es": "la zanahoria",
+    "fr": "la carotte",
+    "de": "die Karotte"
+  },
+  "tags": [
+    "vegetable"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/carrot.svg",
+    "png": "images/png/carrot.png"
+  },
+  "api": "api/v1/images/carrot.json"
+}

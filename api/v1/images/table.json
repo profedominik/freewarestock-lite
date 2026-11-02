@@ -1,0 +1,25 @@
+{
+  "id": 11,
+  "word": "table",
+  "slug": "table",
+  "level": "A0",
+  "category": "home",
+  "translations": {
+    "es": "la mesa",
+    "fr": "la table",
+    "de": "der Tisch"
+  },
+  "tags": [
+    "furniture",
+    "desk"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/table.svg",
+    "png": "images/png/table.png"
+  },
+  "api": "api/v1/images/table.json"
+}

@@ -1,0 +1,24 @@
+{
+  "id": 79,
+  "word": "scarf",
+  "slug": "scarf",
+  "level": "A1",
+  "category": "clothes",
+  "translations": {
+    "es": "la bufanda",
+    "fr": "l'écharpe",
+    "de": "der Schal"
+  },
+  "tags": [
+    "winter"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/scarf.svg",
+    "png": "images/png/scarf.png"
+  },
+  "api": "api/v1/images/scarf.json"
+}

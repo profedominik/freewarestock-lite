@@ -1,0 +1,25 @@
+{
+  "id": 99,
+  "word": "gift",
+  "slug": "gift",
+  "level": "A1",
+  "category": "things",
+  "translations": {
+    "es": "el regalo",
+    "fr": "le cadeau",
+    "de": "das Geschenk"
+  },
+  "tags": [
+    "present",
+    "birthday"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/gift.svg",
+    "png": "images/png/gift.png"
+  },
+  "api": "api/v1/images/gift.json"
+}

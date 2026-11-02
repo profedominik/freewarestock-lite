@@ -1,0 +1,24 @@
+{
+  "id": 26,
+  "word": "banana",
+  "slug": "banana",
+  "level": "A0",
+  "category": "food",
+  "translations": {
+    "es": "el plátano",
+    "fr": "la banane",
+    "de": "die Banane"
+  },
+  "tags": [
+    "fruit"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/banana.svg",
+    "png": "images/png/banana.png"
+  },
+  "api": "api/v1/images/banana.json"
+}

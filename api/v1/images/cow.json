@@ -1,0 +1,25 @@
+{
+  "id": 24,
+  "word": "cow",
+  "slug": "cow",
+  "level": "A0",
+  "category": "animals",
+  "translations": {
+    "es": "la vaca",
+    "fr": "la vache",
+    "de": "die Kuh"
+  },
+  "tags": [
+    "farm",
+    "milk"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/cow.svg",
+    "png": "images/png/cow.png"
+  },
+  "api": "api/v1/images/cow.json"
+}

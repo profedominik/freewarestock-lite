@@ -1,0 +1,25 @@
+{
+  "id": 37,
+  "word": "cloud",
+  "slug": "cloud",
+  "level": "A0",
+  "category": "nature",
+  "translations": {
+    "es": "la nube",
+    "fr": "le nuage",
+    "de": "die Wolke"
+  },
+  "tags": [
+    "sky",
+    "weather"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/cloud.svg",
+    "png": "images/png/cloud.png"
+  },
+  "api": "api/v1/images/cloud.json"
+}

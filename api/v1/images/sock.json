@@ -1,0 +1,24 @@
+{
+  "id": 77,
+  "word": "sock",
+  "slug": "sock",
+  "level": "A1",
+  "category": "clothes",
+  "translations": {
+    "es": "el calcetín",
+    "fr": "la chaussette",
+    "de": "die Socke"
+  },
+  "tags": [
+    "feet"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/sock.svg",
+    "png": "images/png/sock.png"
+  },
+  "api": "api/v1/images/sock.json"
+}

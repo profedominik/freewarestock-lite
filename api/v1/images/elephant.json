@@ -1,0 +1,25 @@
+{
+  "id": 55,
+  "word": "elephant",
+  "slug": "elephant",
+  "level": "A1",
+  "category": "animals",
+  "translations": {
+    "es": "el elefante",
+    "fr": "l'éléphant",
+    "de": "der Elefant"
+  },
+  "tags": [
+    "zoo",
+    "africa"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/elephant.svg",
+    "png": "images/png/elephant.png"
+  },
+  "api": "api/v1/images/elephant.json"
+}

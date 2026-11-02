@@ -1,0 +1,24 @@
+{
+  "id": 8,
+  "word": "window",
+  "slug": "window",
+  "level": "A0",
+  "category": "home",
+  "translations": {
+    "es": "la ventana",
+    "fr": "la fenêtre",
+    "de": "das Fenster"
+  },
+  "tags": [
+    "glass"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/window.svg",
+    "png": "images/png/window.png"
+  },
+  "api": "api/v1/images/window.json"
+}

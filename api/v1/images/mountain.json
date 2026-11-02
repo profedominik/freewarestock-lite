@@ -1,0 +1,25 @@
+{
+  "id": 80,
+  "word": "mountain",
+  "slug": "mountain",
+  "level": "A1",
+  "category": "nature",
+  "translations": {
+    "es": "la montaña",
+    "fr": "la montagne",
+    "de": "der Berg"
+  },
+  "tags": [
+    "hill",
+    "snow"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/mountain.svg",
+    "png": "images/png/mountain.png"
+  },
+  "api": "api/v1/images/mountain.json"
+}

@@ -1,0 +1,25 @@
+{
+  "id": 23,
+  "word": "horse",
+  "slug": "horse",
+  "level": "A0",
+  "category": "animals",
+  "translations": {
+    "es": "el caballo",
+    "fr": "le cheval",
+    "de": "das Pferd"
+  },
+  "tags": [
+    "farm",
+    "pony"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/horse.svg",
+    "png": "images/png/horse.png"
+  },
+  "api": "api/v1/images/horse.json"
+}

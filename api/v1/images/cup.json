@@ -1,0 +1,26 @@
+{
+  "id": 42,
+  "word": "cup",
+  "slug": "cup",
+  "level": "A0",
+  "category": "things",
+  "translations": {
+    "es": "la taza",
+    "fr": "la tasse",
+    "de": "die Tasse"
+  },
+  "tags": [
+    "mug",
+    "coffee",
+    "tea"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/cup.svg",
+    "png": "images/png/cup.png"
+  },
+  "api": "api/v1/images/cup.json"
+}

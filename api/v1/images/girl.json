@@ -1,0 +1,26 @@
+{
+  "id": 2,
+  "word": "girl",
+  "slug": "girl",
+  "level": "A0",
+  "category": "people",
+  "translations": {
+    "es": "la niña",
+    "fr": "la fille",
+    "de": "das Mädchen"
+  },
+  "tags": [
+    "child",
+    "kid",
+    "daughter"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/girl.svg",
+    "png": "images/png/girl.png"
+  },
+  "api": "api/v1/images/girl.json"
+}

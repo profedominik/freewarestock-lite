@@ -1,0 +1,26 @@
+{
+  "id": 83,
+  "word": "snow",
+  "slug": "snow",
+  "level": "A1",
+  "category": "nature",
+  "translations": {
+    "es": "la nieve",
+    "fr": "la neige",
+    "de": "der Schnee"
+  },
+  "tags": [
+    "weather",
+    "winter",
+    "snowflake"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/snow.svg",
+    "png": "images/png/snow.png"
+  },
+  "api": "api/v1/images/snow.json"
+}
