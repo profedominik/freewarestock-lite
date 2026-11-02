@@ -1,0 +1,25 @@
+{
+  "id": 172,
+  "word": "pineapple",
+  "slug": "pineapple",
+  "level": "A2",
+  "category": "food",
+  "translations": {
+    "es": "la piña",
+    "fr": "l'ananas",
+    "de": "die Ananas"
+  },
+  "tags": [
+    "fruit",
+    "tropical"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/pineapple.svg",
+    "png": "images/png/pineapple.png"
+  },
+  "api": "api/v1/images/pineapple.json"
+}

@@ -1,0 +1,25 @@
+{
+  "id": 109,
+  "word": "owl",
+  "slug": "owl",
+  "level": "A2",
+  "category": "animals",
+  "translations": {
+    "es": "el búho",
+    "fr": "le hibou",
+    "de": "die Eule"
+  },
+  "tags": [
+    "bird",
+    "night"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/owl.svg",
+    "png": "images/png/owl.png"
+  },
+  "api": "api/v1/images/owl.json"
+}

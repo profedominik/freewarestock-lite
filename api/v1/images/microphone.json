@@ -1,0 +1,25 @@
+{
+  "id": 176,
+  "word": "microphone",
+  "slug": "microphone",
+  "level": "A2",
+  "category": "music",
+  "translations": {
+    "es": "el micrófono",
+    "fr": "le micro",
+    "de": "das Mikrofon"
+  },
+  "tags": [
+    "sing",
+    "mic"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/microphone.svg",
+    "png": "images/png/microphone.png"
+  },
+  "api": "api/v1/images/microphone.json"
+}

@@ -1,0 +1,25 @@
+{
+  "id": 143,
+  "word": "compass",
+  "slug": "compass",
+  "level": "A2",
+  "category": "things",
+  "translations": {
+    "es": "la brújula",
+    "fr": "la boussole",
+    "de": "der Kompass"
+  },
+  "tags": [
+    "north",
+    "direction"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/compass.svg",
+    "png": "images/png/compass.png"
+  },
+  "api": "api/v1/images/compass.json"
+}

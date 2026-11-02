@@ -270,7 +270,7 @@ dialog::backdrop { background: rgba(10,12,20,.55); }
       frag.append(b);
     });
     // planned words (roadmap placeholders)
-    const showPlanned = (state.level === 'A2' || state.level === 'B1') && state.cat === 'all';
+    const showPlanned = !!(DATA.levels[state.level] && DATA.levels[state.level].planned) && state.cat === 'all';
     let plannedShown = 0;
     if (showPlanned) {
       planned.filter((p) => p.level === state.level && (!state.q || norm(p.word).includes(norm(state.q)))).forEach((p) => {
@@ -392,10 +392,11 @@ const res = await fetch('${abs('api/v1/images.json')}');
 const { images } = await res.json();
 images.filter(i => i.level === 'A0')
       .forEach(i => console.log(i.word, new URL(i.files.svg, res.url).href));`;
-  const byLevel = (L) => planned.filter((p) => p.level === L).length;
-  $('#roadmap').innerHTML = `Done: <b>A0</b> (${DATA.levels.A0.available}) and <b>A1</b> (${DATA.levels.A1.available}) illustrated.
-    Next: <b>A2</b> (${byLevel('A2')} words planned) then <b>B1</b> (${byLevel('B1')} words planned).
-    Select a planned level above to see the word list.`;
+  const done = LEVELS.filter((L) => (DATA.levels[L] || {}).available)
+    .map((L) => `<b>${L}</b> (${DATA.levels[L].available})`).join(', ');
+  const next = LEVELS.filter((L) => (DATA.levels[L] || {}).planned)
+    .map((L) => `<b>${L}</b> (${DATA.levels[L].planned} words planned)`).join(', ');
+  $('#roadmap').innerHTML = `Illustrated: ${done}. ${next ? `Next: ${next}. Select a planned level above to see the word list.` : ''}`;
 
   $('#count').textContent = `${images.length} free images`;
   renderFilters(); renderGrid();

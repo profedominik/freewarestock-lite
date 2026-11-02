@@ -1,0 +1,25 @@
+{
+  "id": 177,
+  "word": "headphones",
+  "slug": "headphones",
+  "level": "A2",
+  "category": "music",
+  "translations": {
+    "es": "los auriculares",
+    "fr": "le casque",
+    "de": "die Kopfhörer"
+  },
+  "tags": [
+    "listen",
+    "music"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/headphones.svg",
+    "png": "images/png/headphones.png"
+  },
+  "api": "api/v1/images/headphones.json"
+}

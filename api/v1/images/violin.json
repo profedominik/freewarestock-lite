@@ -1,0 +1,24 @@
+{
+  "id": 174,
+  "word": "violin",
+  "slug": "violin",
+  "level": "A2",
+  "category": "music",
+  "translations": {
+    "es": "el violín",
+    "fr": "le violon",
+    "de": "die Geige"
+  },
+  "tags": [
+    "instrument"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/violin.svg",
+    "png": "images/png/violin.png"
+  },
+  "api": "api/v1/images/violin.json"
+}

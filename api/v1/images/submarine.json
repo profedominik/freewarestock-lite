@@ -1,0 +1,25 @@
+{
+  "id": 126,
+  "word": "submarine",
+  "slug": "submarine",
+  "level": "A2",
+  "category": "transport",
+  "translations": {
+    "es": "el submarino",
+    "fr": "le sous-marin",
+    "de": "das U-Boot"
+  },
+  "tags": [
+    "sea",
+    "underwater"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/submarine.svg",
+    "png": "images/png/submarine.png"
+  },
+  "api": "api/v1/images/submarine.json"
+}

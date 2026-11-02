@@ -1,0 +1,25 @@
+{
+  "id": 132,
+  "word": "teacher",
+  "slug": "teacher",
+  "level": "A2",
+  "category": "jobs",
+  "translations": {
+    "es": "la profesora",
+    "fr": "la professeure",
+    "de": "die Lehrerin"
+  },
+  "tags": [
+    "school",
+    "class"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/teacher.svg",
+    "png": "images/png/teacher.png"
+  },
+  "api": "api/v1/images/teacher.json"
+}

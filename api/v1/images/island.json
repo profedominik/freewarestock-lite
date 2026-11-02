@@ -1,0 +1,26 @@
+{
+  "id": 117,
+  "word": "island",
+  "slug": "island",
+  "level": "A2",
+  "category": "places",
+  "translations": {
+    "es": "la isla",
+    "fr": "l'île",
+    "de": "die Insel"
+  },
+  "tags": [
+    "sea",
+    "palm",
+    "beach"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/island.svg",
+    "png": "images/png/island.png"
+  },
+  "api": "api/v1/images/island.json"
+}

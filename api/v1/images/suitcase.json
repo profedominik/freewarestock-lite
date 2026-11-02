@@ -1,0 +1,25 @@
+{
+  "id": 145,
+  "word": "suitcase",
+  "slug": "suitcase",
+  "level": "A2",
+  "category": "things",
+  "translations": {
+    "es": "la maleta",
+    "fr": "la valise",
+    "de": "der Koffer"
+  },
+  "tags": [
+    "luggage",
+    "travel"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/suitcase.svg",
+    "png": "images/png/suitcase.png"
+  },
+  "api": "api/v1/images/suitcase.json"
+}

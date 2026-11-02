@@ -1,0 +1,25 @@
+{
+  "id": 139,
+  "word": "wallet",
+  "slug": "wallet",
+  "level": "A2",
+  "category": "things",
+  "translations": {
+    "es": "la cartera",
+    "fr": "le portefeuille",
+    "de": "die Geldbörse"
+  },
+  "tags": [
+    "money",
+    "purse"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/wallet.svg",
+    "png": "images/png/wallet.png"
+  },
+  "api": "api/v1/images/wallet.json"
+}

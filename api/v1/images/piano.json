@@ -1,0 +1,25 @@
+{
+  "id": 173,
+  "word": "piano",
+  "slug": "piano",
+  "level": "A2",
+  "category": "music",
+  "translations": {
+    "es": "el piano",
+    "fr": "le piano",
+    "de": "das Klavier"
+  },
+  "tags": [
+    "instrument",
+    "keys"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/piano.svg",
+    "png": "images/png/piano.png"
+  },
+  "api": "api/v1/images/piano.json"
+}

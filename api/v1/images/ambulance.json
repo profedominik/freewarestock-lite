@@ -1,0 +1,25 @@
+{
+  "id": 124,
+  "word": "ambulance",
+  "slug": "ambulance",
+  "level": "A2",
+  "category": "transport",
+  "translations": {
+    "es": "la ambulancia",
+    "fr": "l'ambulance",
+    "de": "der Krankenwagen"
+  },
+  "tags": [
+    "hospital",
+    "emergency"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/ambulance.svg",
+    "png": "images/png/ambulance.png"
+  },
+  "api": "api/v1/images/ambulance.json"
+}

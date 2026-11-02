@@ -1,0 +1,24 @@
+{
+  "id": 159,
+  "word": "microwave",
+  "slug": "microwave",
+  "level": "A2",
+  "category": "home",
+  "translations": {
+    "es": "el microondas",
+    "fr": "le micro-ondes",
+    "de": "die Mikrowelle"
+  },
+  "tags": [
+    "kitchen"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/microwave.svg",
+    "png": "images/png/microwave.png"
+  },
+  "api": "api/v1/images/microwave.json"
+}

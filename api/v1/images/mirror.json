@@ -1,0 +1,24 @@
+{
+  "id": 150,
+  "word": "mirror",
+  "slug": "mirror",
+  "level": "A2",
+  "category": "home",
+  "translations": {
+    "es": "el espejo",
+    "fr": "le miroir",
+    "de": "der Spiegel"
+  },
+  "tags": [
+    "reflection"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/mirror.svg",
+    "png": "images/png/mirror.png"
+  },
+  "api": "api/v1/images/mirror.json"
+}

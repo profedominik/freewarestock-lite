@@ -1,0 +1,25 @@
+{
+  "id": 148,
+  "word": "bucket",
+  "slug": "bucket",
+  "level": "A2",
+  "category": "things",
+  "translations": {
+    "es": "el cubo",
+    "fr": "le seau",
+    "de": "der Eimer"
+  },
+  "tags": [
+    "pail",
+    "water"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/bucket.svg",
+    "png": "images/png/bucket.png"
+  },
+  "api": "api/v1/images/bucket.json"
+}

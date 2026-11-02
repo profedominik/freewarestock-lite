@@ -1,0 +1,25 @@
+{
+  "id": 184,
+  "word": "newspaper",
+  "slug": "newspaper",
+  "level": "A2",
+  "category": "things",
+  "translations": {
+    "es": "el periódico",
+    "fr": "le journal",
+    "de": "die Zeitung"
+  },
+  "tags": [
+    "news",
+    "read"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/newspaper.svg",
+    "png": "images/png/newspaper.png"
+  },
+  "api": "api/v1/images/newspaper.json"
+}

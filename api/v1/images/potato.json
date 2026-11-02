@@ -1,0 +1,24 @@
+{
+  "id": 168,
+  "word": "potato",
+  "slug": "potato",
+  "level": "A2",
+  "category": "food",
+  "translations": {
+    "es": "la patata",
+    "fr": "la pomme de terre",
+    "de": "die Kartoffel"
+  },
+  "tags": [
+    "vegetable"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/potato.svg",
+    "png": "images/png/potato.png"
+  },
+  "api": "api/v1/images/potato.json"
+}

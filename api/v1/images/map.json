@@ -1,0 +1,25 @@
+{
+  "id": 142,
+  "word": "map",
+  "slug": "map",
+  "level": "A2",
+  "category": "things",
+  "translations": {
+    "es": "el mapa",
+    "fr": "la carte",
+    "de": "die Landkarte"
+  },
+  "tags": [
+    "travel",
+    "treasure"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/map.svg",
+    "png": "images/png/map.png"
+  },
+  "api": "api/v1/images/map.json"
+}

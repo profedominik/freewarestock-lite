@@ -1,0 +1,25 @@
+{
+  "id": 118,
+  "word": "volcano",
+  "slug": "volcano",
+  "level": "A2",
+  "category": "places",
+  "translations": {
+    "es": "el volcán",
+    "fr": "le volcan",
+    "de": "der Vulkan"
+  },
+  "tags": [
+    "mountain",
+    "lava"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/volcano.svg",
+    "png": "images/png/volcano.png"
+  },
+  "api": "api/v1/images/volcano.json"
+}

@@ -1,0 +1,24 @@
+{
+  "id": 121,
+  "word": "tent",
+  "slug": "tent",
+  "level": "A2",
+  "category": "places",
+  "translations": {
+    "es": "la tienda de campaña",
+    "fr": "la tente",
+    "de": "das Zelt"
+  },
+  "tags": [
+    "camping"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/tent.svg",
+    "png": "images/png/tent.png"
+  },
+  "api": "api/v1/images/tent.json"
+}

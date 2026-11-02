@@ -1,0 +1,25 @@
+{
+  "id": 171,
+  "word": "watermelon",
+  "slug": "watermelon",
+  "level": "A2",
+  "category": "food",
+  "translations": {
+    "es": "la sandía",
+    "fr": "la pastèque",
+    "de": "die Wassermelone"
+  },
+  "tags": [
+    "fruit",
+    "summer"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/watermelon.svg",
+    "png": "images/png/watermelon.png"
+  },
+  "api": "api/v1/images/watermelon.json"
+}

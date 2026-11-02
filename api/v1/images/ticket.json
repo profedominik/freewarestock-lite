@@ -1,0 +1,25 @@
+{
+  "id": 141,
+  "word": "ticket",
+  "slug": "ticket",
+  "level": "A2",
+  "category": "things",
+  "translations": {
+    "es": "el billete",
+    "fr": "le billet",
+    "de": "die Fahrkarte"
+  },
+  "tags": [
+    "travel",
+    "cinema"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/ticket.svg",
+    "png": "images/png/ticket.png"
+  },
+  "api": "api/v1/images/ticket.json"
+}

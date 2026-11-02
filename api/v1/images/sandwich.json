@@ -1,0 +1,25 @@
+{
+  "id": 160,
+  "word": "sandwich",
+  "slug": "sandwich",
+  "level": "A2",
+  "category": "food",
+  "translations": {
+    "es": "el sándwich",
+    "fr": "le sandwich",
+    "de": "das Sandwich"
+  },
+  "tags": [
+    "lunch",
+    "bread"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/sandwich.svg",
+    "png": "images/png/sandwich.png"
+  },
+  "api": "api/v1/images/sandwich.json"
+}

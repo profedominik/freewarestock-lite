@@ -1,0 +1,25 @@
+{
+  "id": 156,
+  "word": "kettle",
+  "slug": "kettle",
+  "level": "A2",
+  "category": "home",
+  "translations": {
+    "es": "el hervidor",
+    "fr": "la bouilloire",
+    "de": "der Wasserkocher"
+  },
+  "tags": [
+    "tea",
+    "kitchen"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/kettle.svg",
+    "png": "images/png/kettle.png"
+  },
+  "api": "api/v1/images/kettle.json"
+}

@@ -1,0 +1,26 @@
+{
+  "id": 102,
+  "word": "zebra",
+  "slug": "zebra",
+  "level": "A2",
+  "category": "animals",
+  "translations": {
+    "es": "la cebra",
+    "fr": "le zèbre",
+    "de": "das Zebra"
+  },
+  "tags": [
+    "zoo",
+    "africa",
+    "stripes"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/zebra.svg",
+    "png": "images/png/zebra.png"
+  },
+  "api": "api/v1/images/zebra.json"
+}

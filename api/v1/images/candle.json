@@ -1,0 +1,25 @@
+{
+  "id": 185,
+  "word": "candle",
+  "slug": "candle",
+  "level": "A2",
+  "category": "things",
+  "translations": {
+    "es": "la vela",
+    "fr": "la bougie",
+    "de": "die Kerze"
+  },
+  "tags": [
+    "light",
+    "birthday"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/candle.svg",
+    "png": "images/png/candle.png"
+  },
+  "api": "api/v1/images/candle.json"
+}

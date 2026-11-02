@@ -1,0 +1,25 @@
+{
+  "id": 120,
+  "word": "farm",
+  "slug": "farm",
+  "level": "A2",
+  "category": "places",
+  "translations": {
+    "es": "la granja",
+    "fr": "la ferme",
+    "de": "der Bauernhof"
+  },
+  "tags": [
+    "barn",
+    "countryside"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/farm.svg",
+    "png": "images/png/farm.png"
+  },
+  "api": "api/v1/images/farm.json"
+}

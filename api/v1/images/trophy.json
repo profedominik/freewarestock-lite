@@ -1,0 +1,26 @@
+{
+  "id": 186,
+  "word": "trophy",
+  "slug": "trophy",
+  "level": "A2",
+  "category": "things",
+  "translations": {
+    "es": "el trofeo",
+    "fr": "le trophée",
+    "de": "die Trophäe"
+  },
+  "tags": [
+    "cup",
+    "prize",
+    "winner"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/trophy.svg",
+    "png": "images/png/trophy.png"
+  },
+  "api": "api/v1/images/trophy.json"
+}

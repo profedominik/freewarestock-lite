@@ -1,0 +1,25 @@
+{
+  "id": 164,
+  "word": "noodles",
+  "slug": "noodles",
+  "level": "A2",
+  "category": "food",
+  "translations": {
+    "es": "los fideos",
+    "fr": "les nouilles",
+    "de": "die Nudeln"
+  },
+  "tags": [
+    "pasta",
+    "bowl"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/noodles.svg",
+    "png": "images/png/noodles.png"
+  },
+  "api": "api/v1/images/noodles.json"
+}

@@ -1,0 +1,25 @@
+{
+  "id": 158,
+  "word": "fridge",
+  "slug": "fridge",
+  "level": "A2",
+  "category": "home",
+  "translations": {
+    "es": "la nevera",
+    "fr": "le frigo",
+    "de": "der Kühlschrank"
+  },
+  "tags": [
+    "refrigerator",
+    "kitchen"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/fridge.svg",
+    "png": "images/png/fridge.png"
+  },
+  "api": "api/v1/images/fridge.json"
+}

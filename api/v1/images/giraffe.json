@@ -1,0 +1,26 @@
+{
+  "id": 101,
+  "word": "giraffe",
+  "slug": "giraffe",
+  "level": "A2",
+  "category": "animals",
+  "translations": {
+    "es": "la jirafa",
+    "fr": "la girafe",
+    "de": "die Giraffe"
+  },
+  "tags": [
+    "zoo",
+    "africa",
+    "tall"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/giraffe.svg",
+    "png": "images/png/giraffe.png"
+  },
+  "api": "api/v1/images/giraffe.json"
+}

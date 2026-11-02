@@ -1,0 +1,26 @@
+{
+  "id": 122,
+  "word": "beach",
+  "slug": "beach",
+  "level": "A2",
+  "category": "places",
+  "translations": {
+    "es": "la playa",
+    "fr": "la plage",
+    "de": "der Strand"
+  },
+  "tags": [
+    "sand",
+    "sea",
+    "holiday"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/beach.svg",
+    "png": "images/png/beach.png"
+  },
+  "api": "api/v1/images/beach.json"
+}

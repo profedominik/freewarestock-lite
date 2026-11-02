@@ -1,0 +1,25 @@
+{
+  "id": 179,
+  "word": "battery",
+  "slug": "battery",
+  "level": "A2",
+  "category": "things",
+  "translations": {
+    "es": "la pila",
+    "fr": "la pile",
+    "de": "die Batterie"
+  },
+  "tags": [
+    "power",
+    "energy"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/battery.svg",
+    "png": "images/png/battery.png"
+  },
+  "api": "api/v1/images/battery.json"
+}

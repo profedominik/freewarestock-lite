@@ -1,0 +1,25 @@
+{
+  "id": 106,
+  "word": "turtle",
+  "slug": "turtle",
+  "level": "A2",
+  "category": "animals",
+  "translations": {
+    "es": "la tortuga",
+    "fr": "la tortue",
+    "de": "die Schildkröte"
+  },
+  "tags": [
+    "tortoise",
+    "reptile"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/turtle.svg",
+    "png": "images/png/turtle.png"
+  },
+  "api": "api/v1/images/turtle.json"
+}

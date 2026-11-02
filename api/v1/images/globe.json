@@ -1,0 +1,26 @@
+{
+  "id": 181,
+  "word": "globe",
+  "slug": "globe",
+  "level": "A2",
+  "category": "school",
+  "translations": {
+    "es": "el globo terráqueo",
+    "fr": "le globe",
+    "de": "der Globus"
+  },
+  "tags": [
+    "world",
+    "earth",
+    "geography"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/globe.svg",
+    "png": "images/png/globe.png"
+  },
+  "api": "api/v1/images/globe.json"
+}

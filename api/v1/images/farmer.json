@@ -1,0 +1,24 @@
+{
+  "id": 136,
+  "word": "farmer",
+  "slug": "farmer",
+  "level": "A2",
+  "category": "jobs",
+  "translations": {
+    "es": "el granjero",
+    "fr": "l'agriculteur",
+    "de": "der Bauer"
+  },
+  "tags": [
+    "farm"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/farmer.svg",
+    "png": "images/png/farmer.png"
+  },
+  "api": "api/v1/images/farmer.json"
+}

@@ -1,0 +1,24 @@
+{
+  "id": 113,
+  "word": "bridge",
+  "slug": "bridge",
+  "level": "A2",
+  "category": "places",
+  "translations": {
+    "es": "el puente",
+    "fr": "le pont",
+    "de": "die Brücke"
+  },
+  "tags": [
+    "river"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/bridge.svg",
+    "png": "images/png/bridge.png"
+  },
+  "api": "api/v1/images/bridge.json"
+}

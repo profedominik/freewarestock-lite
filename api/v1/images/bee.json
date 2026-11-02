@@ -1,0 +1,25 @@
+{
+  "id": 110,
+  "word": "bee",
+  "slug": "bee",
+  "level": "A2",
+  "category": "animals",
+  "translations": {
+    "es": "la abeja",
+    "fr": "l'abeille",
+    "de": "die Biene"
+  },
+  "tags": [
+    "insect",
+    "honey"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/bee.svg",
+    "png": "images/png/bee.png"
+  },
+  "api": "api/v1/images/bee.json"
+}

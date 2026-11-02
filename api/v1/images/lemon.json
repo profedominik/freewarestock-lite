@@ -1,0 +1,26 @@
+{
+  "id": 167,
+  "word": "lemon",
+  "slug": "lemon",
+  "level": "A2",
+  "category": "food",
+  "translations": {
+    "es": "el limón",
+    "fr": "le citron",
+    "de": "die Zitrone"
+  },
+  "tags": [
+    "fruit",
+    "sour",
+    "citrus"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/lemon.svg",
+    "png": "images/png/lemon.png"
+  },
+  "api": "api/v1/images/lemon.json"
+}

@@ -1,0 +1,25 @@
+{
+  "id": 178,
+  "word": "lightbulb",
+  "slug": "lightbulb",
+  "level": "A2",
+  "category": "things",
+  "translations": {
+    "es": "la bombilla",
+    "fr": "l'ampoule",
+    "de": "die Glühbirne"
+  },
+  "tags": [
+    "light",
+    "idea"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/lightbulb.svg",
+    "png": "images/png/lightbulb.png"
+  },
+  "api": "api/v1/images/lightbulb.json"
+}

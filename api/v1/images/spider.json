@@ -1,0 +1,25 @@
+{
+  "id": 111,
+  "word": "spider",
+  "slug": "spider",
+  "level": "A2",
+  "category": "animals",
+  "translations": {
+    "es": "la araña",
+    "fr": "l'araignée",
+    "de": "die Spinne"
+  },
+  "tags": [
+    "web",
+    "insect"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/spider.svg",
+    "png": "images/png/spider.png"
+  },
+  "api": "api/v1/images/spider.json"
+}

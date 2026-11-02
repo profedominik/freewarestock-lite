@@ -1,0 +1,25 @@
+{
+  "id": 107,
+  "word": "whale",
+  "slug": "whale",
+  "level": "A2",
+  "category": "animals",
+  "translations": {
+    "es": "la ballena",
+    "fr": "la baleine",
+    "de": "der Wal"
+  },
+  "tags": [
+    "sea",
+    "ocean"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/whale.svg",
+    "png": "images/png/whale.png"
+  },
+  "api": "api/v1/images/whale.json"
+}

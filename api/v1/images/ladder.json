@@ -1,0 +1,24 @@
+{
+  "id": 147,
+  "word": "ladder",
+  "slug": "ladder",
+  "level": "A2",
+  "category": "things",
+  "translations": {
+    "es": "la escalera de mano",
+    "fr": "l'échelle",
+    "de": "die Leiter"
+  },
+  "tags": [
+    "climb"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/ladder.svg",
+    "png": "images/png/ladder.png"
+  },
+  "api": "api/v1/images/ladder.json"
+}

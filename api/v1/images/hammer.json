@@ -1,0 +1,24 @@
+{
+  "id": 146,
+  "word": "hammer",
+  "slug": "hammer",
+  "level": "A2",
+  "category": "things",
+  "translations": {
+    "es": "el martillo",
+    "fr": "le marteau",
+    "de": "der Hammer"
+  },
+  "tags": [
+    "tool"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/hammer.svg",
+    "png": "images/png/hammer.png"
+  },
+  "api": "api/v1/images/hammer.json"
+}

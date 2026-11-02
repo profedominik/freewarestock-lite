@@ -1,0 +1,25 @@
+{
+  "id": 149,
+  "word": "brush",
+  "slug": "brush",
+  "level": "A2",
+  "category": "things",
+  "translations": {
+    "es": "el pincel",
+    "fr": "le pinceau",
+    "de": "der Pinsel"
+  },
+  "tags": [
+    "paintbrush",
+    "paint"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/brush.svg",
+    "png": "images/png/brush.png"
+  },
+  "api": "api/v1/images/brush.json"
+}

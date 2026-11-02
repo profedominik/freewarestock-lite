@@ -1,0 +1,24 @@
+{
+  "id": 105,
+  "word": "snake",
+  "slug": "snake",
+  "level": "A2",
+  "category": "animals",
+  "translations": {
+    "es": "la serpiente",
+    "fr": "le serpent",
+    "de": "die Schlange"
+  },
+  "tags": [
+    "reptile"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/snake.svg",
+    "png": "images/png/snake.png"
+  },
+  "api": "api/v1/images/snake.json"
+}

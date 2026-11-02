@@ -1,0 +1,24 @@
+{
+  "id": 112,
+  "word": "camel",
+  "slug": "camel",
+  "level": "A2",
+  "category": "animals",
+  "translations": {
+    "es": "el camello",
+    "fr": "le chameau",
+    "de": "das Kamel"
+  },
+  "tags": [
+    "desert"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/camel.svg",
+    "png": "images/png/camel.png"
+  },
+  "api": "api/v1/images/camel.json"
+}

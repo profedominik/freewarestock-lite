@@ -1,0 +1,25 @@
+{
+  "id": 103,
+  "word": "monkey",
+  "slug": "monkey",
+  "level": "A2",
+  "category": "animals",
+  "translations": {
+    "es": "el mono",
+    "fr": "le singe",
+    "de": "der Affe"
+  },
+  "tags": [
+    "zoo",
+    "jungle"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/monkey.svg",
+    "png": "images/png/monkey.png"
+  },
+  "api": "api/v1/images/monkey.json"
+}

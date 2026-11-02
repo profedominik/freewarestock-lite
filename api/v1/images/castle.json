@@ -1,0 +1,26 @@
+{
+  "id": 114,
+  "word": "castle",
+  "slug": "castle",
+  "level": "A2",
+  "category": "places",
+  "translations": {
+    "es": "el castillo",
+    "fr": "le château",
+    "de": "die Burg"
+  },
+  "tags": [
+    "king",
+    "queen",
+    "palace"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/castle.svg",
+    "png": "images/png/castle.png"
+  },
+  "api": "api/v1/images/castle.json"
+}

@@ -1,0 +1,26 @@
+{
+  "id": 155,
+  "word": "oven",
+  "slug": "oven",
+  "level": "A2",
+  "category": "home",
+  "translations": {
+    "es": "el horno",
+    "fr": "le four",
+    "de": "der Ofen"
+  },
+  "tags": [
+    "cooker",
+    "stove",
+    "kitchen"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/oven.svg",
+    "png": "images/png/oven.png"
+  },
+  "api": "api/v1/images/oven.json"
+}

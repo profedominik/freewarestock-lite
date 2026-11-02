@@ -1,0 +1,25 @@
+{
+  "id": 154,
+  "word": "soap",
+  "slug": "soap",
+  "level": "A2",
+  "category": "home",
+  "translations": {
+    "es": "el jabón",
+    "fr": "le savon",
+    "de": "die Seife"
+  },
+  "tags": [
+    "wash",
+    "bathroom"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/soap.svg",
+    "png": "images/png/soap.png"
+  },
+  "api": "api/v1/images/soap.json"
+}

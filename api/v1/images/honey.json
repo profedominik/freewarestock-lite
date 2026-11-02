@@ -1,0 +1,25 @@
+{
+  "id": 166,
+  "word": "honey",
+  "slug": "honey",
+  "level": "A2",
+  "category": "food",
+  "translations": {
+    "es": "la miel",
+    "fr": "le miel",
+    "de": "der Honig"
+  },
+  "tags": [
+    "bee",
+    "sweet"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/honey.svg",
+    "png": "images/png/honey.png"
+  },
+  "api": "api/v1/images/honey.json"
+}

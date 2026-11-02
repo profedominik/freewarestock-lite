@@ -1,0 +1,25 @@
+{
+  "id": 133,
+  "word": "police officer",
+  "slug": "police-officer",
+  "level": "A2",
+  "category": "jobs",
+  "translations": {
+    "es": "el policía",
+    "fr": "le policier",
+    "de": "der Polizist"
+  },
+  "tags": [
+    "police",
+    "cop"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/police-officer.svg",
+    "png": "images/png/police-officer.png"
+  },
+  "api": "api/v1/images/police-officer.json"
+}

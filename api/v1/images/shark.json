@@ -1,0 +1,26 @@
+{
+  "id": 108,
+  "word": "shark",
+  "slug": "shark",
+  "level": "A2",
+  "category": "animals",
+  "translations": {
+    "es": "el tiburón",
+    "fr": "le requin",
+    "de": "der Hai"
+  },
+  "tags": [
+    "sea",
+    "ocean",
+    "fish"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/shark.svg",
+    "png": "images/png/shark.png"
+  },
+  "api": "api/v1/images/shark.json"
+}

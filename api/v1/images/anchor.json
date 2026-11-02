@@ -1,0 +1,25 @@
+{
+  "id": 130,
+  "word": "anchor",
+  "slug": "anchor",
+  "level": "A2",
+  "category": "transport",
+  "translations": {
+    "es": "el ancla",
+    "fr": "l'ancre",
+    "de": "der Anker"
+  },
+  "tags": [
+    "ship",
+    "sea"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/anchor.svg",
+    "png": "images/png/anchor.png"
+  },
+  "api": "api/v1/images/anchor.json"
+}

@@ -1,0 +1,25 @@
+{
+  "id": 123,
+  "word": "airport",
+  "slug": "airport",
+  "level": "A2",
+  "category": "transport",
+  "translations": {
+    "es": "el aeropuerto",
+    "fr": "l'aéroport",
+    "de": "der Flughafen"
+  },
+  "tags": [
+    "plane",
+    "travel"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/airport.svg",
+    "png": "images/png/airport.png"
+  },
+  "api": "api/v1/images/airport.json"
+}

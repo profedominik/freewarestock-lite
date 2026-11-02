@@ -1,0 +1,25 @@
+{
+  "id": 119,
+  "word": "lighthouse",
+  "slug": "lighthouse",
+  "level": "A2",
+  "category": "places",
+  "translations": {
+    "es": "el faro",
+    "fr": "le phare",
+    "de": "der Leuchtturm"
+  },
+  "tags": [
+    "sea",
+    "coast"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/lighthouse.svg",
+    "png": "images/png/lighthouse.png"
+  },
+  "api": "api/v1/images/lighthouse.json"
+}

@@ -1,0 +1,25 @@
+{
+  "id": 137,
+  "word": "nurse",
+  "slug": "nurse",
+  "level": "A2",
+  "category": "jobs",
+  "translations": {
+    "es": "la enfermera",
+    "fr": "l'infirmière",
+    "de": "die Krankenschwester"
+  },
+  "tags": [
+    "hospital",
+    "health"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/nurse.svg",
+    "png": "images/png/nurse.png"
+  },
+  "api": "api/v1/images/nurse.json"
+}

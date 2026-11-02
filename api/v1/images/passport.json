@@ -1,0 +1,24 @@
+{
+  "id": 140,
+  "word": "passport",
+  "slug": "passport",
+  "level": "A2",
+  "category": "things",
+  "translations": {
+    "es": "el pasaporte",
+    "fr": "le passeport",
+    "de": "der Reisepass"
+  },
+  "tags": [
+    "travel"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/passport.svg",
+    "png": "images/png/passport.png"
+  },
+  "api": "api/v1/images/passport.json"
+}

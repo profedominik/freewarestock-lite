@@ -1,0 +1,26 @@
+{
+  "id": 183,
+  "word": "envelope",
+  "slug": "envelope",
+  "level": "A2",
+  "category": "things",
+  "translations": {
+    "es": "el sobre",
+    "fr": "l'enveloppe",
+    "de": "der Briefumschlag"
+  },
+  "tags": [
+    "letter",
+    "mail",
+    "post"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/envelope.svg",
+    "png": "images/png/envelope.png"
+  },
+  "api": "api/v1/images/envelope.json"
+}

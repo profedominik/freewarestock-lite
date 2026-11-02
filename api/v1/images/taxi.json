@@ -1,0 +1,25 @@
+{
+  "id": 127,
+  "word": "taxi",
+  "slug": "taxi",
+  "level": "A2",
+  "category": "transport",
+  "translations": {
+    "es": "el taxi",
+    "fr": "le taxi",
+    "de": "das Taxi"
+  },
+  "tags": [
+    "cab",
+    "car"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/taxi.svg",
+    "png": "images/png/taxi.png"
+  },
+  "api": "api/v1/images/taxi.json"
+}

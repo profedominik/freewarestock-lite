@@ -1,0 +1,25 @@
+{
+  "id": 134,
+  "word": "firefighter",
+  "slug": "firefighter",
+  "level": "A2",
+  "category": "jobs",
+  "translations": {
+    "es": "el bombero",
+    "fr": "le pompier",
+    "de": "der Feuerwehrmann"
+  },
+  "tags": [
+    "fire",
+    "fireman"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/firefighter.svg",
+    "png": "images/png/firefighter.png"
+  },
+  "api": "api/v1/images/firefighter.json"
+}

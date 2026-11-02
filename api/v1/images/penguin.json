@@ -1,0 +1,26 @@
+{
+  "id": 104,
+  "word": "penguin",
+  "slug": "penguin",
+  "level": "A2",
+  "category": "animals",
+  "translations": {
+    "es": "el pingüino",
+    "fr": "le manchot",
+    "de": "der Pinguin"
+  },
+  "tags": [
+    "bird",
+    "ice",
+    "cold"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/penguin.svg",
+    "png": "images/png/penguin.png"
+  },
+  "api": "api/v1/images/penguin.json"
+}

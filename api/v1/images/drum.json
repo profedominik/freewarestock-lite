@@ -1,0 +1,24 @@
+{
+  "id": 175,
+  "word": "drum",
+  "slug": "drum",
+  "level": "A2",
+  "category": "music",
+  "translations": {
+    "es": "el tambor",
+    "fr": "le tambour",
+    "de": "die Trommel"
+  },
+  "tags": [
+    "instrument"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/drum.svg",
+    "png": "images/png/drum.png"
+  },
+  "api": "api/v1/images/drum.json"
+}

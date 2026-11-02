@@ -1,0 +1,24 @@
+{
+  "id": 157,
+  "word": "teapot",
+  "slug": "teapot",
+  "level": "A2",
+  "category": "home",
+  "translations": {
+    "es": "la tetera",
+    "fr": "la théière",
+    "de": "die Teekanne"
+  },
+  "tags": [
+    "tea"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/teapot.svg",
+    "png": "images/png/teapot.png"
+  },
+  "api": "api/v1/images/teapot.json"
+}

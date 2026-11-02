@@ -1,0 +1,26 @@
+{
+  "id": 135,
+  "word": "chef",
+  "slug": "chef",
+  "level": "A2",
+  "category": "jobs",
+  "translations": {
+    "es": "el cocinero",
+    "fr": "le cuisinier",
+    "de": "der Koch"
+  },
+  "tags": [
+    "cook",
+    "kitchen",
+    "restaurant"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/chef.svg",
+    "png": "images/png/chef.png"
+  },
+  "api": "api/v1/images/chef.json"
+}

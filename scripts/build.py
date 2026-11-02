@@ -8,6 +8,7 @@ import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from art import render  # noqa: E402
+import art_a2  # noqa: E402,F401  (registers A2 drawings)
 from vocab import WORDS, PLANNED  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -59,7 +60,31 @@ def main():
     (API / "images.json").write_text(text, encoding="utf-8")
     # A JS copy lets index.html work when opened straight from disk (file://)
     (ROOT / "data" / "manifest.js").write_text("window.FREEWARESTOCK = " + text + ";\n", encoding="utf-8")
+    write_gallery(items)
     print(f"built {len(items)} images, {len(PLANNED)} planned")
+
+
+def write_gallery(items, cols=6):
+    """GALLERY.md: every image visible directly on GitHub, grouped by level and topic."""
+    out = ["# Gallery", "",
+           f"All **{len(items)}** illustrations, CC0 (public domain). Click an image to open the SVG.", "",
+           "Levels: " + " · ".join(f"[{lv}](#level-{lv.lower()})" for lv in sorted({i['level'] for i in items})), ""]
+    for lv in sorted({i["level"] for i in items}):
+        group = [i for i in items if i["level"] == lv]
+        out += [f"## Level {lv}", "", f"{len(group)} images", ""]
+        for cat in sorted({i["category"] for i in group}):
+            row = [i for i in group if i["category"] == cat]
+            out += [f"### {cat.capitalize()} ({len(row)})", ""]
+            out += ["| " + " | ".join([" "] * cols) + " |", "|" + "---|" * cols]
+            for k in range(0, len(row), cols):
+                chunk = row[k:k + cols]
+                cells = [f'<a href="{i["files"]["svg"]}"><img src="{i["files"]["png"]}" width="110" alt="{i["word"]}"></a><br>'
+                         f'<b>{i["word"]}</b><br><sub>{i["translations"]["es"]} · {i["translations"]["fr"]} · {i["translations"]["de"]}</sub>'
+                         for i in chunk]
+                cells += [" "] * (cols - len(chunk))
+                out.append("| " + " | ".join(cells) + " |")
+            out.append("")
+    (ROOT / "GALLERY.md").write_text("\n".join(out), encoding="utf-8")
 
 
 if __name__ == "__main__":

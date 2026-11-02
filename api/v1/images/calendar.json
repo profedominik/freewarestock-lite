@@ -1,0 +1,25 @@
+{
+  "id": 182,
+  "word": "calendar",
+  "slug": "calendar",
+  "level": "A2",
+  "category": "things",
+  "translations": {
+    "es": "el calendario",
+    "fr": "le calendrier",
+    "de": "der Kalender"
+  },
+  "tags": [
+    "date",
+    "month"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/calendar.svg",
+    "png": "images/png/calendar.png"
+  },
+  "api": "api/v1/images/calendar.json"
+}

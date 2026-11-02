@@ -1,0 +1,25 @@
+{
+  "id": 131,
+  "word": "doctor",
+  "slug": "doctor",
+  "level": "A2",
+  "category": "jobs",
+  "translations": {
+    "es": "el médico",
+    "fr": "le médecin",
+    "de": "der Arzt"
+  },
+  "tags": [
+    "hospital",
+    "health"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/doctor.svg",
+    "png": "images/png/doctor.png"
+  },
+  "api": "api/v1/images/doctor.json"
+}

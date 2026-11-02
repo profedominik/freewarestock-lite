@@ -1,0 +1,24 @@
+{
+  "id": 153,
+  "word": "towel",
+  "slug": "towel",
+  "level": "A2",
+  "category": "home",
+  "translations": {
+    "es": "la toalla",
+    "fr": "la serviette",
+    "de": "das Handtuch"
+  },
+  "tags": [
+    "bathroom"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/towel.svg",
+    "png": "images/png/towel.png"
+  },
+  "api": "api/v1/images/towel.json"
+}

@@ -1,0 +1,25 @@
+{
+  "id": 152,
+  "word": "blanket",
+  "slug": "blanket",
+  "level": "A2",
+  "category": "home",
+  "translations": {
+    "es": "la manta",
+    "fr": "la couverture",
+    "de": "die Decke"
+  },
+  "tags": [
+    "bed",
+    "warm"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/blanket.svg",
+    "png": "images/png/blanket.png"
+  },
+  "api": "api/v1/images/blanket.json"
+}

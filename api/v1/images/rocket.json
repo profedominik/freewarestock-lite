@@ -1,0 +1,24 @@
+{
+  "id": 128,
+  "word": "rocket",
+  "slug": "rocket",
+  "level": "A2",
+  "category": "transport",
+  "translations": {
+    "es": "el cohete",
+    "fr": "la fusée",
+    "de": "die Rakete"
+  },
+  "tags": [
+    "space"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/rocket.svg",
+    "png": "images/png/rocket.png"
+  },
+  "api": "api/v1/images/rocket.json"
+}

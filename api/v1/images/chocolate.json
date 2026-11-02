@@ -1,0 +1,25 @@
+{
+  "id": 165,
+  "word": "chocolate",
+  "slug": "chocolate",
+  "level": "A2",
+  "category": "food",
+  "translations": {
+    "es": "el chocolate",
+    "fr": "le chocolat",
+    "de": "die Schokolade"
+  },
+  "tags": [
+    "sweet",
+    "dessert"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/chocolate.svg",
+    "png": "images/png/chocolate.png"
+  },
+  "api": "api/v1/images/chocolate.json"
+}

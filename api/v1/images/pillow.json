@@ -1,0 +1,26 @@
+{
+  "id": 151,
+  "word": "pillow",
+  "slug": "pillow",
+  "level": "A2",
+  "category": "home",
+  "translations": {
+    "es": "la almohada",
+    "fr": "l'oreiller",
+    "de": "das Kissen"
+  },
+  "tags": [
+    "cushion",
+    "bed",
+    "sleep"
+  ],
+  "status": "available",
+  "license": "CC0-1.0",
+  "width": 512,
+  "height": 512,
+  "files": {
+    "svg": "images/svg/pillow.svg",
+    "png": "images/png/pillow.png"
+  },
+  "api": "api/v1/images/pillow.json"
+}
